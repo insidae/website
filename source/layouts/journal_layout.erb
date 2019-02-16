@@ -5,14 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title>Journal<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 
-    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;subset=latin-ext" rel="stylesheet">
   </head>
   <body>
-    <%= partial "header" %>
+    <%= partial "/partials/header" %>
 
     <div id="main" role="main">
       <%= yield %>
@@ -40,5 +40,8 @@
         <% end %>
       </ol>
     </aside>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/assets/scripts/nav.js"></script>
   </body>
 </html>

@@ -22,7 +22,7 @@ page '/*.txt', layout: false
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.prefix = "journal"
+  blog.prefix = "pages/journal"
   blog.layout = "journal_layout"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
@@ -36,8 +36,8 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "journal/tag.html"
-  blog.calendar_template = "journal/calendar.html"
+  blog.tag_template = "pages/journal/tag.html"
+  blog.calendar_template = "pages/journal/calendar.html"
 
   # Enable pagination
   # blog.paginate = true
