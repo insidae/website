@@ -3,6 +3,25 @@ layout: "journal_layout"
 pageable: true
 per_page: 10
 ---
+<h1>
+  Journal
+</h1>
+<h2>
+  Welcome to my journal
+</h2>
+<p>
+  This is where I write my thoughts about web development and design in general, 
+  play around with new experiments and technologies, and try my hand at creating 
+  guides detailing the things I learn - and the mistakes I make along the way.
+</p>
+
+
+<ol>
+  <% blog.tags.each do |tag, articles| %>
+    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+  <% end %>
+</ol>
+
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
 
