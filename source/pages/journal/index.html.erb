@@ -3,42 +3,49 @@ layout: "journal_layout"
 pageable: true
 per_page: 10
 ---
-<h1>
-  Journal
-</h1>
-<h2>
-  Welcome to my journal
-</h2>
-<p>
-  This is where I write my thoughts about web development and design in general, 
-  play around with new experiments and technologies, and try my hand at creating 
-  guides detailing the things I learn - and the mistakes I make along the way.
-</p>
 
+<div id="journal">
+  <div class="header section">
+    <h1>
+      Journal
+    </h1>
+    <h2>
+      Welcome to my journal
+    </h2>
+    <p>
+      This is where I write my thoughts about web development and design in general, 
+      play around with new experiments and technologies, and try my hand at creating 
+      guides detailing the things I learn - and the mistakes I make along the way.
+    </p>
+  </div>
 
-<ol>
-  <% blog.tags.each do |tag, articles| %>
-    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-  <% end %>
-</ol>
+  <div class="tag section">
+    <ul>
+      <% blog.tags.each do |tag, articles| %>
+        <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+      <% end %>
+    </ul>
+  </div>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+  <div class="section">
+    <% if paginate && num_pages > 1 %>
+      <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
+      <% if prev_page %>
+        <p><%= link_to 'Previous page', prev_page %></p>
+      <% end %>
+    <% end %>
 
-<% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <%= article.body %>
-<% end %>
+    <% page_articles.each_with_index do |article, i| %>
+      <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+      <!-- use article.summary(250) if you have Nokogiri available to show just the first 250 characters -->
+      <%= article.body %>
+    <% end %>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+    <% if paginate %>
+      <% if next_page %>
+        <p><%= link_to 'Next page', next_page %></p>
+      <% end %>
+    <% end %>
+  </div>
+</div>

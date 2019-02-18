@@ -34,29 +34,60 @@ a {
     padding: 0 20px;
 }
 
-#homepage {
-    .header.section {
-        display: inline-block;
-        width: 100%;
+.header.section {
+    background-color: transparent;
 
-        .hero {
-            display: block;
+    .hero {
+        display: block;
+        min-height: 325px;
+        margin: 55px auto 10px;
+        max-width: 290px;
+
+        img {
+            float: left;
+            height: 90px;
+            margin-right: 25px;
+        }
+
+        h1 {
+            font-size: 3.3em;
+            float: left;
             height: 75px;
-            margin: 75px auto 25px;
-            width: 255px;
+            line-height: 1.8;
+            margin: 0;
+        }
 
-            img {
-                float: left;
-                height: 75px;
-                margin-right: 20px;
+        .definition {
+            display: inline-block;
+            margin-top: 35px;
+
+            ol {
+                padding: 0 0 5px;
+
+                li {
+                    padding-left: 3px;
+                    margin-bottom: 10px;
+                }
             }
+        }
+    }
+}
 
-            h1 {
-                font-size: 3em;
+.section {
+    background-color: #222222;
+    padding: 20px 50px;
+    margin: 0 auto 20px;
+    max-width: 850px;
+
+    &.tag {
+        ul {
+            display: inline-block;
+            padding: 0;
+
+            li {
                 float: left;
-                height: 75px;
-                line-height: 1.65;
-                margin: 0;
+                list-style: none;
+                margin-right: 20px;
             }
         }
     }
