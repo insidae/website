@@ -26,6 +26,10 @@ h3 {
     font-weight: 200;
 }
 
+p {
+    line-height: 1.5;
+}
+
 a {
     color: #ffffff;
 }
@@ -59,7 +63,7 @@ a {
 
         .definition {
             display: inline-block;
-            margin-top: 35px;
+            margin-top: 15px;
 
             ol {
                 padding: 0 0 5px;
@@ -76,7 +80,7 @@ a {
 .section {
     background-color: #222222;
     padding: 20px 50px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
     max-width: 850px;
 
     &.tag {
@@ -89,6 +93,15 @@ a {
                 list-style: none;
                 margin-right: 20px;
             }
+        }
+    }
+
+    &.articles {
+        display: flow-root;
+
+        .article {
+            float: left;
+            width: 50%;
         }
     }
 }

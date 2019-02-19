@@ -16,3 +16,6 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+# For article summaries
+gem "nokogiri", "~> 1.10.1"

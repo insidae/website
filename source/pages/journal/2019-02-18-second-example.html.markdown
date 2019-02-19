@@ -1,8 +1,8 @@
 ---
 layout: "article_layout"
-title: Example Article
-date: 2019-02-15
-tags: example, design, code, guide
+title: Second Example
+date: 2019-02-18
+tags: example, design, code
 ---
 
 <p>This is an example article. You probably want to delete it and write your own articles!</p>

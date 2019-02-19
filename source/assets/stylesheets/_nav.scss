@@ -6,7 +6,8 @@ $nav-font-color: #ffffff;
 $link-hover-color: #e15050;
 
 nav {
-    float: right;
+    float: left;
+    margin-left: 73px;
 
     ul {
         list-style: none;
@@ -120,6 +121,7 @@ nav {
    nav {
        width: 100%;
        padding: $nav-height 0 15px;
+       margin: 0;
 
        ul {
            display: none;
