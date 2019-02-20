@@ -1,3 +1,4 @@
+$breakpoint: 800px;
 
 body {
     color: #ffffff;
@@ -83,6 +84,42 @@ a {
     margin: 0 auto 10px;
     max-width: 850px;
 
+    &.currently {
+        display: flex;
+        padding-bottom: 40px;
+
+        h3 {
+            margin-bottom: 5px;
+        }
+        sub {
+            opacity: 0.5;
+        }
+
+        .currently-container {
+            float: left;
+            width: 55%;
+            margin-right: 5%;
+        }
+
+        .spotify-container {
+            float: right;
+            position: relative;
+            height: 80px;
+            overflow: hidden;
+            width: 40%;
+            margin-top: 70px;
+        }
+        .spotify-container iframe,
+        .spotify-container object,
+        .spotify-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
     &.tag {
         ul {
             display: inline-block;
@@ -102,6 +139,23 @@ a {
         .article {
             float: left;
             width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint) {
+    .section {
+        &.currently {
+            display: inline-block;
+
+            .currently-container,
+            .spotify-container {
+                width: 100%;
+            }
+
+            .spotify-container {
+                margin-top: 30px;
+            }
         }
     }
 }
