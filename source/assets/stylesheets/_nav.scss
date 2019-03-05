@@ -139,6 +139,10 @@ nav,
         display: block;
     }
 
+    .social {
+        display: none;
+    }
+
    nav {
        width: 100%;
        padding: $nav-height 0 15px;
@@ -149,6 +153,7 @@ nav,
 
            li {
                float: none;
+               border-top: 1px solid #333;
 
                a {
                    padding: 20px;

@@ -37,10 +37,6 @@ a {
 
 ul {
     padding: 0 0 0 18px;
-
-    li {
-        margin: 0 0 20px 0;
-    }
 }
 
 .desktop-break {
@@ -178,6 +174,14 @@ ul {
         .article {
             float: left;
             width: 50%;
+        }
+    }
+
+    &.about {
+        ul {
+            li {
+                margin: 0 0 20px 0;
+            }
         }
     }
 
