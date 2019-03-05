@@ -20,6 +20,12 @@
     <title>Journal<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <script defer src="/assets/scripts/brands.js"></script>
+    <script defer src="/assets/scripts/solid.js"></script>
+    <script defer src="/assets/scripts/regular.js"></script>
+    <script defer src="/assets/scripts/fontawesome.js"></script>
+
     <link rel="stylesheet" href="/assets/stylesheets/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400&amp;subset=latin-ext" rel="stylesheet">
   </head>

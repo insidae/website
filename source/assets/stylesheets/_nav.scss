@@ -5,7 +5,8 @@ $nav-background: #222222;
 $nav-font-color: #ffffff;
 $link-hover-color: #e15050;
 
-nav {
+nav,
+.social {
     float: left;
     margin-left: 73px;
 
@@ -111,6 +112,26 @@ nav {
             transform: rotate(-45deg);
         }
     }
+}
+
+.social {
+    float: right;
+    margin: 0;
+     ul {
+         li {
+             a {
+                height: 70px;
+                width: 70px;
+                padding: 22px;
+                line-height: 0;
+
+                svg {
+                    font-size: 1.7em;
+                    opacity: 0.75;
+                }
+             }
+         }
+     }
 }
 
 @media only screen and (max-width: $breakpoint) {
