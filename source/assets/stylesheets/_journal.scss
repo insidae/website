@@ -1,0 +1,35 @@
+#journal {
+    .articles.section {
+        padding: 20px 50px 0;
+
+        .article {
+            padding-bottom: 50px;
+            height: 290px;
+            width: 46%;
+
+            h2 a {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .read-more {
+                a {
+                    color: #e15050;
+                    font-weight: bold;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .article:nth-of-type(2n){
+            margin-left: 8%;
+        }
+    }
+}
