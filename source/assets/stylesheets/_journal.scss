@@ -1,17 +1,40 @@
+$breakpoint: 800px;
+
 #journal {
     .articles.section {
-        padding: 20px 50px 0;
+        padding: 20px 50px;
+
+        h2 {
+            border-bottom: 1px solid white;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
 
         .article {
-            padding-bottom: 50px;
-            height: 290px;
+            height: 275px;
+            margin-bottom: 0;
             width: 46%;
 
-            h2 a {
-                text-decoration: none;
+            h2 {
+                border-bottom: none;
+                margin-bottom: 0;
 
-                &:hover {
-                    text-decoration: underline;
+                a {
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .date {
+                opacity: 0.5;
+
+                &.latest {
+                    color: #00af77;
+                    font-weight: bold;
+                    opacity: 1;
                 }
             }
 
@@ -28,8 +51,24 @@
             }
         }
 
-        .article:nth-of-type(2n){
+        .article:nth-of-type(2n) {
             margin-left: 8%;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint) {
+    #journal {
+        .articles.section {
+            .article {
+                height: unset;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+
+            .article:nth-of-type(2n) {
+                margin-left: 0;
+            }
         }
     }
 }
