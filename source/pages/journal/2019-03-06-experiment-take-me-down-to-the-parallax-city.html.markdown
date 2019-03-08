@@ -5,4 +5,4 @@ date: 2019-03-06
 tags: design, development, guides
 ---
 
-<p>Take a look at the modern-day computer kit teaching kids to code and build their own projects...</p>
+<p>Trying to create a convincing web-based parallax effect and exploring how the illusion works...</p>
