@@ -5,7 +5,7 @@ date: 2019-02-15
 tags: design, development, guides
 ---
 
-<p>Join me as I deliberate, design, and finally code the very site upon which you’re reading these words...</p>
+<p>First post! Join me as I deliberate, design, and finally code the very site upon which you’re reading these words...</p>
 
 <i>ARTICLE IN PROGRESS</i>
 
