@@ -184,8 +184,17 @@ ul {
             }
         }
     }
+
     &.weird {
         display: none;
+    }
+
+
+    .portfolio-image {
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+        min-height: 220px;
     }
 
     .contact-details {

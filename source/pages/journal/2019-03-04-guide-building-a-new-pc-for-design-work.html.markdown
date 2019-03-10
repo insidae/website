@@ -6,3 +6,7 @@ tags: thoughts, guides
 ---
 
 <p>Well-overdue for an upgrade, it's time to research and pick out components for a new PC build. This'll be fun...</p>
+
+<i>ARTICLE IN PROGRESS</i>
+
+<img class="article_image" src="/pages/journal/journal_assets/Desk_in_March_2019.jpg" />
