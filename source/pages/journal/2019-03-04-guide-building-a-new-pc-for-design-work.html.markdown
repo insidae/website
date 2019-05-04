@@ -9,4 +9,4 @@ tags: thoughts, guides
 
 <i>ARTICLE IN PROGRESS</i>
 
-<img class="article_image" src="/pages/journal/journal_assets/Desk_in_March_2019.jpg" />
+<img class="article_image" src="/pages/journal/journal_assets/WD_Black_SN750.jpg" />

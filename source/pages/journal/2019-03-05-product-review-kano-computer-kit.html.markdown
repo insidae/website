@@ -9,4 +9,4 @@ tags: thoughts
 
 <i>ARTICLE IN PROGRESS</i>
 
-<img class="article_image" src="/pages/journal/journal_assets/Desk_in_March_2019.jpg" />
+<img class="article_image" src="/pages/journal/journal_assets/Kano_computer_kit.jpg" />
