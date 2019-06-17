@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="790px" height="912px" viewBox="0 0 790 912" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>1024</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024" stroke="#FFFFFF">
+            <g id="Logo" transform="translate(5.000000, 6.000000)">
+                <g id="Original-Line-work">
+                    <polygon id="Hexagon" stroke-width="10" points="390 5.68434189e-14 780 225 780 675 390 900 2.27373675e-13 675 -2.84217094e-14 225"></polygon>
+                    <path d="M389.501916,891.039823 L389.501916,675.497788" id="MiddleVertical" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M390,675 L773.02682,675" id="BottomHorizontal" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M390,676.493363 L2.98850575,226.99115" id="LongDiagonal" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M6.97318008,224.004425 L773.02682,224.004425" id="TopHorizontal" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M195.249042,781.526549 L195.249042,451.493363" id="LeftVertical" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M195.747126,450.995575 L584.750958,450.995575" id="MiddleHorizontal" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M777.011494,673.00885 L588.735632,453.982301" id="RightLowerDiagonal" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M584.252874,450.497788 L777.011494,226.99115" id="RightUpperDiagonal" stroke-width="10" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: $red;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ nav,
 footer {
     width: 100%;
     background-color: $grey-2;
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 .nav-container,
@@ -41,6 +41,6 @@ footer {
     margin: 0 auto;
 
     .links a {
-        margin-right: 20px;
+        margin-right: 35px;
     }
 }
