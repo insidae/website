@@ -14,7 +14,9 @@ class JournalPage extends Component {
         <div className="container">
           <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
-          <PostListing postEdges={postEdges} />
+          <div className="panel">
+            <PostListing postEdges={postEdges} />
+          </div>
         </div>
       </Layout>
     );

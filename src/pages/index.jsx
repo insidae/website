@@ -22,7 +22,9 @@ class Index extends React.Component {
             <li>cleverly-wrought</li>
             <li>buying a domain is much easier if you make up your own word</li>
           </ol>
-          <PostListing postEdges={postEdges} />
+          <div className="panel">
+            <PostListing postEdges={postEdges} />
+          </div>
         </div>
       </Layout>
     );
