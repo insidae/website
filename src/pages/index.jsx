@@ -14,14 +14,27 @@ class Index extends React.Component {
         <div className="container">
           <Helmet title={config.siteTitle} />
           <SEO />
-          <h1>insidae</h1>
-          <p>[in-sid-day]</p>
-          <h3>adjective</h3>
-          <ol>
-            <li>skilful; ingenious</li>
-            <li>cleverly-wrought</li>
-            <li>buying a domain is much easier if you make up your own word</li>
-          </ol>
+          <div className="hero">
+            <h1>insidae</h1>
+            <p>[in-sid-day]</p>
+            <h3>adjective</h3>
+            <ol>
+              <li>skilful; ingenious</li>
+              <li>cleverly-wrought</li>
+              <li>buying a domain is much easier if you make up your own word</li>
+            </ol>
+          </div>
+          <div className="panel">
+            <h2>My name's Matt Thomas</h2>
+            <p>
+              I'm a web-developer, currently based in London, UK. Well-versed in 
+              design and front-end development, I built this website to keep track 
+              of my progress and showcase what I can do.
+            </p>
+          </div>
+          <div className="panel">
+            <h2>I am currently...</h2>
+          </div>
           <div className="panel">
             <PostListing postEdges={postEdges} />
           </div>

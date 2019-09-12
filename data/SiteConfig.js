@@ -45,14 +45,14 @@ const config = {
       iconClassName: "fa fa-github"
     },
     {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/insidae",
+      iconClassName: "fa fa-linkedin"
+    },
+    {
       label: "Twitter",
       url: "https://twitter.com/lycanstrife",
       iconClassName: "fa fa-twitter"
-    },
-    {
-      label: "Email",
-      url: "mailto:matt@insidae.com",
-      iconClassName: "fa fa-envelope"
     }
   ],
   copyright: "Copyright © 2019. Matt Thomas", // Copyright string for the footer of the website and RSS feed.

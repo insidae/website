@@ -37,15 +37,38 @@ footer {
 
 .nav-container,
 .footer-container {
+    display: flow-root;
     max-width: 980px;
     margin: 0 auto;
 
-    .links a {
-        margin-right: 35px;
+    .menu-links {
+        display: inline-block;
+        float: left;
+        margin: 0;
+
+        a {
+            padding: 10px 40px;
+        }
     }
+
+    
+    .user-links {
+        display: inline-block;
+        float: right;
+        margin: 0;
+
+        a {
+            padding: 10px 40px;
+        }
+    }
+}
+
+.hero {
+    padding: 10px 40px;
 }
 
 .panel {
     background-color: $grey-2;
+    margin-bottom: 20px;
     padding: 5px 40px;
 }

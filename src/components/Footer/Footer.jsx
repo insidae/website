@@ -52,7 +52,7 @@ export default class Footer extends Component {
             </a>
             <h4>{copyright}</h4>
             <Link to={url}>
-              <button>Subscribe</button>
+              <button type="submit">Subscribe</button>
             </Link>
           </div>
         </div>
