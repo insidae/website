@@ -5,9 +5,14 @@ class About extends Component {
     return (
       <div className="about">
         <h1>
-          About
+          About me
         </h1>
-        <p>Aha, so this is where the About page content lives.</p>
+        <p>
+          My name’s Matt and I’m a web developer. I specialise in Front-End, 
+          writing HTML, CSS, and Javascript, but my background is in design 
+          (especially UI/UX). I love clever puns, Gill Sans, and one day aspire 
+          to have my own library... complete with sliding ladders.
+        </p>
       </div>
     );
   }

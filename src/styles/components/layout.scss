@@ -23,7 +23,7 @@ a {
 
     .container {
         max-width: 980px;
-        min-height: 88vh;  // Will have to remove this eventually
+        min-height: 87.5vh;  // Will have to remove this eventually
         margin: 0 auto;
     }
 }
@@ -32,7 +32,7 @@ nav,
 footer {
     width: 100%;
     background-color: $grey-2;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .nav-container,
@@ -41,13 +41,20 @@ footer {
     max-width: 980px;
     margin: 0 auto;
 
-    .menu-links {
+    .menu-links,
+    .links {
         display: inline-block;
         float: left;
-        margin: 0;
+        margin: 10px;
 
         a {
-            padding: 10px 40px;
+            opacity: 0.5;
+            padding: 10px 30px;
+
+            &:hover,
+            &.active {
+                opacity: 1;
+            }
         }
     }
 
@@ -58,17 +65,43 @@ footer {
         margin: 0;
 
         a {
-            padding: 10px 40px;
+            opacity: 0.5;
+            padding: 0 20px;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            img {
+                width: 30px;
+            }
         }
     }
 }
 
 .hero {
-    padding: 10px 40px;
+    padding: 40px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+    &.two .panel {
+        width: 49%;
+    }
+
+    &.three .panel {
+        width: 32%;
+    }
+
+    &.four .panel {
+        width: 23.5%;
+    }
 }
 
 .panel {
     background-color: $grey-2;
     margin-bottom: 20px;
-    padding: 5px 40px;
+    padding: 15px 40px;
 }

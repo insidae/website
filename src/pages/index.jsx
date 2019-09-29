@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
@@ -16,7 +17,11 @@ class Index extends React.Component {
           <SEO />
           <div className="hero">
             <h1>insidae</h1>
-            <p>[in-sid-day]</p>
+            <p>
+              [in-
+              <b>sid</b>
+              -day]
+            </p>
             <h3>adjective</h3>
             <ol>
               <li>skilful; ingenious</li>
@@ -24,19 +29,40 @@ class Index extends React.Component {
               <li>buying a domain is much easier if you make up your own word</li>
             </ol>
           </div>
-          <div className="panel">
-            <h2>My name's Matt Thomas</h2>
-            <p>
-              I'm a web-developer, currently based in London, UK. Well-versed in 
-              design and front-end development, I built this website to keep track 
-              of my progress and showcase what I can do.
-            </p>
+          <div className="columns two">
+            <div className="panel">
+              <h2>
+                My name's Matt Thomas
+              </h2>
+              <p>
+                I'm a web-developer, currently based in London, UK. Well-versed in 
+                design and front-end development, I built this website to keep track 
+                of my progress and showcase what I can do.
+              </p>
+            </div>
+            <div className="panel">
+              <h2>
+                I am currently...
+              </h2>
+              <p>
+                I'm a web-developer, currently based in London, UK. Well-versed in 
+                design and front-end development, I built this website to keep track 
+                of my progress and showcase what I can do.
+              </p>
+            </div>
           </div>
-          <div className="panel">
-            <h2>I am currently...</h2>
-          </div>
-          <div className="panel">
-            <PostListing postEdges={postEdges} />
+          <div className="columns three">
+            <div className="panel">
+              <PostListing postEdges={postEdges} />
+            </div>
+            <div className="panel">
+              <h2>Latest Work</h2>
+              <h3>Thumbnail</h3>
+            </div>
+            <div className="panel">
+              <h2>Reading</h2>
+              <h3>Thumbnail</h3>
+            </div>
           </div>
         </div>
       </Layout>

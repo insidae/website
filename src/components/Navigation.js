@@ -19,8 +19,8 @@ export default class Navigation extends Component {
           </div>
           <div className="user-links">
             {userLinks.map(link => (
-              <Link key={link.label} to={link.url} activeClassName="active">
-                {link.label}
+              <Link key={link.label} to={link.url} activeClassName="active" className={link.label}>
+                <img src={`/icons/fa-${link.label}.svg`} alt={link.label} />
               </Link>
             ))}
           </div>
