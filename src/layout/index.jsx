@@ -14,6 +14,16 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <link rel="shortcut icon" type="image/png" href={favicon} />
+          {/* 
+          88                          88           88                          
+          ""                          ""           88                          
+                                                   88                          
+          88  8b,dPPYba,   ,adPPYba,  88   ,adPPYb,88  ,adPPYYba,   ,adPPYba,  
+          88  88P'   `"8a  I8[    ""  88  a8"    `Y88  ""     `Y8  a8P_____88  
+          88  88       88   `"Y8ba,   88  8b       88  ,adPPPPP88  8PP"""""""  
+          88  88       88  aa    ]8I  88  "8a,   ,d88  88,    ,88  "8b,   ,aa  
+          88  88       88  `"YbbdP"'  88   `"8bbdP"Y8  `"8bbdP"Y8   `"Ybbd8"'
+          */}
         </Helmet>
         <Navigation menuLinks={config.menuLinks} userLinks={config.userLinks} />
         <main id="main-content">{children}</main>

@@ -16,7 +16,8 @@ class Index extends React.Component {
           <Helmet title={config.siteTitle} />
           <SEO />
           <div className="hero">
-            <h1>insidae</h1>
+            <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
+            <h1 className="logotype">insidae</h1>
             <p>
               [in-
               <b>sid</b>
@@ -60,7 +61,7 @@ class Index extends React.Component {
               <h3>Thumbnail</h3>
             </div>
             <div className="panel">
-              <h2>Reading</h2>
+              <h2>Reading...</h2>
               <h3>Thumbnail</h3>
             </div>
           </div>
