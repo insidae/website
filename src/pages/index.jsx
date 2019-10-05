@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Helmet from "react-helmet";
@@ -46,9 +47,9 @@ class Index extends React.Component {
                 I am currently...
               </h2>
               <p>
-                I'm a web-developer, currently based in London, UK. Well-versed in 
-                design and front-end development, I built this website to keep track 
-                of my progress and showcase what I can do.
+                Employed full-time in Central London as a UI Designer / Front-end Developer.
+                I'm also working on several side projects, such as <b>HomeScreen</b>, 
+                and writing whenever I get the chance.
               </p>
             </div>
           </div>
@@ -58,11 +59,11 @@ class Index extends React.Component {
             </div>
             <div className="panel">
               <h2>Latest Work</h2>
-              <h3>Thumbnail</h3>
+              <p>Thumbnail</p>
             </div>
             <div className="panel">
               <h2>Reading...</h2>
-              <h3>Thumbnail</h3>
+              <p>Thumbnail</p>
             </div>
           </div>
         </div>

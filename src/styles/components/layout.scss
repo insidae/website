@@ -2,6 +2,7 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
+    line-height: 1.5;
     background-color: $grey-1;
     background-image:
         linear-gradient(rgba(255,255,255,.025) 2px, transparent 2px),
@@ -15,6 +16,11 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 #main-content {
@@ -108,6 +114,10 @@ footer {
 .columns {
     display: flex;
     justify-content: space-between;
+
+    &.one .panel {
+        width: 100%;
+    }
 
     &.two .panel {
         width: 49%;
