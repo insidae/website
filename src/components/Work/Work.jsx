@@ -8,7 +8,7 @@ class Work extends Component {
           <h1>
             Work
           </h1>
-          <p>Aha, so this is where the Work page content lives.</p>
+          <p>A more comprehensive portfolio of my work is available on request.</p>
         </div>
       </div>
     );

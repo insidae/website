@@ -15,6 +15,7 @@ class JournalPage extends Component {
           <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
           <div className="panel">
+            <h2>Latest Articles</h2>
             <PostListing postEdges={postEdges} />
           </div>
         </div>

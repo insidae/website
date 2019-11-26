@@ -20,9 +20,7 @@ class Index extends React.Component {
             <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
             <h1 className="logotype">insidae</h1>
             <p>
-              [in-
-              <b>sid</b>
-              -day]
+              [in-<b>sid</b>-day]
             </p>
             <h3>adjective</h3>
             <ol>
@@ -37,9 +35,10 @@ class Index extends React.Component {
                 My name's Matt Thomas
               </h2>
               <p>
-                I'm a web-developer, currently based in London, UK. Well-versed in 
-                design and front-end development, I built this website to keep track 
-                of my progress and showcase what I can do.
+                I'm a web-developer, currently based in London, 
+                UK. Well-versed in design and front-end 
+                development, I built this website to keep track of 
+                my progress and showcase what I can do.
               </p>
             </div>
             <div className="panel">
@@ -47,14 +46,16 @@ class Index extends React.Component {
                 I am currently...
               </h2>
               <p>
-                Employed full-time in Central London as a UI Designer / Front-end Developer.
-                I'm also working on several side projects, such as <b>HomeScreen</b>, 
-                and writing whenever I get the chance.
+                Employed full-time as a UI Designer / Front-end 
+                Developer. I'm also working on side projects, such 
+                as <a href="https://github.com/insidae/Status-Board" target="blank"><b>HomeScreen</b></a>, rebuilding this website with 
+                Gatsby, and writing whenever I get the chance.
               </p>
             </div>
           </div>
           <div className="columns three">
             <div className="panel">
+              <h2>Latest Articles</h2>
               <PostListing postEdges={postEdges} />
             </div>
             <div className="panel">

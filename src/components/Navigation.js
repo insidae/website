@@ -18,11 +18,30 @@ export default class Navigation extends Component {
             ))}
           </div>
           <div className="user-links">
-            {userLinks.map(link => (
-              <Link key={link.label} to={link.url} activeClassName="active" className={link.label}>
-                <img src={`/icons/fa-${link.label}.svg`} alt={link.label} />
-              </Link>
-            ))}
+            <a
+              href="https://github.com/insidae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="GitHub"
+            >
+              <img src="/icons/fa-GitHub.svg" alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/insidae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="LinkedIn"
+            >
+              <img src="/icons/fa-LinkedIn.svg" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://twitter.com/lycanstrife"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="Twitter"
+            >
+              <img src="/icons/fa-Twitter.svg" alt="Twitter" />
+            </a>
           </div>
         </div>
       </nav>

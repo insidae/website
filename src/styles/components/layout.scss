@@ -23,14 +23,50 @@ a {
     }
 }
 
+ul {
+    &.left-list,
+    &.right-list {
+        width: 50%;
+        display: inline-block;
+        padding-inline-start: 1.2em;
+    }
+}
+
 #main-content {
     width: 100%;
     padding: 0 30px;
 
     .container {
         max-width: 980px;
-        min-height: 87.5vh;  // Will have to remove this eventually
         margin: 0 auto;
+
+        &.post {
+            margin: 3em auto;
+
+            .panel {
+                .title,
+                .date {
+                    width: 50%;
+                    display: inline-block;
+                }
+    
+                .date {
+                    opacity: 0.5;
+                    position: relative;
+                    top: -15px;
+                    text-align: right;
+                }
+    
+                button.tag {
+                    background-color: #333333;
+                    border: none;
+                    color: #ffffff;
+                    cursor: pointer;
+                    padding: 1em 1.5em;
+                    -webkit-appearance: unset;
+                }
+            }
+        }
     }
 }
 
@@ -51,7 +87,7 @@ footer {
     .links {
         display: inline-block;
         float: left;
-        margin: 10px;
+        margin: 12px 10px 10px;
 
         a {
             opacity: 0.5;
@@ -72,7 +108,8 @@ footer {
 
         a {
             opacity: 0.5;
-            padding: 0 20px;
+            padding: 5px 20px 0;
+            display: inline-block;
 
             &:hover {
                 opacity: 1;
@@ -100,7 +137,7 @@ footer {
     }
 
     ol {
-        max-width: 230px;
+        max-width: 250px;
         line-height: 1.4em;
         padding: 0;
         margin: 0;
@@ -136,6 +173,34 @@ footer {
     background-color: $grey-2;
     margin-bottom: 20px;
     padding: 15px 40px 20px;
+
+    .posts {
+        //display: flex;
+        justify-content: space-between;
+
+        .post {
+            //width: 45%;
+            display: inline-block;
+
+            p {
+                font-weight: 100;
+            }
+        }
+    }
+
+    .bio,
+    .photo {
+        display: inline-block;
+    }
+
+    .bio {
+        width: 70%;
+        margin-right: 5%
+    }
+
+    .photo {
+        width: 25%;
+    }
 }
 
 canvas{
@@ -143,4 +208,4 @@ canvas{
     top:0;
     left:0;
     z-index:-1;
-  }
+}
