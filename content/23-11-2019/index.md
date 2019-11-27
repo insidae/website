@@ -5,7 +5,9 @@ category: "Thoughts"
 date: "23/11/2019"
 slug: "First Post"
 tags:
-    - thoughts
+    - web-dev
+    - experiments
+    - design
 ---
 
 <!--- NOTE: I want this post to go live on my 30th birthday --->
