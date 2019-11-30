@@ -3,14 +3,26 @@ import React, { Component } from "react";
 import { Link } from "gatsby";
 
 export default class Navigation extends Component {
+  
+  state = { showMenu: false }
+
+  toggleMenu = () => {
+    this.setState({
+      showMenu: !this.state.showMenu
+    })
+  }
+
   render() {
     const { menuLinks } = this.props;
-    const { userLinks } = this.props;
+    const menuActive = this.state.showMenu ? 'active' : '';
 
     return (
       <nav>
         <div className="nav-container">
-          <div className="menu-links">
+          <div className="nav-mobile">
+            <a id="nav-toggle" className={`${menuActive}`} onClick={this.toggleMenu} href="#!"><span /></a>
+          </div>
+          <div className={`menu-links ${menuActive}`}>
             {menuLinks.map(link => (
               <Link key={link.name} to={link.link} activeClassName="active">
                 {link.name}

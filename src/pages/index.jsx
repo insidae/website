@@ -36,7 +36,7 @@ class Index extends React.Component {
               </h2>
               <p>
                 I'm a web-developer, currently based in London, 
-                UK. Well-versed in design and front-end 
+                UK. Well-versed in design and front-end web 
                 development, I built this website to keep track of 
                 my progress and showcase what I can do.
               </p>
