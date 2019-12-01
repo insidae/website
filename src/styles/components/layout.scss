@@ -34,11 +34,12 @@ ul {
 
 #main-content {
     width: 100%;
-    padding: 0 30px;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 
     .container {
         max-width: 980px;
         margin: 0 auto;
+        padding: 0 30px;
 
         &.post {
             margin: 3em auto;
@@ -63,6 +64,7 @@ ul {
                     color: #ffffff;
                     cursor: pointer;
                     padding: 1em 1.5em;
+                    margin: 0 1em 1em 0;
                     -webkit-appearance: unset;
                 }
             }
@@ -74,7 +76,7 @@ nav,
 footer {
     width: 100%;
     background-color: $grey-2;
-    padding: 15px 0;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .nav-container,
@@ -82,16 +84,18 @@ footer {
     display: flow-root;
     max-width: 980px;
     margin: 0 auto;
+    padding: 15px 0;
+
 
     .menu-links,
     .links {
         display: inline-block;
         float: left;
-        margin: 12px 10px 10px;
+        margin: 12px 20px 10px;
 
         a {
             opacity: 0.5;
-            padding: 10px 30px;
+            padding: 10px 25px;
 
             &:hover,
             &.active {
@@ -194,8 +198,7 @@ footer {
     }
 
     .bio {
-        width: 90%;
-        margin-right: 5%
+        width: 98%;
     }
 
     .photo {

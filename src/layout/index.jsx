@@ -14,6 +14,7 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <link rel="shortcut icon" type="image/png" href={favicon} />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
           {/* 
           88                          88           88                          
           ""                          ""           88                          

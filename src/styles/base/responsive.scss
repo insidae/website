@@ -1,4 +1,4 @@
-// MOBILE STYLES
+// MOBILE ONLY STYLES
 
 @media only screen and (max-width: $breakpoint-tablet) {
     body {
@@ -91,7 +91,7 @@
     }
 }
 
-// TABLET STYLES
+// TABLET ONLY STYLES
 
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
     body {
@@ -102,6 +102,41 @@
 
                     .panel {
                         width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MOBILE AND TABLET STYLES
+
+@media (max-width: $breakpoint-desktop) {
+    body {
+        #main-content {
+            .container {
+                .columns {
+                    ul {
+                        &.left-list,
+                        &.right-list {
+                            width: 100%;
+                        }
+                    }
+
+                    &.two {
+                        display: block;
+
+                        .panel {
+                            width: 100%;
+
+                            .bio {
+                                width: 100%;
+                            }
+                        }
+
+                        .photo {
+                            width: 100%;
+                        }
                     }
                 }
             }
