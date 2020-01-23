@@ -35,10 +35,9 @@ class Index extends React.Component {
                 My name's Matt Thomas
               </h2>
               <p>
-                I'm a web-developer, currently based in London, 
-                UK. Well-versed in design and front-end web 
-                development, I built this website to keep track of 
-                my progress and showcase my interests.
+              I'm a web-developer and am currently based in London, UK. Well-versed
+               in design and front-end web development, I built this website to keep
+                track of my progress and showcase my interests.
               </p>
             </div>
             <div className="panel">
@@ -46,10 +45,9 @@ class Index extends React.Component {
                 I am currently...
               </h2>
               <p>
-                Employed full-time as a UI Designer / Front-end 
-                Developer. I'm also working on side projects, such 
-                as <a href="https://github.com/insidae/Status-Board" target="blank"><b>HomeScreen</b></a>, rebuilding this website with 
-                Gatsby, and writing whenever I get the chance.
+                Employed full-time as a UI Designer / Front-end Developer. I'm also working on side projects 
+                (such as <a href="https://github.com/insidae/Status-Board" target="blank"><b>HomeScreen</b></a>
+                ), rebuilding this website in Gatsby, and sitting down to write whenever I get the chance.
               </p>
             </div>
           </div>

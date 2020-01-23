@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React, { Component } from "react";
+import { Link } from "gatsby";
 import photo from "./me_october-2018.png";
 
 class About extends Component {
@@ -21,7 +22,7 @@ class About extends Component {
         <div className="columns one">
           <div className="panel">
             <h2>
-              My Skillset
+              Relevant Skills
             </h2>
             <ul className="left-list">
               <li>UI / UX Design &amp; Mock-ups</li>
@@ -41,6 +42,7 @@ class About extends Component {
             </ul>
           </div>
         </div>
+
         <div className="columns two">
           <div className="panel">
             <h2>
@@ -84,6 +86,25 @@ class About extends Component {
             </div>
           </div>
           <img className="photo" src={photo} alt="Me in October of 2018" />
+        </div>
+
+        <div className="columns one">
+          <div className="panel">
+            <h2>
+              About this website
+            </h2>
+            <p>
+              Built with Gatsby, I started designing this version 
+              of my website in 2016. My very first website was a 
+              monument to my own stubbornness, cobbled together 
+              using only a text editor and a free FTP client 
+              (sometime in 2011). There have been long periods of 
+              time since then when I&apos;ve not had a personal 
+              website but the idea has always appealed to me. 
+              You can read more about this website build 
+              <Link to="/first-post"> here.</Link>
+            </p>
+          </div>
         </div>
       </div>
     );

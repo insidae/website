@@ -53,12 +53,6 @@ might even be a good idea to include screenshots of output.
     alias sudo='sudo '
 
 
-    # Colored up cat!
-    # You must install Pygments first - "sudo easy_install Pygments"
-
-    alias c='pygmentize -O style=monokai -f console256 -g'
-
-
     # Git
     # You must install Git first
 
@@ -70,14 +64,11 @@ might even be a good idea to include screenshots of output.
     alias gl='git log'
     alias gf='git fetch origin master'
     alias gr='git rebase -i origin/master'
-    alias vm_up='vagrant resume aos && vagrant resume pcw && vagrant resume postgresql'
-    alias vm_down='vagrant suspend aos && vagrant suspend pcw && vagrant suspend postgresql'
 
 
     # See memory load
 
     alias memstat='top -l 1 -o rsize | head -20'
-
 
     # See CPU load
 
@@ -87,14 +78,13 @@ might even be a good idea to include screenshots of output.
 
     alias weather='curl wttr.in/london'
 
+
     ############################################################################# Misc
 
     # Only show the current directory's name in the tab
 
     export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
-
-    # init z! (https://github.com/rupa/z)
 
     # Fill with minuses
     # (this is recalculated every time the prompt is shown in function prompt_command):
@@ -165,17 +155,6 @@ might even be a good idea to include screenshots of output.
     export WHITE
     export BOLD
     export RESET
-
-
-    # Git branch details
-
-    function parse_git_dirty() {
-        [[ $(git status 2> /dev/null | tail -n1) != *"working directory clean"* ]] && echo ""
-    }
-
-    function parse_git_branch() {
-        git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
-    }
 
 
     # Change this symbol to something sweet.

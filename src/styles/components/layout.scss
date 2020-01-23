@@ -24,6 +24,10 @@ a {
 }
 
 ul {
+    li {
+        line-height: 1.75;
+    }
+
     &.left-list,
     &.right-list {
         width: 50%;
@@ -198,8 +202,7 @@ footer {
     }
 
     .bio {
-        width: 90%; // 98% and no margin
-        margin-right: 5%
+        width: 98%;
     }
 
     .photo {
