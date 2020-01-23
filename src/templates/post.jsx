@@ -33,7 +33,7 @@ export default class PostTemplate extends React.Component {
               <h1 className="title">{post.title}</h1>
               <h3 className="date">{post.date}</h3>
               <PostTags tags={post.tags} />
-              <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+              <div className="post-content" dangerouslySetInnerHTML={{ __html: postNode.html }} />
               <div className="post-meta">
                 <SocialLinks postPath={slug} postNode={postNode} />
               </div>

@@ -83,6 +83,29 @@ ul {
                     margin: 0 1em 1em 0;
                     -webkit-appearance: unset;
                 }
+
+                .post-content {
+
+                    p {
+                        max-width: 75%;
+                    }
+
+                    blockquote {
+                        font-size: 1.5em;
+                        margin: 1.5em 0;
+                        max-width: 55%;
+                        opacity: 0.5;
+                    }
+
+                    hr {
+                        margin: 2.5em 0;
+                        opacity: 0.25;
+                    }
+        
+                    .post-tag-container {
+                        margin-bottom: 40px;
+                    }
+                }
             }
         }
     }
@@ -195,11 +218,9 @@ footer {
     padding: 15px 40px 20px;
 
     .posts {
-        //display: flex;
         justify-content: space-between;
 
         .post {
-            //width: 45%;
             display: inline-block;
 
             p {
