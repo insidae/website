@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
@@ -55,6 +55,7 @@ class Index extends React.Component {
             <div className="panel">
               <h2>Latest Articles</h2>
               <PostListing postEdges={postEdges} />
+              <Link class="more" to="/journal">See more...</Link>
             </div>
             <div className="panel">
               <h2>Latest Work</h2>
@@ -77,7 +78,7 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 2000
+      limit: 2
       sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
