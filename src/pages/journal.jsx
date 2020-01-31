@@ -10,16 +10,17 @@ import config from "../../data/SiteConfig";
 class JournalPage extends Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
+    const {tags} = this.props.data;
+
     return (
       <Layout>
         <div className="container">
           <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
-          <div className="panel">
-            <h2>Tags go here</h2>
-            {/* <PostTags tags={tags} /> */}
+          <div className="panel tags">
+            <PostTags tags={tags} />
           </div>
-          <div className="panel">
+          <div className="panel journal-posts">
             <h2>Latest Articles</h2>
             <PostListing postEdges={postEdges} />
           </div>

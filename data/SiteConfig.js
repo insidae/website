@@ -11,7 +11,7 @@ const config = {
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   postDefaultCategoryID: "Thoughts", // Default category for posts.
   dateFromFormat: "DD/MM/YYYY", // Date format used in the frontmatter.
-  dateFormat: "DD/MM/YYYY", // Date format for display.
+  dateFormat: "MMMM Do, YYYY", // Date format for display.
   userName: "Matt", // Username to display in the author segment.
   userEmail: "matt@insidae.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
@@ -55,7 +55,7 @@ const config = {
       iconClassName: "fa fa-twitter"
     }
   ],
-  copyright: "Copyright © 2019. Matt Thomas", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020. Matt Thomas", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };

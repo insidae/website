@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { formatDate } from "../../utils/global";
 
 class PostListing extends React.Component {
   getPostList() {
@@ -20,16 +21,22 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
+
     return (
       <div className="post-listing">
         <div className="posts">
           {/* Your post list here. */
-            postList.map(post => (
-              <Link to={post.path} key={post.title} className="post">
-                <h3>{post.title}</h3>
-                <p>{post.excerpt}</p>
-              </Link>
-            ))}
+            postList.map(post => {
+              const date = formatDate(post.date)
+
+              return (
+                <Link to={post.path} key={post.title} className="post">
+                  <h3 className="title">{post.title}</h3>
+                  <h3 className="date">{date}</h3>
+                  <p>{post.excerpt}</p>
+                </Link>
+              )
+            })}
         </div>
       </div>
     );

@@ -26,7 +26,7 @@ a {
     &.more {
         display: block;
         opacity: 0.5;
-        padding: 20px 0 10px;
+        padding: 0 0 10px;
 
         &:hover {
             opacity: 1;
@@ -129,7 +129,6 @@ footer {
 
     .menu-links,
     .links {
-        display: inline-block;
         float: left;
         margin: 12px 20px 10px;
 
@@ -146,7 +145,6 @@ footer {
 
     
     .user-links {
-        display: inline-block;
         float: right;
         margin: 0;
 
@@ -223,9 +221,21 @@ footer {
 
         .post {
             display: inline-block;
+            margin: 10px 0;
 
             p {
                 font-weight: 100;
+            }
+
+            .title {
+                margin: 0 0 5px;
+            }
+
+            .date {
+                opacity: 0.5;
+                font-weight: 100;
+                font-size: 1em;
+                margin-top: 0;
             }
         }
     }
@@ -242,11 +252,31 @@ footer {
     .photo {
         width: 25%;
     }
+
+    &.journal-posts {
+        .post {
+            width: 46%;
+            margin: 20px 0;
+
+            &:nth-of-type(2n) {
+                margin-left: 6%
+            }
+        }
+    }
 }
 
 .photo {
     width: 49%;
     margin-bottom: 20px;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+    background: #111111;
+    padding: 3em 1em;
+
+    code[class*="language-"] {
+        background: #111111;
+    }
 }
 
 canvas{
