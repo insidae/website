@@ -1,7 +1,7 @@
 ---
 title: "Bash Profile"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
-category: "tech"
+category: "Development"
 date: "21/01/2020"
 slug: "Bash Profile"
 tags:
