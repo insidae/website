@@ -10,7 +10,11 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const { data } = this.props;
+
+    const postEdges = data.allMarkdownRemark.edges;
+    const readingPostEdges = data.reading.edges;
+
     return (
       <Layout>
         <div className="container">
@@ -63,7 +67,8 @@ class Index extends React.Component {
             </div>
             <div className="panel">
               <h2>Reading...</h2>
-              <p>Thumbnail</p>
+              <PostListing postEdges={readingPostEdges} />
+              <Link class="more" to="/journal">See more...</Link>
             </div>
           </div>
         </div>
@@ -80,6 +85,29 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2
       sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "Main" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+            date
+          }
+          excerpt
+          timeToRead
+          frontmatter {
+            title
+            tags
+            cover
+            date
+          }
+        }
+      }
+    }
+    reading: allMarkdownRemark(
+      limit: 1
+      sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "Reading" } } }
     ) {
       edges {
         node {

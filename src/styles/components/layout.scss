@@ -68,9 +68,8 @@ ul {
                 }
     
                 .date {
+                    float: right;
                     opacity: 0.5;
-                    position: relative;
-                    top: -15px;
                     text-align: right;
                 }
     
@@ -93,6 +92,10 @@ ul {
 
                     p {
                         max-width: 75%;
+
+                        .gatsby-resp-image-wrapper {
+                            margin-bottom: 4vw;
+                        }
                     }
 
                     blockquote {
@@ -105,6 +108,18 @@ ul {
                     hr {
                         margin: 2.5em 0;
                         opacity: 0.25;
+                    }
+
+                    .note {
+                        background: #111;
+                        padding: 15px 40px 20px;
+                        margin: 30px 0;
+                        max-width: 80%;
+                        margin-left: -40px;
+
+                        p {
+                            max-width: unset;
+                        }
                     }
                 }
             }

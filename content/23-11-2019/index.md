@@ -1,7 +1,7 @@
 ---
 title: "First Post"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Thoughts"
+category: "Main"
 date: "23/11/2019"
 slug: "First Post"
 tags:
