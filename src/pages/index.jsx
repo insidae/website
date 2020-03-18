@@ -62,9 +62,6 @@ class Index extends React.Component {
               <Link class="more" to="/journal">See more...</Link>
             </div>
             <div className="panel">
-              <h2>Recent Work</h2>
-              <img className="work" src="images/favicon_asset.png" alt="A3 Agency Software Branding" />
-              <img className="work" src="images/StatusBoard_Progress_02.png" alt="UI Design for HomeScreen" />
             </div>
             <div className="panel">
               <h2>Reading...</h2>
