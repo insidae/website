@@ -34,7 +34,7 @@ class Index extends React.Component {
             </ol>
           </div>
           <div className="columns two">
-            <div className="panel">
+            <div className="panel red">
               <h2>
                 My name's Matt Thomas
               </h2>
@@ -44,7 +44,7 @@ class Index extends React.Component {
                 track of my progress and showcase my interests.
               </p>
             </div>
-            <div className="panel">
+            <div className="panel blue">
               <h2>
                 I am currently...
               </h2>
@@ -56,12 +56,10 @@ class Index extends React.Component {
             </div>
           </div>
           <div className="columns three">
-            <div className="panel">
+            <div className="panel large green">
               <h2>Latest Articles</h2>
               <PostListing postEdges={postEdges} />
               <Link class="more" to="/journal">See more...</Link>
-            </div>
-            <div className="panel">
             </div>
             <div className="panel">
               <h2>Reading...</h2>

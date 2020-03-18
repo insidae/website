@@ -180,7 +180,7 @@ footer {
 }
 
 .hero {
-    padding: 60px 40px 50px;
+    padding: 60px 50px 50px;
 
     .logo {
         width: 80px;
@@ -219,6 +219,10 @@ footer {
 
     &.three .panel {
         width: 32%;
+
+        &.large {
+            width: 66%
+        }
     }
 
     &.four .panel {
@@ -282,6 +286,18 @@ footer {
                 margin-left: 6%
             }
         }
+    }
+
+    &.red {
+        border-left: 10px solid $red;
+    }
+
+    &.blue {
+        border-left: 10px solid $blue;
+    }
+
+    &.green {
+        border-left: 10px solid $green;
     }
 }
 

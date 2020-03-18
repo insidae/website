@@ -20,7 +20,7 @@ class About extends Component {
         </div>
 
         <div className="columns one">
-          <div className="panel">
+          <div className="panel red">
             <h2>
               Relevant Skills
             </h2>
@@ -44,7 +44,7 @@ class About extends Component {
         </div>
 
         <div className="columns two">
-          <div className="panel">
+          <div className="panel blue">
             <h2>
               How I got started
             </h2>
@@ -89,7 +89,7 @@ class About extends Component {
         </div>
 
         <div className="columns one">
-          <div className="panel">
+          <div className="panel green">
             <h2>
               About this website
             </h2>
