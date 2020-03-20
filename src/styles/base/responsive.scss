@@ -113,6 +113,18 @@
                             .note {
                                 max-width: unset;
                             }
+
+                            .book-info {
+                                .left {
+                                    width: 100%;
+                                }
+        
+                                span.gatsby-resp-image-wrapper {
+                                    width: 100%;
+                                    top: 60px;
+                                    margin-bottom: 6em !important;
+                                }
+                            }
                         }
                     }
                 }

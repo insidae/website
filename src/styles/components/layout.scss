@@ -65,6 +65,7 @@ ul {
                 .date {
                     width: 50%;
                     display: inline-block;
+                    padding: 15px 40px 0px;
                 }
     
                 .date {
@@ -86,16 +87,14 @@ ul {
                 .post-tag-container {
                     margin-bottom: 40px;
                     border-bottom: 1px solid rgba(255,255,255,.25);
+                    padding: 0px 40px 20px;
                 }
 
                 .post-content {
+                    padding: 0px 40px;
 
                     p {
                         max-width: 75%;
-
-                        .gatsby-resp-image-wrapper {
-                            margin-bottom: 4vw;
-                        }
                     }
 
                     blockquote {
@@ -110,7 +109,8 @@ ul {
                         opacity: 0.25;
                     }
 
-                    .note {
+                    .note,
+                    .book-info {
                         background: $grey-1;
                         padding: 15px 40px 20px;
                         margin: 30px 0;
@@ -119,6 +119,26 @@ ul {
 
                         p {
                             max-width: unset;
+                        }
+                    }
+
+                    .book-info {
+                        max-width: unset;
+                        padding: 15px 15px 20px 40px;
+
+                        .left {
+                            display: inline-block;
+                            width: 48%;
+
+                            ul {
+                                padding-inline-start: 1em;
+                            }
+                        }
+
+                        span.gatsby-resp-image-wrapper {
+                            width: 44%;
+                            float: right;
+                            margin: 0 0 4em 4em !important;
                         }
                     }
                 }
@@ -132,6 +152,10 @@ footer {
     width: 100%;
     background-color: $grey-2;
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+footer {
+    margin-top: 4em;
 }
 
 .nav-container,
@@ -233,7 +257,6 @@ footer {
 .panel {
     background-color: $grey-2;
     margin-bottom: 20px;
-    padding: 15px 40px 20px;
 
     .posts {
         justify-content: space-between;
@@ -259,6 +282,10 @@ footer {
         }
     }
 
+    .book-cover {
+        width: 100%;
+    }
+
     .work {
         width: 100%;
         margin-top: 10px;
@@ -275,6 +302,10 @@ footer {
 
     .photo {
         width: 25%;
+    }
+
+    &.padded {
+        padding: 15px 40px 20px;
     }
 
     &.journal-posts {

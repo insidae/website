@@ -20,7 +20,7 @@ class JournalPage extends Component {
           <div className="panel tags">
             <PostTags tags={tags} />
           </div>
-          <div className="panel journal-posts">
+          <div className="panel padded green journal-posts">
             <h2>Latest Articles</h2>
             <PostListing postEdges={postEdges} />
           </div>

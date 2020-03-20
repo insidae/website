@@ -21,18 +21,18 @@ There's something really intriguing about the memoir of a entrepreneur. The pote
 
 The memoir did such an incredible job of humanising him that I felt like he was a friend by the time I turned the last page. The last memoir I read was that of Steve Jobs, by Walter Isaacson, and despite enjoying every moment of it, putting the book down I was left feeling as though no one really knew him, least of all me.
 
----
-
-### Shoe Dog, by Phil Knight
-
-- Publisher: Simon & Schuster
-- Publication Date: April 26, 2016
-- ISBN: 978-1-4711-4672-5
-- Genre: Memoir
-
-![Shoe Dog Book Cover](/Cover_Original_Shoe_Dog.jpg)
-
----
+<div class="book-info">
+    <div class="left">
+        <h3>Shoe Dog, by Phil Knight</h3>
+        <ul>
+            <li>Publisher: Simon & Schuster</li>
+            <li>Publication Date: April 26, 2016</li>
+            <li>ISBN: 978-1-4711-4672-5</li>
+            <li>Genre: Memoir</li>
+        </ul>
+    </div>
+    <img class="cover" src="/Cover_Original_Shoe_Dog.jpg" alt="Book Cover" />
+</div>
 
 Shoe Dog is a memoir by Nike co-founder Phil Knight. The memoir chronicles the history of Nike from its early struggles to its evolution into one of the world’s most recognized and profitable companies.
 

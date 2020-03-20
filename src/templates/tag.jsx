@@ -19,7 +19,7 @@ export default class TagTemplate extends React.Component {
               <h1>{`Tagged as ${tag}`}</h1>
             </div>
 
-            <div className="panel">
+            <div className="panel padded">
               <PostListing postEdges={postEdges} />
             </div>
           </div>

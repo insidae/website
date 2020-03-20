@@ -34,7 +34,7 @@ class Index extends React.Component {
             </ol>
           </div>
           <div className="columns two">
-            <div className="panel red">
+            <div className="panel padded red">
               <h2>
                 My name's Matt Thomas
               </h2>
@@ -44,7 +44,7 @@ class Index extends React.Component {
                 track of my progress and showcase my interests.
               </p>
             </div>
-            <div className="panel blue">
+            <div className="panel padded blue">
               <h2>
                 I am currently...
               </h2>
@@ -56,13 +56,14 @@ class Index extends React.Component {
             </div>
           </div>
           <div className="columns three">
-            <div className="panel large green">
+            <div className="panel padded large green">
               <h2>Latest Articles</h2>
               <PostListing postEdges={postEdges} />
               <Link class="more" to="/journal">See more...</Link>
             </div>
-            <div className="panel">
+            <div className="panel reading padded">
               <h2>Reading...</h2>
+              <img className="book-cover" src="/images/Cover_Original_Shoe_Dog.jpg" alt="Book Cover" />
               <PostListing postEdges={readingPostEdges} />
               <Link class="more" to="/journal">See more...</Link>
             </div>
@@ -79,7 +80,7 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 2
+      limit: 3
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { category: { eq: "Main" } } }
     ) {
@@ -101,7 +102,7 @@ export const pageQuery = graphql`
       }
     }
     reading: allMarkdownRemark(
-      limit: 2
+      limit: 1
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { category: { eq: "Reading" } } }
     ) {

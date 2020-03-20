@@ -19,18 +19,18 @@ I remember getting told off by a teacher for reading The Lost World under my des
 
 All these years of guilt finally resulted in the purchase of a cheap paperback version, so now I have no excuses.
 
----
-
-### Jurassic Park, by Michael Crichton
-
-- Publisher: Alfred A. Knopf
-- Publication Date: November 20, 1990
-- ISBN: 0-394-58816-9
-- Genre: Science-Fiction
-
-![Jurassic Park Book Cover](/Cover_Original_Jurassic_Park.jpg)
-
----
+<div class="book-info">
+    <div class="left">
+        <h3>Jurassic Park, by Michael Crichton</h3>
+        <ul>
+            <li>Publisher: Alfred A. Knopf</li>
+            <li>Publication Date: November 20, 1990</li>
+            <li>ISBN: 0-394-58816-9</li>
+            <li>Genre: Science-Fiction</li>
+        </ul>
+    </div>
+    <img class="cover" src="/Cover_Original_Jurassic_Park.jpg" alt="Book Cover" />
+</div>
 
 Jurassic Park is a 1990 science fiction novel written by Michael Crichton. A cautionary tale about genetic engineering, it presents the collapse of an amusement park showcasing genetically recreated dinosaurs to illustrate the mathematical concept of chaos theory and its real world implications. A sequel titled The Lost World, also written by Crichton, was published in 1995. In 1997, both novels were re-published as a single book titled Michael Crichton's Jurassic World, unrelated to the film of the same name.
 
