@@ -56,9 +56,6 @@ class SocialLinks extends Component {
             {count => renderShareCount(count)}
           </LinkedinShareCount>
         </LinkedinShareButton>
-        <TelegramShareButton url={url}>
-          <TelegramIcon round size={iconSize} />
-        </TelegramShareButton>
       </div>
     );
   }

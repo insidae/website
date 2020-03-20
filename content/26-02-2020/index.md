@@ -39,6 +39,3 @@ Shoe Dog is a memoir by Nike co-founder Phil Knight. The memoir chronicles the h
 Bill Gates named Shoe Dog one of his five favorite books of 2016 and called it “an amazing tale, a refreshingly honest reminder of what the path to business success really looks like. It’s a messy, perilous, and chaotic journey, riddled with mistakes, endless struggles, and sacrifice. Phil Knight opens up in ways few CEOs are willing to do.”
 
 In July 2018, Netflix announced a biopic adaptation.
-
----
-

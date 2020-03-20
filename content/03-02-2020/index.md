@@ -37,6 +37,3 @@ Jurassic Park is a 1990 science fiction novel written by Michael Crichton. A cau
 In 1993, Steven Spielberg adapted the book into the blockbuster film Jurassic Park. The book's sequel, The Lost World, was also adapted by Spielberg into a film in 1997. A third film, directed by Joe Johnston and released in 2001, drew several elements, themes, and scenes from both books that were ultimately not utilized in either of the previous films, such as the aviary and boat scenes.
 
 The novel began as a screenplay Crichton wrote in 1983, about a graduate student who recreates a dinosaur. Eventually, given his reasoning that genetic research is expensive and "there is no pressing need to create a dinosaur", Crichton concluded that it would emerge from a "desire to entertain", leading to a wildlife park of extinct animals. Originally, the story was told from the point of view of a child, but Crichton changed it as everyone who read the draft felt it would be better if told by an adult.
-
----
-
