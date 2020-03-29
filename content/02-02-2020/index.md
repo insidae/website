@@ -1,9 +1,9 @@
 ---
-title: "My Front-end Web Development Setup"
+title: "My Front-end Development Setup"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
 date: "02/02/2020"
-slug: "My Front-end Web Development Setup"
+slug: "My Front-end Development Setup"
 tags:
     - design
     - thoughts

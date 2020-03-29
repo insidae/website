@@ -3,14 +3,12 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  TelegramShareButton,
   RedditShareButton,
   FacebookShareCount,
   LinkedinShareCount,
   RedditShareCount,
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
   LinkedinIcon,
   RedditIcon
 } from "react-share";
