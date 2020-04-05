@@ -8,16 +8,13 @@ tags:
     - web-dev
 ---
 
-
-## This post will be updated over time
-
 Okay, currently my bash_profile is in **serious** need of a refresh. This thing 
-has been following me around for **years**, from job to job, and I'm not even 
+has been following me around for **years**, from job to job, laptop to laptop, and I'm not even 
 sure what half of it does anymore. There are some bits I use frequently and 
 some bits I've never used, so there's a lot of clean-up required.
 
-I'll try and write notes for each section to make it clear what each line does. 
-That way you can cherry-pick the bits that seem useful and ignore the rest. It 
+Note to self: I'll try and write comments for each section to make it clear what each line does. 
+That way people can cherry-pick the bits that seem useful and ignore the rest. It 
 might even be a good idea to include screenshots of output.
 
 ***

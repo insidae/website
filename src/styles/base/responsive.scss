@@ -112,6 +112,20 @@
 
                             .note {
                                 max-width: unset;
+
+                                &.illustration {
+                                    display: inline-block;
+        
+                                    p {
+                                        width: 100%;
+                                    }
+        
+                                    img.illustration {
+                                        width: 100%;
+                                        margin-left: 0px;
+                                        padding: 15%;
+                                    }
+                                }
                             }
 
                             .book-info {
@@ -153,6 +167,38 @@
 
                     .panel {
                         width: 100%;
+                    }
+                }
+
+                &.post {
+                    .panel {
+                        .post-content {
+                            p {
+                                max-width: unset;
+                            }
+
+                            blockquote {
+                                max-width: unset;
+                            }
+
+                            .note {
+                                max-width: unset;
+
+                                &.illustration {
+                                    display: inline-block;
+            
+                                    p {
+                                        width: 51%;
+                                    }
+            
+                                    img.illustration {
+                                        width: 35%;
+                                        margin-left: 10%;
+                                        padding: 20px 0;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

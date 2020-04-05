@@ -15,7 +15,7 @@ Steven Spielberg's Jurassic Park is one of my all-time favourite films. I'm actu
 
 <blockquote>"I love Jurassic Park, and I love books. Why haven't I read this already?"</blockquote>
 
-I remember getting told off by a teacher for reading The Lost World under my desk in High School, so it's not like I wasn't aware of the books, but for whatever reason Jurassic Park never made it onto my bookshelf. The situation was fixed years later when I was lucky enough to recieve a signed first edition of both Jurassic Park and The Lost World (they have pride of place in the library) but you can't exactly 'read' a signed first edition book.
+I remember getting told off by a teacher for reading The Lost World under my desk in High School, so it's not like I wasn't aware of the books, but for whatever reason Jurassic Park never made it onto my bookshelf. The situation was fixed years later when I was lucky enough to recieve a signed first edition of both Jurassic Park and The Lost World (they have pride of place in the library) but you can't exactly 'read' a signed first edition book, can you?
 
 All these years of guilt finally resulted in the purchase of a cheap paperback version, so now I have no excuses.
 
