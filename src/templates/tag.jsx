@@ -20,6 +20,7 @@ export default class TagTemplate extends React.Component {
             </div>
 
             <div className="panel padded">
+              <h2>Latest Articles</h2>
               <PostListing postEdges={postEdges} />
             </div>
           </div>

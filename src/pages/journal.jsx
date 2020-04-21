@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../layout";
-import PostTags from "../components/PostTags/PostTags";
 import PostListing from "../components/PostListing/PostListing";
 import Journal from "../components/Journal/Journal";
 import config from "../../data/SiteConfig";
@@ -10,15 +9,26 @@ import config from "../../data/SiteConfig";
 class JournalPage extends Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    const {tags} = this.props.data;
+    const categories = this.props.data.categories.group;
 
     return (
       <Layout>
         <div className="container">
           <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
-          <div className="panel tags">
-            <PostTags tags={tags} />
+          <div className="panel tags red">
+            <h2>Browse by Tag</h2>
+            {categories.map(category => {
+              return (
+                <Link
+                  to={`/tags/${category.fieldValue.toLowerCase()}`}
+                  className="tag-filter"
+                  key={category.fieldValue}
+                >
+                  {`${category.fieldValue}`}
+                </Link>
+              )
+            })}
           </div>
           <div className="panel padded green journal-posts">
             <h2>Latest Articles</h2>
@@ -54,6 +64,12 @@ export const pageQuery = graphql`
             date
           }
         }
+      }
+    }
+    categories: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }

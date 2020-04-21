@@ -7,7 +7,7 @@ slug: "My Front-end Development Setup"
 tags:
     - design
     - thoughts
-    - web-dev
+    - development
 ---
 
 <!--- NOTE: Today is 02/02/2020 - the first global palindrome day in 909 years --->

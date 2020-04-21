@@ -63,12 +63,13 @@ ul {
             .panel {
                 .title,
                 .date {
-                    width: 50%;
+                    width: 75%;
                     display: inline-block;
                     padding: 15px 40px 0px;
                 }
     
                 .date {
+                    width: 25%;
                     float: right;
                     opacity: 0.5;
                     text-align: right;
@@ -335,7 +336,36 @@ footer {
             margin: 20px 0;
 
             &:nth-of-type(2n) {
-                margin-left: 6%
+                margin-left: 6%;
+            }
+        }
+    }
+
+    &.tags {
+        padding: 30px 50px;
+
+        h2 {
+            display: inline;
+            margin-right: 50px;
+        }
+
+        .tag-filter {
+            margin-right: 50px;
+
+            &:nth-of-type(1) {
+                color: $red;
+            }
+
+            &:nth-of-type(2) {
+                color: $blue;
+            }
+
+            &:nth-of-type(3) {
+                color: $green;
+            }
+
+            &:nth-of-type(4) {
+                opacity: 0.5;
             }
         }
     }

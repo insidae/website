@@ -7,7 +7,7 @@ slug: "Home Server - Part One"
 tags:
     - design
     - thoughts
-    - web-dev
+    - development
 ---
 
 <!--- NOTE: This journal entry is being written during quarantine for the COVID-19 pandemic --->
@@ -43,9 +43,9 @@ I made a few non-committal bids and unsurprisingly lost about three seperate mac
 
 After a bit more in-depth searching, I managed to find one I really liked. It had a good configuration and looked to be pristine from the photos. Even better, it was a new posting and didn't seem to be garnering too much attention just yet. Next was seriously deciding how much I was willing to pay for it (anything more than £400 all-in would be too much on this project right now). 
 
-So I placed my modest opening bid and checked back in each evening over the course of the week. I was made up when I eventually won the auction with a winning bid of £245.00. This meant I had a little bit of cash left over to spend on upgrades and tools.
+So I placed my modest opening bid and checked back in each evening over the course of the week. I was made up when I eventually won the auction with a winning bid of £245. This meant I had a little bit of cash left over to spend on upgrades and tools.
 
-> "I was incredibly grateful to the previous owner when it arrived in the orignal packaging without a single dent or scratch."
+> "I was incredibly grateful to the previous owner when it arrived in the original packaging without a single dent or scratch."
 
 This machine is genuinely immaculate. Whether that speaks more to the previous owner's care or Apple's build quality, I couldn't say. All I know is that I'm thrilled to own such a well-designed piece of hardware in such good condition.
 
@@ -68,7 +68,7 @@ This lead to the additional purchase of an [OWC Accelsior S PCIe Adapter for 2.5
 <div class="note illustration">
     <h3>Life in the fast lane</h3>
     <p>
-        The 2008 Mac Pro has dual Gigabit Ethernet ports allowing for fast transfer of data over the home network. I really only needed one port, but the second allows me to add additional network hardware futher down the line.
+        The 2008 Mac Pro also has dual Gigabit Ethernet ports allowing for fast transfer of data over the home network. I really only needed one port, but the second allows me to add additional network hardware futher down the line.
     </p>
     <img class="illustration" src="/icons/server_ethernet.svg" alt="server illustration" />
 </div>
@@ -79,25 +79,27 @@ This lead to the additional purchase of an [OWC Accelsior S PCIe Adapter for 2.5
 
 ## Teardown and upgrades
 
-First thing was to test everything worked (not something to take for granted with twelve-year-old hardware). After booting properly without issue, I shut the machine down and opened up the side panel to check out the interior.
+First thing was to test everything worked (not something you should assume with twelve-year-old hardware). After booting properly without issue, I shut the machine down again and opened up the side panel to check out the interior.
 
-There's one latch on the back of the case that opens up the entire side of the machine. I've been building computers for years and have yet to see a better implemented user experience when it comes to opening one up.
+There's just one latch on the back of the case that opens up the entire side of the machine. I've been building computers for years and have yet to see a better implementation when it comes to opening up a case.
 
-It was in as good a condition as the exterior so I gave it a good cleaning, and replaced the PRAM battery on the motherboard. These batteries maintain system settings such as date and time when the computer's powered down, and last about five years. Old batteries have been known to cause problems so I thought it was best not to take a chance.
+It was in as good a condition as the exterior so I gave it a good cleaning, and replaced the PRAM battery on the motherboard. These batteries maintain system settings such as date and time when the computer is powered down, and typically last about five years. Old batteries have been known to cause problems so I thought it was best not to take a chance.
 
 Most of the components are able to be removed without tools (something I really appreciate) but the heatsinks require a long-handled hex key wrench to remove. You can see just how difficult to reach those screws are.
 
 ![The hard-to-reach heatsink screws](/heatsink.jpg)
 
-With the heatsinks finally removed you can see most of the bare motherboard. Only the optical drive bay and power supply remain. You can really see how well thought-out the design of this machine was.
+With the heatsinks finally removed you have access to the whole motherboard. Only the optical drive bay and power supply remain. You can really see how well thought-out the design of this machine was.
 
 ![Mac Pro 3,1 emptied and cleaned up](/Pro-02.jpg)
 
-All that remained was to apply the new thermal paste and then put everything back where it belonged. I'm now satisfied that the hardware is properly maintained and we're ready to start focusing on software.
+All that remained was to clean the heatsinks, apply the new thermal paste, and then put everything back where it belonged. I'm now satisfied that the hardware is properly maintained and we're ready to start focusing on software.
 
 ![Finally able to apply new thermal paste](/thermal_paste.jpg)
 
 Next up is buying and installing the rest of the large capacity hard drives, and then migrating my media server and setting up some fun extras like a Minecraft server. In the meantime I'll keep the Mac Pro in my utility closet and monitor the temperatures in case there's a problem with airflow.
+
+I'll update this post with a link to any future posts.
 
 ---
 

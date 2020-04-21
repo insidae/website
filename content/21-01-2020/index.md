@@ -5,7 +5,7 @@ category: "Main"
 date: "21/01/2020"
 slug: "Bash Profile"
 tags:
-    - web-dev
+    - development
 ---
 
 Okay, currently my bash_profile is in **serious** need of a refresh. This thing 

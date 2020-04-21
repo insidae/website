@@ -99,6 +99,8 @@
                         .date {
                             float: unset;
                             text-align: left;
+                            margin: 0 0 30px;
+                            padding: 0 40px;
                         }
 
                         .post-content {
@@ -233,6 +235,20 @@
 
                         .photo {
                             width: 100%;
+                        }
+                    }
+                }
+
+                .panel {
+                    &.tags {
+                        h2 {
+                            display: block;
+                            margin: 0 0 40px;
+                        }
+
+                        .tag-filter {
+                            margin: 25px 0;
+                            display: block;
                         }
                     }
                 }

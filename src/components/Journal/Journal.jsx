@@ -12,9 +12,9 @@ class Journal extends Component {
             Welcome to my Journal
           </h3>
           <p>
-            This is where I write my thoughts about web development and design in general, play 
-            around with new experiments and technologies, and try my hand at creating guides 
-            detailing the things I learn - and the mistakes I make along the way.
+            I try and write articles from time to time. Most cover aspects of design or web-development
+            but I occasionally tinker with hardware and have even been known to write book reviews. I also 
+            like to create the odd guide or two, detailing the things I'm learning or mistakes I've made.
           </p>
         </div>
       </div>
