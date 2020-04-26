@@ -142,6 +142,39 @@ ul {
                                 padding: 20px 0;
                             }
                         }
+
+                        &.diagram {
+                            .gatsby-resp-image-background-image {
+                                background-image: none !important;
+                            }
+                            .gatsby-resp-image-image{
+                                box-shadow: none !important;
+                                padding: 40px;
+                            }
+                        }
+
+                        &.posters {
+                            padding: 35px 30px 10px 15px;
+
+                            .gatsby-resp-image-wrapper {
+                                display: inline-block !important;
+                                width: 21%;
+                                margin: 0 0 20px 22px !important;
+                            }
+                        }
+                    }
+
+                    .screenshot {
+                        margin-left: -20px;
+                        max-width: 660px;
+
+
+                        .gatsby-resp-image-background-image {
+                            background-image: none !important;
+                        }
+                        .gatsby-resp-image-image{
+                            box-shadow: none !important;
+                        }
                     }
 
                     .book-info {

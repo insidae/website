@@ -8,6 +8,8 @@ tags:
     - development
 ---
 
+<!--- NOTE: This is the first of a type of post I'd like to update over time --->
+
 Okay, currently my bash_profile is in **serious** need of a refresh. This thing 
 has been following me around for **years**, from job to job, laptop to laptop, and I'm not even 
 sure what half of it does anymore. There are some bits I use frequently and 
