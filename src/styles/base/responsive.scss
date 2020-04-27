@@ -128,6 +128,12 @@
                                         padding: 15%;
                                     }
                                 }
+
+                                &.posters {
+                                    .gatsby-resp-image-wrapper {
+                                        width: 40%;
+                                    }
+                                }
                             }
 
                             .book-info {
@@ -169,6 +175,23 @@
 
                     .panel {
                         width: 100%;
+
+                        &.reading {
+                            display: inline-block;
+                            padding: 15px 15px 15px 40px;
+
+                            .book-cover {
+                                width: 30%;
+                                float: right;
+                            }
+
+                            h2,
+                            .post-listing,
+                            .more {
+                                width: 60%;
+                                float: left;
+                            }
+                        }
                     }
                 }
 
