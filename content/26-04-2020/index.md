@@ -109,20 +109,22 @@ You can see just how many coordinate points this horse and rider have. The light
     <img src="/horse-outline.png" alt="A screenshot showing how many points and coordinates make up the horse and rider" />
 </div>
 
-You can see how a more complicated illustration would take a long time to create using vector graphics. That's partly the reason I've opted to use this vintage travel poster as an example here.
-
-Once finished, we have a nicely crisp and sharp recreation of the original design!
-
-<div class="screenshot">
-    <img src="/vienna-vector.png" alt="The final vector version of the Vienna travel poster" />
-</div>
+Each new shape you draw builds up detail, and eventually you'll have a lot of different elements. That's why it's a good idea to organise these elements into groups as you go (the horse and rider in the foreground could be grouped with the highlights, and possibly even the highlights for the plinth it stands on).
 
 <div class="note diagram">
     <h3>Layers</h3>
     <p>
         We can split this design into layers by estimating how distant each element is from the viewers' perspective. Apart from being a neat way to organise our work, we can use these later to create an interesting visual effect.
     </p>
-    <img class="diagram" src="/Vienna-Layers-Perspective.png" alt="The poster split into different layers" />
+    <img class="diagram" src="/layer-perspective.png" alt="The poster split into different layers" />
+</div>
+
+You can see how a more complicated illustration would take a long time to create using vector graphics. That's partly the reason I've opted to use this relatively simple vintage travel poster as an example.
+
+Once finished, we have a nicely crisp and sharp recreation of the original design!
+
+<div class="screenshot">
+    <img src="/vienna-vector.png" alt="The final vector version of the Vienna travel poster" />
 </div>
 
 We now have a vectorised version of the Vienna travel poster that can scale infinitely without losing definition. I'll revisit this in a future article and use the individual layers to create a sense of depth by utilising the parallax effect.
