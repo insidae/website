@@ -237,6 +237,24 @@ footer {
         }
     }
 
+    .hero {
+        background-color: $grey-1;
+        display: inline-block;
+        float: left;
+        margin: 30px;
+        padding: 40px 50px 55px;
+        width: 62%;
+    }
+
+    .footer-links {
+        display: inline-block;
+        margin: 40px 20px 0;
+
+        a {
+            display: block;
+            margin: 8px 0;
+        }
+    }
     
     .user-links {
         float: right;

@@ -13,6 +13,10 @@ export default class Footer extends Component {
     return (
       <footer>
         <div className="footer-container">
+          <div className="hero">
+            <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
+            <h1 className="logotype">insidae</h1>
+          </div>
           <UserLinks config={config} labeled />
           <div className="links">
             <a

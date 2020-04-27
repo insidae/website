@@ -71,9 +71,23 @@
                 }
             }
 
-            .links a {
-                float: left;
-                width: 100%;
+            .hero {
+                font-size: 12px;
+                width: 84%;
+
+                .logo {
+                    width: 50px;
+                }
+
+                .logotype {
+                    margin: 20px 15px;
+                    top: -20px;
+                }
+            }
+
+            .footer-links {
+                display: block;
+                margin: 0 40px;
             }
         }
 
@@ -225,6 +239,14 @@
                             }
                         }
                     }
+                }
+            }
+        }
+
+        footer {
+            .footer-container {
+                .hero {
+                    width: 55%;
                 }
             }
         }

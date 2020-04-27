@@ -6,7 +6,11 @@ export default class Footer extends Component {
     return (
       <footer>
         <div className="footer-container">
-          <div className="links">
+          <div className="hero">
+            <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
+            <h1 className="logotype">insidae</h1>
+          </div>
+          <div className="footer-links">
             <a
               href="https://github.com/insidae"
               target="_blank"
@@ -42,6 +46,7 @@ export default class Footer extends Component {
             >
               View source
             </a>
+            <p>Email: matt@insidae.com</p>
           </div>
         </div>
       </footer>
