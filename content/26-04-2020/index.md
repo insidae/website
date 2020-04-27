@@ -11,9 +11,9 @@ tags:
 
 <!--- NOTE: Still in quarantine due to COVID-19. I've been wanting to write this post for years. --->
 
-There's a list of topics I wanted to cover in this journal and vector graphics are near the top. So today we'll take a look at what exactly vector graphics are and why they're such an important tool for web developers.
+There's a list of topics I wanted to cover in this journal and working with vector graphics is an interesting one. So today we'll take a look at what exactly vector graphics are and why they're such an important tool for web developers.
 
-As it happens, I've been looking for an excuse to practice illustrating something vector-based rather than bitmap for a while, and there's a subject near and dear to my heart that would be a perfect fit for this... Vintage travel posters.
+As it happens, I've been looking for an excuse to practice illustrating something vector-based for a while, and there's a subject near and dear to my heart that would be a perfect fit for this... Vintage travel posters.
 
 <div class="note posters">
     <img class="poster" src="/Austria.jpg" alt="Holidays in Austria" />
@@ -28,7 +28,9 @@ As it happens, I've been looking for an excuse to practice illustrating somethin
 
 > "Vintage travel posters, especially those from the 1910's and 20's, are absolutely beautiful."
 
-They're visually dynamic and evoke a more romantic, adventurous sense of travel than we know today. They also have a few interesting design choices in common, namely a limited colour palette and a strong perspective. Many of them use simplified shapes and flat colours too, and it's these reasons that make them well-suited for being recreated using vector graphics.
+They're visually dynamic and evoke a more romantic, adventurous sense of travel than we know today. They also have a few interesting design choices in common.
+
+Namely, a limited colour palette and a strong perspective. Many of them use simplified shapes and flat colours too, and it's these reasons that make them well-suited for design using vector graphics.
 
 So, what is a vector graphic?
 
@@ -39,17 +41,17 @@ So, what is a vector graphic?
 Wikipedia says;&nbsp;&nbsp; 
 **"Vector graphics are computer graphics images that are defined in terms of 2D points, which are connected by lines and curves to form polygons and other shapes."**
 
-In layman's terms, vector graphics are images made out of maths instead of pixels. Like drawing a square using four coordinates rather than lots of smaller squares. There are advantages and disadvantages to using them.
+In layman's terms, **vector graphics are images made out of maths instead of pixels.** Like drawing a square using four coordinates rather than lots of smaller squares. There are advantages and disadvantages to using them.
 
-Because they're not made out of pixels, you can scale them infinitely and they will stay crisp and sharp (no blurry pixelated mess like in the screenshot below). For this reason, they're referred to as &nbsp;**SVGs**&nbsp; or scalable vector graphics when talking about them in regards to web development.
+Because they're not made out of pixels, you can scale them infinitely and they will stay crisp and sharp (no blurry pixelated mess like in the screenshot below). For this reason, they're referred to as **SVGs**, or scalable vector graphics when talking about them in regards to web development.
 
 <div class="screenshot">
     <img src="/pixelated.png" alt="A screenshot showing the difference between a shape, one a bitmap, the other a vector" />
 </div>
 
-Due to an SVG being a series of numbers and coordinates, they are often much smaller in filesize compared to bitmap images too. The main disadvantage to SVGs is their inability to render smooth gradients or lots of tiny details very easily. That's why photos are never rendered using vector graphics.
+Also, because an SVG is made up of coordinates instead of pixels, they are often much smaller in filesize compared to bitmap images. The main disadvantage to SVGs is their inability to render smooth gradients or lots of tiny details very easily. That's why photos are never rendered using vector graphics.
 
-They are very well suited for things such as icons or simple illustrations though.
+However they **are** very well suited for things such as icons or simple illustrations.
 
 Which brings us to our vintage travel poster:
 
@@ -65,7 +67,7 @@ Which brings us to our vintage travel poster:
     <img class="cover" src="/Vienna.jpg" alt="Vienna Travel Poster" />
 </div>
 
-This travel poster for Vienna is an ideal example of the type of design which could work really well as a vector illustration. It has clear contrasting lines, flat colours, and a relatively small amount of detail.
+This travel poster for Vienna is an ideal example of the type of design that translates really well to a vector illustration. It has clear contrasting lines, flat colours, and a relatively small amount of detail.
 
 What's even more useful is that we can clearly make out which elements are sat in front of each other. This might not sound like much, but it means we can deconstruct the image and play with the perspective using an effect called parallax (but we'll save that for another time).
 
@@ -75,9 +77,9 @@ For now, let's get started turning this vintage poster design into a nice clean 
 
 ## Creating SVGs
 
-There are many different ways to work with vector graphics, &nbsp;**Adobe Illustrator**&nbsp; being a well-known example, but my preferred tool is an app called Sketch. It's only available for Mac but has a lot of incredible features and is especially great when designing UI or prototyping software.
+There are many different ways to work with vector graphics, [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) being a well-known example, but my preferred tool is an app called [Sketch](https://www.sketch.com/). It's only available for Mac but has a lot of incredible features and is especially useful when designing UI or prototyping software.
 
-For a project like this, I can use the original poster design as a template to draw shapes over the top of. This ensures my vectorised version is as accurate as possible to the original. So let's begin.
+For a project like this, I can use the original poster design as a template to draw shapes over the top of. This ensures my vectorised version is as accurate as possible. So let's start by importing the original poster into Sketch.
 
 <div class="screenshot">
     <img src="/beginning.png" alt="A screenshot showing the original travel poster in Sketch" />
@@ -107,7 +109,7 @@ You can see just how many coordinate points this horse and rider have. The light
     <img src="/horse-outline.png" alt="A screenshot showing how many points and coordinates make up the horse and rider" />
 </div>
 
-A more complicated illustration would take a long time to create. That's partly the reason I've opted to use this vintage travel poster as an example.
+You can see how a more complicated illustration would take a long time to create using vector graphics. That's partly the reason I've opted to use this vintage travel poster as an example here.
 
 Once finished, we have a nicely crisp and sharp recreation of the original design!
 
@@ -122,3 +124,7 @@ Once finished, we have a nicely crisp and sharp recreation of the original desig
     </p>
     <img class="diagram" src="/Vienna-Layers-Perspective.png" alt="The poster split into different layers" />
 </div>
+
+We now have a vectorised version of the Vienna travel poster that can scale infinitely without losing definition. I'll revisit this in a future article and use the individual layers to create a sense of depth by utilising the parallax effect.
+
+A link to that article will be here once it's available.
