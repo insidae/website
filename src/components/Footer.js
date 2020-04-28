@@ -47,6 +47,7 @@ export default class Footer extends Component {
               View source
             </a>
             <p>Email: matt@insidae.com</p>
+            <p>Minecraft Server: 86.8.174.19:25565</p>
           </div>
         </div>
       </footer>

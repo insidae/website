@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} !=443
-RewriteRule ^(.*)$ https://insidae.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.insidae.com/$1 [R=301,L]
