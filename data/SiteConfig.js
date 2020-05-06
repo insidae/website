@@ -3,18 +3,18 @@ const config = {
   siteTitleShort: "insidae", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "insidae.com, home of Matt Thomas", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://insidae.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://www.insidae.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "My current personal website. Serves as a portfolio, journal, and introduction to who I am.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  googleAnalyticsID: "", // GA tracking ID.
+  disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Thoughts", // Default category for posts.
   dateFromFormat: "DD/MM/YYYY", // Date format used in the frontmatter.
   dateFormat: "MMMM Do, YYYY", // Date format for display.
   userName: "Matt", // Username to display in the author segment.
   userEmail: "matt@insidae.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "lycanstrife", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "London, UK", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
