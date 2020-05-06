@@ -197,6 +197,27 @@ ul {
                         }
                     }
                 }
+
+                .social-links {
+                    background-color: $grey-1;
+                    padding-top: 20px;
+                    margin-bottom: 30px;
+
+                    h2 {
+                        margin-left: 20px;
+                    }
+                }
+
+                .prev-post,
+                .next-post {
+                    display: inline-block;
+                    font-weight: 300;
+                    padding: 10px 40px 40px;
+                }
+
+                .next-post {
+                    float: right;
+                }
             }
         }
     }

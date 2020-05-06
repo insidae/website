@@ -43,6 +43,3 @@ They're the type of websites I've been grateful for.
 I'd also like for it to still be live and available online for years and years to come. The look and feel of the site will likely change and evolve as time goes by, but I really enjoy the idea of my older journal posts still being public when the year 2019 seems a distant memory.
 
 So... we're aiming for educational and reliable. That's the plan for now. If it's nice to look at too, well that's just a bonus.
-
----
-

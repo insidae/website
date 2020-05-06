@@ -46,7 +46,7 @@ export default JournalPage;
 export const pageQuery = graphql`
   query JournalQuery {
     allMarkdownRemark(
-      limit: 2000
+      limit: 100
       sort: { fields: [fields___date], order: DESC }
     ) {
       edges {

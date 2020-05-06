@@ -74,6 +74,3 @@ GitHub is easily the most well-known place to host public and private Git reposi
 **Other Options:** [LESS](http://lesscss.org/), [Stylus](http://stylus-lang.com/)
 
 A preprocessor is a program that takes a bit of code and compiles it into a different bit of code. In the case of CSS preprocessors, we’re compiling the Sass language into regular old CSS that the browser can interpret. I like having the ability to define variables, nest, create loops, and organize my project into multiple files, all of which and more I can do with Sass, specifically the `.scss` extension. I started with LESS, but as Sass grew in popularity, I switched over and now prefer it.
-
----
-

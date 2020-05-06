@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../layout";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
@@ -12,7 +12,7 @@ import "./post.css";
 export default class PostTemplate extends React.Component {
   render() {
     const { data, pageContext } = this.props;
-    const { slug } = pageContext;
+    const { slug, nextslug, prevslug, nexttitle, prevtitle } = pageContext;
     const postNode = data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.id) {
@@ -37,6 +37,16 @@ export default class PostTemplate extends React.Component {
               <div className="post-meta">
                 <SocialLinks postPath={slug} postNode={postNode} />
               </div>
+              <Link to={nextslug} className="prev-post">
+                <strong>Previous Article</strong>
+                <br />
+                {nexttitle}
+              </Link>
+              <Link to={prevslug} className="next-post">
+                <strong>Next Article</strong>
+                <br />
+                {prevtitle}
+              </Link>
             </div>
           </div>
         </div>

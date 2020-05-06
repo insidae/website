@@ -39,15 +39,8 @@ export default class Footer extends Component {
             >
               RSS
             </a>
-            <a
-              href="https://github.com/insidae/website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View source
-            </a>
-            <p>Email: matt@insidae.com</p>
-            <p>Minecraft Server: 86.8.174.19:25565</p>
+            <p>Email: &nbsp;&nbsp;matt@insidae.com</p>
+            <p>Minecraft Server: &nbsp;&nbsp;86.8.174.19:25565</p>
           </div>
         </div>
       </footer>
