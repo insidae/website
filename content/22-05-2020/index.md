@@ -11,7 +11,7 @@ tags:
 
 <!--- NOTE: Still in lockdown here in the UK. Anticipating a second wave of infections --->
 
-I ofetn ask people for book recommendations. I end up reading all sorts of things I wouldn't have otherwise discovered, but every now and then, several people mention the same title and I know it must be something special.
+I often ask people for book recommendations. I end up reading all sorts of things I wouldn't have otherwise discovered, but every now and then several people mention the same title and I know it must be something special.
 
 <blockquote>"Snow Crash seems to be on everyone's 'must-read' list."</blockquote>
 
@@ -21,7 +21,7 @@ For a book absolutely overflowing with crazy imagery and creativity, there were 
 
 The first was the concept of a database having a VR interface. Resembling a library you could inhabit, complete with a Librarian to query. Like Wikipedia on steroids, I can imagine it being an ideal environment for thinking through a problem, voicing your thoughts out loud, and having a program respond or even prompt you with adjacent contextual information.
 
-The second was Stephenson's metaphor of language as code, specifically the concept of a 'neurolinguistic virus' that makes the human brain vulnerbale to manipulation. In the novel, the aforementioned Librarian establishes a connection between the Tower of Babel and this neurolinguistic virus commenting on the disappearance of the Sumerian language.
+The second was Stephenson's analogy of language as code, specifically the concept of a 'neurolinguistic virus' that makes the human brain vulnerbale to manipulation. In the novel, the aforementioned Librarian establishes a connection between the Tower of Babel and this neurolinguistic virus commenting on the disappearance of the Sumerian language.
 
 Snow Crash is a book that sparked my imagination.
 
