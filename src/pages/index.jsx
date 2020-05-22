@@ -63,7 +63,7 @@ class Index extends React.Component {
             </div>
             <div className="panel reading padded">
               <h2>Reading...</h2>
-              <img className="book-cover" src="/images/Cover_Original_Shoe_Dog.jpg" alt="Book Cover" />
+              <img className="book-cover" src="/images/Cover_Original_Snow_Crash.jpg" alt="Book Cover" />
               <PostListing postEdges={readingPostEdges} />
               <Link class="more" to="/journal">See more...</Link>
             </div>
