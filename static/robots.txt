@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: http://insidae.com/sitemap.xml
+sitemap: https://insidae.com//sitemap.xml
