@@ -49,7 +49,7 @@ Because they're not made out of pixels, you can scale them infinitely and they w
     <img src="/pixelated.png" alt="A screenshot showing the difference between a shape, one a bitmap, the other a vector" />
 </div>
 
-Also, because an SVG is made up of coordinates instead of pixels, they are often much smaller in filesize compared to bitmap images. The main disadvantage to SVGs is their inability to render smooth gradients or lots of tiny details very easily. That's why photos are never rendered using vector graphics.
+Also, because an SVG is made up of coordinates instead of pixels, they are often much smaller in file size compared to bitmap images. The main disadvantage to SVGs is their inability to render smooth gradients or lots of tiny details very easily. That's why photos are never rendered using vector graphics.
 
 However they **are** very well suited for things such as icons or simple illustrations.
 

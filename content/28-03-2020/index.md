@@ -39,7 +39,7 @@ My reasoning being that the earlier 1,1 and 2,1 models were already too obsolete
 
 ### Dredging through eBay
 
-I made a few non-committal bids and unsurprisingly lost about three seperate machines to higher bidders. It turns out I'm not an expert when it comes to eBay.
+I made a few non-committal bids and unsurprisingly lost about three separate machines to higher bidders. It turns out I'm not an expert when it comes to eBay.
 
 After a bit more in-depth searching, I managed to find one I really liked. It had a good configuration and looked to be pristine from the photos. Even better, it was a new posting and didn't seem to be garnering too much attention just yet. Next was seriously deciding how much I was willing to pay for it (anything more than £400 all-in would be too much on this project right now). 
 
@@ -57,7 +57,7 @@ I then had to buy a [3mm extra-long T-Handle hex key wrench](https://www.amazon.
 
 This Mac Pro actually came with four 500GB hard drives installed. But I want to keep all four of the Mac Pro's hard drive bays free for a RAID array, so I needed an alternative option for the boot drive.
 
-This lead to the additional purchase of an [OWC Accelsior S PCIe Adapter for 2.5" SATA III SSD Drives](https://www.amazon.co.uk/gp/product/B00WUZPMHE/ref=ppx_yo_dt_b_asin_title_o07_s00), which has the added benefit of faster read and write speeds over the SATA II ports, and a brand new [500GB Western Digital SSD](https://www.amazon.co.uk/gp/product/B073SBZ8YH/ref=ppx_yo_dt_b_asin_title_o08_s01) to boot from. This modest shopping list left me with the following specification.
+This led to the additional purchase of an [OWC Accelsior S PCIe Adapter for 2.5" SATA III SSD Drives](https://www.amazon.co.uk/gp/product/B00WUZPMHE/ref=ppx_yo_dt_b_asin_title_o07_s00), which has the added benefit of faster read and write speeds over the SATA II ports, and a brand new [500GB Western Digital SSD](https://www.amazon.co.uk/gp/product/B073SBZ8YH/ref=ppx_yo_dt_b_asin_title_o08_s01) to boot from. This modest shopping list left me with the following specification.
 
 - Processor - 2 x 2.8 GHz Quad-Core Intel Xeon
 - Memory - 32 GB 800 MHz DDR2 FB-DIMM
@@ -68,7 +68,7 @@ This lead to the additional purchase of an [OWC Accelsior S PCIe Adapter for 2.5
 <div class="note illustration">
     <h3>Life in the fast lane</h3>
     <p>
-        The 2008 Mac Pro also has dual Gigabit Ethernet ports allowing for fast transfer of data over the home network. I really only needed one port, but the second allows me to add additional network hardware futher down the line.
+        The 2008 Mac Pro also has dual Gigabit Ethernet ports allowing for fast transfer of data over the home network. I really only needed one port, but the second allows me to add additional network hardware further down the line.
     </p>
     <img class="illustration" src="/icons/server_ethernet.svg" alt="server illustration" />
 </div>

@@ -39,7 +39,7 @@ I'll try and update this post as my setup changes.
 
 **Other Options:** [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Brackets](http://brackets.io/)
 
-I personally started out with the default text editors on Mac and Windows (TextEdit and Notepad respectively), then briefly used TextMate on Mac where I discovered the benfits of syntax-highlighting for the first time. After that I used Sublime Text on both platforms for several years and enjoyed plugins and extensions through Package Control.
+I personally started out with the default text editors on Mac and Windows (TextEdit and Notepad respectively), then briefly used TextMate on Mac where I discovered the benefits of syntax-highlighting for the first time. After that I used Sublime Text on both platforms for several years and enjoyed plugins and extensions through Package Control.
 
 Then it seemed as though Atom and VS Code came along at the same time and offered a sleek modern experience focused on writing code. Both are well-loved by the web development communities but I opted for VS Code and haven't looked back. I don't currently use an Integrated Development Environment (IDE) but I've been itching to try [Coda](https://panic.com/coda/) for years (I hear the developers are working on a successor called [Nova](https://panic.com/nova/).)
 
