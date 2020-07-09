@@ -21,7 +21,7 @@ For a book absolutely overflowing with crazy imagery and creativity, there were 
 
 The first was the concept of a database having a VR interface. Resembling a library you could inhabit, complete with a Librarian to query. Like Wikipedia on steroids, I can imagine it being an ideal environment for thinking through a problem, voicing your thoughts out loud, and having a program respond or even prompt you with adjacent contextual information.
 
-The second was Stephenson's analogy of language as code, specifically the concept of a 'neuro linguistic virus' that makes the human brain vulnerable to manipulation. In the novel, the aforementioned Librarian establishes a connection between the Tower of Babel and this neurolinguistic virus commenting on the disappearance of the Sumerian language.
+The second was Stephenson's analogy of language as code, specifically the concept of a 'neuro linguistic virus' that makes the human brain vulnerable to manipulation. In the novel, the aforementioned Librarian establishes a connection between the Tower of Babel and this neurolinguistic virus, commenting on the disappearance of the Sumerian language.
 
 Snow Crash is a book that sparked my imagination.
 
