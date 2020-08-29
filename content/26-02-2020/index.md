@@ -1,11 +1,11 @@
 ---
 title: "Shoe Dog"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Reading"
+category: "Writing"
 date: "26/02/2020"
 slug: "Shoe Dog"
 tags:
-    - reading
+    - writing
     - thoughts
 ---
 

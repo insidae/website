@@ -104,6 +104,10 @@ ul {
                         margin: 1.5em 0;
                         max-width: 60%;
                         //opacity: 0.5;
+
+                        &.short-quote {
+                            max-width: unset;
+                        }
                     }
 
                     hr {
@@ -194,6 +198,12 @@ ul {
                             width: 44%;
                             float: right;
                             margin: 0 0 4em 4em !important;
+
+                            .gatsby-resp-image-link {
+                                .gatsby-resp-image-image {
+                                    box-shadow: none !important;
+                                }
+                            }
                         }
                     }
                 }

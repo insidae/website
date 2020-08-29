@@ -8,7 +8,7 @@ tags:
     - design
     - thoughts
     - development
-    - reading
+    - writing
 ---
 
 <!--- NOTE: I want this post to go live on my 30th birthday --->

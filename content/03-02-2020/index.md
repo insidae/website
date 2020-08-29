@@ -1,11 +1,11 @@
 ---
 title: "Jurassic Park"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Reading"
+category: "Writing"
 date: "03/02/2020"
 slug: "Jurassic Park"
 tags:
-    - reading
+    - writing
     - thoughts
 ---
 

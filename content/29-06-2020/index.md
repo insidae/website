@@ -1,11 +1,11 @@
 ---
 title: "Player of Games"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Reading"
+category: "Writing"
 date: "29/06/2020"
 slug: "Player of Games"
 tags:
-    - reading
+    - writing
     - thoughts
 ---
 

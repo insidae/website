@@ -13,7 +13,7 @@ class Index extends React.Component {
     const { data } = this.props;
 
     const postEdges = data.allMarkdownRemark.edges;
-    const readingPostEdges = data.reading.edges;
+    const writingPostEdges = data.writing.edges;
 
     return (
       <Layout>
@@ -62,9 +62,9 @@ class Index extends React.Component {
               <Link class="more" to="/journal">See more...</Link>
             </div>
             <div className="panel reading padded">
-              <h2>Reading...</h2>
-              <img className="book-cover" src="/images/Cover_Original_Current.jpg" alt="Book Cover" />
-              <PostListing postEdges={readingPostEdges} />
+              <h2>Writing...</h2>
+              <img className="book-cover" src="/images/Cover_Mockup_The_Repository.png" alt="Book Cover" />
+              <PostListing postEdges={writingPostEdges} />
               <Link class="more" to="/journal">See more...</Link>
             </div>
           </div>
@@ -101,10 +101,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    reading: allMarkdownRemark(
+    writing: allMarkdownRemark(
       limit: 1
       sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { category: { eq: "Reading" } } }
+      filter: { frontmatter: { category: { eq: "Writing" } } }
     ) {
       edges {
         node {

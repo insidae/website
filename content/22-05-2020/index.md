@@ -1,11 +1,11 @@
 ---
 title: "Snow Crash"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Reading"
+category: "Writing"
 date: "22/05/2020"
 slug: "Snow Crash"
 tags:
-    - reading
+    - writing
     - thoughts
 ---
 
