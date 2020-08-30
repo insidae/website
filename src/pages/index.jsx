@@ -34,21 +34,21 @@ class Index extends React.Component {
             </ol>
           </div>
           <div className="columns two">
-            <div className="panel padded red">
-              <h2>
+            <div className="panel red">
+              <h2 className="heading">
                 My name's Matt Thomas
               </h2>
-              <p>
+              <p className="copy">
                 I'm a web-developer and am currently based in London, UK. Well-versed
                 in design and front-end web development, I built this website to keep
                 track of my progress and showcase my interests.
               </p>
             </div>
-            <div className="panel padded blue">
-              <h2>
+            <div className="panel blue">
+              <h2 className="heading">
                 I am currently...
               </h2>
-              <p>
+              <p className="copy">
                 Employed full-time as a UI Designer / Front-end Developer. I'm also working on side projects 
                 (such as <a href="https://github.com/insidae/Status-Board" target="blank"><b>HomeScreen</b></a>
                 ), rebuilding this website in Gatsby, and sitting down to write whenever I can.
@@ -56,13 +56,13 @@ class Index extends React.Component {
             </div>
           </div>
           <div className="columns three">
-            <div className="panel padded large green">
-              <h2>Latest Articles</h2>
+            <div className="panel large green">
+              <h2 className="heading">Latest Articles</h2>
               <PostListing postEdges={postEdges} />
               <Link class="more" to="/journal">See more...</Link>
             </div>
-            <div className="panel reading padded">
-              <h2>Writing...</h2>
+            <div className="panel writing">
+              <h2 className="heading">Writing...</h2>
               <img className="book-cover" src="/images/Cover_Mockup_The_Repository.png" alt="Book Cover" />
               <PostListing postEdges={writingPostEdges} />
               <Link class="more" to="/journal">See more...</Link>
@@ -90,7 +90,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt
+          excerpt(pruneLength: 180)
           timeToRead
           frontmatter {
             title
@@ -112,7 +112,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt
+          excerpt(pruneLength: 70)
           timeToRead
           frontmatter {
             title
