@@ -135,7 +135,8 @@ ul {
                         &.illustration {
                             display: inline-block;
 
-                            p {
+                            p,
+                            ul {
                                 width: 53%;
                                 float: left;
                             }
