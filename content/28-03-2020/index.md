@@ -99,4 +99,4 @@ All that remained was to clean the heatsinks, apply the new thermal paste, and t
 
 Next up is buying and installing the rest of the large capacity hard drives, and then migrating my media server and setting up some fun extras like a Minecraft server. In the meantime I'll keep the Mac Pro in my utility closet and monitor the temperatures in case there's a problem with airflow.
 
-I'll update this post with a link to any future posts.
+**Update:** You can now read the follow-up post [here](/home-server-part-two).

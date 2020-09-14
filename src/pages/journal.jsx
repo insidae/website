@@ -30,8 +30,8 @@ class JournalPage extends Component {
               )
             })}
           </div>
-          <div className="panel padded green journal-posts">
-            <h2>Latest Articles</h2>
+          <div className="panel green journal-posts">
+            <h2 className="heading">Latest Articles</h2>
             <PostListing postEdges={postEdges} />
           </div>
         </div>

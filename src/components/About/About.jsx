@@ -20,8 +20,8 @@ class About extends Component {
         </div>
 
         <div className="columns one">
-          <div className="panel padded red">
-            <h2>
+          <div className="panel red">
+            <h2 className="heading">
               Relevant Skills
             </h2>
             <ul className="left-list">
@@ -44,8 +44,8 @@ class About extends Component {
         </div>
 
         <div className="columns two">
-          <div className="panel padded blue">
-            <h2>
+          <div className="panel blue">
+            <h2 className="heading">
               How I got started
             </h2>
             <div className="bio">
@@ -89,11 +89,11 @@ class About extends Component {
         </div>
 
         <div className="columns one">
-          <div className="panel padded green">
-            <h2>
+          <div className="panel green">
+            <h2 className="heading">
               About this website
             </h2>
-            <p>
+            <p className="copy">
               Built with Gatsby, I started designing this version 
               of my website in 2016. My very first website was a 
               monument to my own stubbornness, cobbled together 
