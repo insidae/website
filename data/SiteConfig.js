@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "insidae", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "insidae.com, home of Matt Thomas", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://www.insidae.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://insidae.com/", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "My current personal website. Serves as a portfolio, journal, and introduction to who I am.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.

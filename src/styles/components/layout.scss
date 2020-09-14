@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     line-height: 1.5;
-    background-color: $grey-1;
+    background-color: #1c1c1c;
     background-image:
         linear-gradient(rgba(255,255,255,.025) 2px, transparent 2px),
         linear-gradient(90deg, rgba(255,255,255,.025) 2px, transparent 2px),
@@ -216,11 +216,15 @@ ul {
 
                 .social-links {
                     background-color: $grey-1;
-                    padding-top: 20px;
+                    padding-top: 25px;
                     margin-bottom: 30px;
 
+                    button {
+                        margin-right: 5px;
+                    }
+
                     h2 {
-                        margin-left: 20px;
+                        margin: 0 0 0 20px;
                     }
                 }
 

@@ -59,13 +59,13 @@ class Index extends React.Component {
             <div className="panel large green">
               <h2 className="heading">Latest Articles</h2>
               <PostListing postEdges={postEdges} />
-              <Link class="more" to="/journal">See more...</Link>
+              <Link className="more" to="/journal">See more...</Link>
             </div>
             <div className="panel writing">
               <h2 className="heading">Writing...</h2>
               <img className="book-cover" src="/images/Cover_Mockup_The_Repository.png" alt="Book Cover" />
               <PostListing postEdges={writingPostEdges} />
-              <Link class="more" to="/journal">See more...</Link>
+              <Link className="more" to="/journal">See more...</Link>
             </div>
           </div>
         </div>

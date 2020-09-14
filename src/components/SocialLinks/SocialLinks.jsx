@@ -23,20 +23,20 @@ class SocialLinks extends Component {
     return (
       <div className="social-links">
         <RedditShareButton url={url} title={post.title}>
-          <RedditIcon rect size={iconSize} />
+          <RedditIcon size={iconSize} />
         </RedditShareButton>
         <TwitterShareButton url={url} title={post.title}>
-          <TwitterIcon rect size={iconSize} />
+          <TwitterIcon size={iconSize} />
         </TwitterShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FacebookIcon rect size={iconSize} />
+          <FacebookIcon size={iconSize} />
         </FacebookShareButton>
         <LinkedinShareButton
           url={url}
           title={post.title}
           description={postNode.excerpt}
         >
-          <LinkedinIcon rect size={iconSize} />
+          <LinkedinIcon size={iconSize} />
         </LinkedinShareButton>
         <h2>Share this article</h2>
       </div>
