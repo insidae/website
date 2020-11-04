@@ -37,6 +37,7 @@ class Index extends React.Component {
             <div className="panel red">
               <h2 className="heading">
                 My name's Matt Thomas
+                <span>01</span>
               </h2>
               <p className="copy">
                 I'm a web-developer and am currently based in London, UK. Well-versed
@@ -47,6 +48,7 @@ class Index extends React.Component {
             <div className="panel blue">
               <h2 className="heading">
                 I am currently...
+                <span>02</span>
               </h2>
               <p className="copy">
                 Employed full-time as a UI Designer / Front-end Developer. I'm also working on side projects 
@@ -57,12 +59,18 @@ class Index extends React.Component {
           </div>
           <div className="columns three">
             <div className="panel large green">
-              <h2 className="heading">Latest Articles</h2>
+              <h2 className="heading">
+                Latest Articles
+                <span>03</span>
+              </h2>
               <PostListing postEdges={postEdges} />
               <Link className="more" to="/journal">See more...</Link>
             </div>
             <div className="panel writing">
-              <h2 className="heading">Writing...</h2>
+              <h2 className="heading">
+                Writing...
+                <span>04</span>
+              </h2>
               <img className="book-cover" src="/images/Cover_Mockup_The_Repository.png" alt="Book Cover" />
               <PostListing postEdges={writingPostEdges} />
               <Link className="more" to="/journal">See more...</Link>
@@ -90,7 +98,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt(pruneLength: 180)
+          excerpt(pruneLength: 150)
           timeToRead
           frontmatter {
             title

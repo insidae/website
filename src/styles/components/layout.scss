@@ -252,6 +252,10 @@ footer {
 
 footer {
     margin-top: 4em;
+
+    p {
+        margin: 7px 0;
+    }
 }
 
 .nav-container,
@@ -375,6 +379,12 @@ footer {
         padding: 35px 40px 30px;
         margin: 0;
         border-bottom: 1px solid rgba(255,255,255,.25);
+
+        span {
+            float: right;
+            opacity: 0.1;
+            font-weight: 500;
+        }
     }
 
     .copy {
@@ -476,6 +486,14 @@ footer {
 
             &:nth-of-type(4) {
                 opacity: 0.5;
+            }
+        }
+
+        .tag-heading {
+            span {
+                float: right;
+                opacity: 0.1;
+                font-weight: 500;
             }
         }
     }

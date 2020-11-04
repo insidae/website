@@ -29,9 +29,15 @@ class JournalPage extends Component {
                 </Link>
               )
             })}
+            <h2 className="tag-heading">
+              <span>01</span>
+            </h2>
           </div>
           <div className="panel green journal-posts">
-            <h2 className="heading">Latest Articles</h2>
+            <h2 className="heading">
+              Latest Articles
+              <span>02</span>
+            </h2>
             <PostListing postEdges={postEdges} />
           </div>
         </div>
@@ -46,7 +52,7 @@ export default JournalPage;
 export const pageQuery = graphql`
   query JournalQuery {
     allMarkdownRemark(
-      limit: 100
+      limit: 20
       sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
@@ -55,7 +61,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt
+          excerpt(pruneLength: 130)
           timeToRead
           frontmatter {
             title

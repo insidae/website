@@ -23,6 +23,7 @@ class About extends Component {
           <div className="panel red">
             <h2 className="heading">
               Relevant Skills
+              <span>01</span>
             </h2>
             <ul className="left-list">
               <li>UI / UX Design &amp; Mock-ups</li>
@@ -47,6 +48,7 @@ class About extends Component {
           <div className="panel blue">
             <h2 className="heading">
               How I got started
+              <span>02</span>
             </h2>
             <div className="bio">
               <p>
@@ -89,6 +91,7 @@ class About extends Component {
           <div className="panel green">
             <h2 className="heading">
               About this website
+              <span>03</span>
             </h2>
             <p className="copy">
               Built with Gatsby, I started designing this version 
