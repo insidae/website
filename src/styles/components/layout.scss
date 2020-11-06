@@ -286,8 +286,8 @@ footer {
         background-color: $grey-1;
         float: left;
         margin: 30px;
-        padding: 40px 50px 55px;
-        width: 62%;
+        padding: 40px 50px 35px;
+        width: 32%;
     }
 
     .footer-links {
@@ -297,6 +297,11 @@ footer {
         a {
             display: block;
             margin: 8px 0;
+        }
+
+        a.footer-link {
+            display: inline-block;
+            margin: 0;
         }
     }
     
