@@ -19,7 +19,6 @@
             }
 
             .nav-mobile {
-                //display: none;
                 position: absolute;
                 background: $grey-2;
 
@@ -37,7 +36,7 @@
                         border-radius: 1px;
                         height: 5px;
                         width: 35px;
-                        background: #ffffff;
+                        background: $white;
                         position: absolute;
                         display: block;
                         content: '';
@@ -91,6 +90,10 @@
             }
         }
 
+        .footer-container .hero {
+            margin-bottom: 30px;
+        }
+
         #main-content {
             .container {
                 padding: 0 15px;
@@ -100,6 +103,19 @@
 
                     .panel {
                         width: 100%;
+                    }
+                }
+
+                .panel.tags {
+                    .tag-filter {
+                        margin: 25px 0;
+                        display: block;
+                    }
+                    
+
+                    .tag-heading {
+                        position: relative;
+                        top: -252px;
                     }
                 }
 
@@ -188,26 +204,35 @@
     body {
         #main-content {
             .container {
-                .columns.three {
-                    display: block;
+                .columns {
+                    .left-list {
+                        padding-bottom: 0;
+                    }
+                    .right-list {
+                        padding-top: 0;
+                    }
+                
+                    &.three {
+                        display: block;
 
-                    .panel {
-                        width: 100%;
+                        .panel {
+                            width: 100%;
 
-                        &.reading {
-                            display: inline-block;
-                            padding: 15px 15px 15px 40px;
+                            &.reading {
+                                display: inline-block;
+                                padding: 15px 15px 15px 40px;
 
-                            .book-cover {
-                                width: 30%;
-                                float: right;
-                            }
+                                .book-cover {
+                                    width: 30%;
+                                    float: right;
+                                }
 
-                            h2,
-                            .post-listing,
-                            .more {
-                                width: 60%;
-                                float: left;
+                                h2,
+                                .post-listing,
+                                .more {
+                                    width: 60%;
+                                    float: left;
+                                }
                             }
                         }
                     }
@@ -250,7 +275,11 @@
         footer {
             .footer-container {
                 .hero {
-                    width: 55%;
+                    width: 40%;
+                }
+
+                .footer-links {
+                    padding-top: 20px;
                 }
             }
         }
@@ -290,14 +319,11 @@
 
                 .panel {
                     &.tags {
+                        padding-bottom: 5px;
+
                         h2 {
                             display: block;
-                            margin: 0 0 40px;
-                        }
-
-                        .tag-filter {
-                            margin: 25px 0;
-                            display: block;
+                            margin: 0 0 30px;
                         }
                     }
                 }
