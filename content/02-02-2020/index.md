@@ -22,7 +22,7 @@ I'll try and update this post as my setup changes.
 <div class="note">
     <h3>Disclaimer</h3>
     <p>
-        It doesn't really matter what you use: Mac or Windows. Vim or Emacs. Tabs or spaces. Sass or LESS. If all the options didn't have merit, there wouldn't be an argument. This list is not meant to be an endorsement for or against anything, just one person's web development workflow.
+        It doesn't really matter what you use: Windows or Mac. Vim or Emacs. Tabs or spaces. Sass or LESS. If all the options didn't have merit, there wouldn't be an argument. This list is not meant to be an endorsement for or against anything, just one person's web development workflow.
     </p>
     <p>
         Try new things. Be open minded. Research. Discover what works best for you. Also, this is not an extensive list; this is my list.
@@ -74,3 +74,15 @@ GitHub is easily the most well-known place to host public and private Git reposi
 **Other Options:** [LESS](http://lesscss.org/), [Stylus](http://stylus-lang.com/)
 
 A preprocessor is a program that takes a bit of code and compiles it into a different bit of code. In the case of CSS preprocessors, we’re compiling the Sass language into regular old CSS that the browser can interpret. I like having the ability to define variables, nest, create loops, and organize my project into multiple files, all of which and more I can do with Sass, specifically the `.scss` extension. I started with LESS, but as Sass grew in popularity, I switched over and now prefer it.
+
+***
+
+## Transfer Application
+
+> "Helps upload, download, and manage files across multiple servers."
+
+### **I use:** [Transmit](https://panic.com/transmit/)
+
+**Other Options:** [Cyberduck](https://cyberduck.io/), [FileZilla](https://filezilla-project.org/)
+
+If you're making anything available online, it involves uploading things to servers. Whether that's photos, videos, text, web pages, or applications, it means moving files onto servers. To make that as easy as possible, we rely on applications (or web interfaces) to transfer those files across. My personal favourite is an app called Transmit (made by the same team behind Nova, Panic Software). It's only available on Mac but is far and away the best application when you need to manage files online.

@@ -121,12 +121,12 @@ Each new shape you draw builds up detail, and eventually you'll have a lot of di
 
 You can see how a more complicated illustration would take a long time to create using vector graphics. That's partly the reason I've opted to use this relatively simple vintage travel poster as an example.
 
-Once finished, we have a nicely crisp and sharp recreation of the original design!
+Once finished, we have a nicely crisp and sharp recreation of the original design.
 
 <div class="screenshot">
     <img src="/vienna-vector.png" alt="The final vector version of the Vienna travel poster" />
 </div>
 
-We now have a vectorised version of the Vienna travel poster that can scale infinitely without losing definition. I'll revisit this in a future article and use the individual layers to create a sense of depth by utilising the parallax effect.
+This is now a vectorised version of the Vienna travel poster that can scale infinitely without losing definition. I'll revisit this in a future article and use the individual layers to create a sense of depth by utilising the parallax effect.
 
 A link to that article will be here once it's available.
