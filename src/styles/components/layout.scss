@@ -13,10 +13,6 @@ body {
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
-h2 {
-    font-size: 1.2em;
-}
-
 a {
     color: $white;
     text-decoration: none;
@@ -39,6 +35,10 @@ a {
     }
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
 ul {
     li {
         line-height: 1.75;
@@ -51,6 +51,10 @@ ul {
         margin: 0;
         padding: 40px 30px 40px 60px;
     }
+}
+
+img {
+    box-shadow: none !important;
 }
 
 #main-content {
@@ -321,6 +325,10 @@ footer {
             }
         }
     }
+}
+
+.footer-container {
+    margin-top: 50px;
 }
 
 .hero {

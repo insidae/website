@@ -11,11 +11,11 @@ tags:
 
 <!--- NOTE: I'm still fortunate enough to work remotely, but people are no longer being sensible re: Covid-19 --->
 
-Have anyone ever spontaneously decided to write a novel? 
+Does anyone ever spontaneously decide to write a novel? 
 
 I doubt anyone would suggest 'spontaneity' as a key factor in any task that usually requires several years to complete. But here we are. I spontaneously decided to start writing a novel last year.
 
-Even acknowledging it on here still seems faintly ridiculous, but I was turning thirty and it got me thinking about what I'd achieved so far in life (you know, in the way only a scary milestone can do).
+Even acknowledging it here still seems ridiculous, but I was turning thirty and it got me thinking about what I'd achieved so far in life (in the way only a scary milestone can do).
 
 When it first occurred to me to try writing a novel (in a kebab shop, at precisely 22:05 on the 2nd of October, 2019) I realised there were several ideas I'd been thinking about already. The catalyst was actually an old saying I must have heard repeated a million times;
 
@@ -23,7 +23,7 @@ When it first occurred to me to try writing a novel (in a kebab shop, at precise
 
 It's an old proverb, usually interpreted as meaning **"Different things are appropriate on different occasions"**. Variations of the saying have been attributed to Benjamin Franklin and can be found as far back as the Old Testament.
 
-I couldn't help but imagine what it would mean to take the saying literally. Like what if there really **was** a time and a place for everything. What would that be like, and how would it work?
+I couldn't help but imagine what it would mean to take the saying literally. What if there really **was** a time and a place for everything. What would that be like, and how would it work?
 
 "Who decides the time and place?"
 

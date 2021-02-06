@@ -12,6 +12,7 @@ const config = {
   postDefaultCategoryID: "Thoughts", // Default category for posts.
   dateFromFormat: "DD/MM/YYYY", // Date format used in the frontmatter.
   dateFormat: "MMMM Do, YYYY", // Date format for display.
+  postsPerPage: 4, // Amount of posts displayed per listing page. Set to zero to disable paging. See the "Pagination" section.
   userName: "Matt", // Username to display in the author segment.
   userEmail: "matt@insidae.com", // Email used for RSS feed's author segment
   userTwitter: "lycanstrife", // Optionally renders "Follow Me" in the UserInfo segment.
