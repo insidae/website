@@ -1,7 +1,7 @@
 ---
 title: "Cyberpunk 2077"
 cover: "https://unsplash.it/400/300/?random?BigTest"
-category: "Design"
+category: "Main"
 date: "06/01/2021"
 slug: "Cyberpunk 2077"
 tags:

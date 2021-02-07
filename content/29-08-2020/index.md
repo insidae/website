@@ -33,23 +33,23 @@ This second part was supposed to focus on the software side of things, but the o
 
 Almost immediately after finishing that last article, I discovered that my first ever graphics card was compatible with the Mac Pro 3,1. It's an old [Nvidia GTX 670](https://www.amazon.co.uk/Palit-GeForce-Graphics-Architecture-Surround/dp/B00822ZZS0) which launched in May 2012, but it's also twice as powerful as the one that came with the server so it makes sense.
 
-Unfortunately you can't just plug a new graphics card in and expect it to work. A GPU is often quite a power-hungry component and usually requires more wattage than can be provided through a standard PCIE slot. This is normally solved by running an extra power cable from the power supply, but the power supply here is not a modular unit and doesn't have any spare cables.
+Unfortunately you can't just plug a new graphics card in and expect it to work. A GPU usually requires more wattage than can be provided through a standard PCIE slot. This is normally solved by running an extra power cable from the power supply, but the power supply here is not a modular unit and doesn't have any spare cables.
 
 > "Building a PC would have been much easier."
 
-So then, how are you able to install a graphics card inside a Mac Pro 3,1 in the first place? As it happens, Apple designed some special mini 6-pin connectors on the motherboard that you can run power cables from. Neat.
+So then, how are you able to install a graphics card inside a Mac Pro 3,1 in the first place? As it happens, Apple designed special mini 6-pin connectors on the motherboard that you can run power cables from. Neat.
 
-So I found the correct cable, a [Small 6 Pin to PCI-E 6PIN Graphics Video Card Power Cable](https://www.amazon.co.uk/BGNing-Small-Graphics-Video-Connector/dp/B07MCTCF79) (about £5.99 online), and then had to wait several weeks for it to be shipped from China. But it eventually arrived and we were good to go. You can see I actually needed two of them.
+So I found the correct cable, a [Small 6 Pin to PCI-E 6PIN Graphics Video Card Power Cable](https://www.amazon.co.uk/BGNing-Small-Graphics-Video-Connector/dp/B07MCTCF79) (about £5.99 online), and then had to wait several weeks for it to be shipped from China. But it did eventually arrive and we were good to go. You can see I actually needed two of them.
 
 ![My old GTX 670 graphics card](/GTX-670.jpg)
 
-I also said I was planning on upgrading the hard drives and migrating the media server across, so I found myself buying a couple of these [14TB IronWolf Pro Hard Drives](https://www.amazon.co.uk/gp/product/B07GTGDZP8/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) from Seagate. I've been using these drives for several years now and haven't had any issues so far. I'd really like at least four of them so I can create a proper RAID array (with a parity drive) but can't justify spending so much money on hard drives just yet. With two drives, I'll be using RAID 0.
+I also said I was planning on upgrading the hard drives and migrating the media server across, so I found myself buying a couple of [14TB IronWolf Pro Hard Drives](https://www.amazon.co.uk/gp/product/B07GTGDZP8/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) from Seagate. I've bought these exact drives in the past and haven't had any issues so far. I'd really like at least four of them in this build so I can create a proper RAID array (with a parity drive) but can't justify spending so much money on hard drives just yet. With two drives, I'll be using RAID 0.
 
 ![One of the new 14TB Seagate IronWolf Pro drives](/HDD.jpg)
 
-Ask anyone about RAID arrays and they'll tell you no amount of redundancy is a proper substitute for off-site backups, but purchasing another couple of drives to create an array with more redundancy is a priority. Until then, creating a RAID 0 array gives us over 25TB of usable storage. Plenty for the time being.
+Ask anyone about RAID arrays and they'll tell you no amount of redundancy is a proper substitute for off-site backups, but purchasing another couple of drives to create an array with more redundancy is a priority. Until then, a RAID 0 array gives us over 25TB of usable storage. Plenty for the time being.
 
-The last hardware upgrade I wanted to make to the server was adding some modern I/O, so that transferring files over USB could be done much faster. Installing a [4-port USB 3.2 card](https://www.amazon.co.uk/gp/product/B00GRGCV2G/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) by Sonnet (about £62.00 online) provides some much needed, much faster ports for use on the back of the server.
+The last hardware upgrade I wanted to make to the server was adding some modern I/O to make transferring files over USB much faster. Installing a [4-port USB 3.2 card](https://www.amazon.co.uk/gp/product/B00GRGCV2G/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) by Sonnet (about £62.00 online) provides much faster ports for use on the back of the server.
 
 ![The Sonnet Allegro PCI-e card](/USB.jpg)
 
@@ -61,7 +61,7 @@ Installing the new components leaves us with an extremely capable home server. E
 
 ### Thermals and Noise
 
-A typical server can generate a lot of heat and will have powerful fans circulating air to cool the components. These are often very loud and not something you want sat next to you when you're working. The 2008 Mac Pro isn't too bad, but I did want to keep it somewhere out of the way.
+Just a quick note on thermals and noise. A typical server can generate a lot of heat and will have powerful fans circulating air to cool the components. These are often very loud and not something you want sat next to you when you're working (hence the need for server rooms). The 2008 Mac Pro isn't too bad, but I did want to keep it somewhere out of the way.
 
 Luckily, we have a handy utility closet that happens to have ventilation, wall sockets, and ethernet ports, so that's where the home server has been living. I did have some initial concerns about airflow and thermals but after monitoring the server for a month, I'm happy it's running cool and quiet.
 
@@ -69,7 +69,7 @@ Luckily, we have a handy utility closet that happens to have ventilation, wall s
 
 ### Software
 
-Before you can get started sharing files, hosting backups, or streaming media, you have to decide on an operating system. In 2020 there are more options than ever before, including the familiar Windows and Mac environments.
+Hardware's important, but before you can get started sharing files, hosting backups, or streaming media, you have to decide on an operating system. In 2020 there are more options than ever before, including the familiar Windows and Mac environments. 
 
 > "Don't forget Linux."
 
@@ -98,7 +98,7 @@ After that, I had better luck. I was able to create a virtual machine using ESXi
 
 ![Photographic evidence of FreeNAS running on a 2008 Mac Pro](/FreeNAS.jpg)
 
-We got there in the end, but I had to use so many workarounds that my particular installation (dependent on so much out-of-date software) didn't feel reliable enough to trust all my media to. It's a shame but my dream FreeNAS server will have to be put on hold until I have more modern hardware to hand.
+We got there in the end, but I had to use so many workarounds that my setup (dependent on a variety of old unsupported software) didn't feel reliable enough to trust all my media to. It's a shame but my dream FreeNAS server will have to be put on hold until I have more modern hardware to hand.
 
 For now, seeing as my server is a Mac Pro, I've opted to keep things simple and run MacOS. I was hoping that would make things more straightforward, but nothing's ever straightforward when you're committed to using old hardware.
 
@@ -106,9 +106,9 @@ The latest version of MacOS that officially runs on the 2008 Mac Pro is 10.11.6 
 
 **Update:** Apple has since released Big Sur. Read more about it [here](https://www.apple.com/uk/macos/big-sur/).
 
-Once MacOS was installed, I encountered no further problems. It was simply a matter of installing the software I wanted to run on the server and setting up the services we'd be using (Time Machine for backups, Plex for our media, and the Java Minecraft server). Migrating the terabytes of media was the most time-consuming task. Upgrading the I/O was already paying off.
+Once MacOS was installed, I encountered no further problems. It was simply a matter of installing the software I wanted to run on the server and setting up the services we'd be using; Time Machine for backups, Plex for our media, and the Java Minecraft server. Migrating the terabytes of media was the most time-consuming task, even with the upgraded I/O.
 
-I run the server headless now (with no display attached) so I don't even need to leave my desk to check in on it. I just remote in to the server from whichever machine I'm currently sitting in front of and have full access.
+I'm running the server headless now (with no display attached) so I don't even need to leave my desk to check in on it. I just remote in to the server from whichever machine I'm currently sitting in front of and have full access.
 
 <img class="illustration" src="/Server-Screen.jpg" alt="Remote connection to the home server" />
 
@@ -138,11 +138,11 @@ It's only in recent years that I've discovered [PLEX](https://www.plex.tv/en-gb/
 
 ![Browsing our music library on an iPad](/Plex-Music.PNG)
 
-I particularly like the interfaces on both the Apple TV and iPad apps. With music specifically, this includes everything from listing an artist's 'Popular Tracks' to suggesting 'Similar Artists' from elsewhere in my collection (functionality I really loved when I used Spotify).
+I particularly like the interfaces on both the Apple TV and iPad apps. With music specifically, this provides everything from an artist's most popular tracks to suggesting 'Similar Artists' from elsewhere in my collection (functionality I really loved when I used Spotify).
 
 ![Viewing our favourite media is a snap](/Plex-Artist.PNG)
 
-For the time being, there's nothing more I could ask of a home server, but I'm sure I'll work towards a proper FreeNAS installation in the future. I suspect my twelve-year-old hardware isn't getting any younger, and I'd like to rest easy knowing my data is stored on a redundant array before disaster strikes.
+For the time being, there's nothing more I could ask of a home server, but I'm sure I'll work towards a proper FreeNAS installation in the future. I suspect this twelve-year-old hardware isn't getting any younger, and I'd like to rest easy knowing my data is stored on a redundant array before disaster strikes.
 
 Would I recommend it?
 
