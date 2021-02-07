@@ -266,6 +266,12 @@
                                     }
                                 }
                             }
+
+                            .book-info {
+                                .left {
+                                    width: 45%;
+                                }
+                            }
                         }
                     }
                 }
@@ -276,10 +282,6 @@
             .footer-container {
                 .hero {
                     width: 40%;
-                }
-
-                .footer-links {
-                    padding-top: 20px;
                 }
             }
         }
