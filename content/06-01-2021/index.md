@@ -41,7 +41,7 @@ Now, there's been a lot of controversy surrounding the game's troubled launch, b
 
 I'm actually a big fan of the cyberpunk subgenre but hadn't heard of the original tabletop RPG, Cyberpunk 2020, before the release of this game. I understand a lot of the worldbuilding, everything from Rockerboys and Netrunners, to Trauma Team and Cyberpsychosis, is taken directly from the tabletop RPG.
 
-The visual design though, has been thoroughly modernised. There's a wonderful mashup of influences. The obvious inspiration is there without looking too hard: The rain-soaked, neon-lit districts straight out of Bladerunner, or the Late Modernist architecture so prevalent in films like The Matrix or Robocop. But it's the more subtle influences I found myself drawn to.
+The visual design though, has been thoroughly modernised. There's a wonderful mashup of influences. The obvious inspiration is there without looking too hard: The rain-soaked, neon-lit districts straight out of Bladerunner, or the Late Modernist architecture so prevalent in films like The Matrix or Robocop [(see more examples)](https://99percentinvisible.org/article/architecture-evil-dystopian-megacorps-speculative-fiction/). But it's the more subtle influences I found myself drawn to.
 
 Driving around Night City is an assault on the senses, but everything dies down once you leave the city boundaries. The barren Rocky Ridge District can be a haunting place, especially on some of the back roads.
 

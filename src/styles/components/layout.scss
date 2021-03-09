@@ -176,6 +176,23 @@ img {
                                 margin: 0 0 20px 22px !important;
                             }
                         }
+
+                        &.layers {
+                            padding: 35px 30px 10px 15px;
+                            max-width: 110%;
+                            margin: 0 -40px;
+
+                            .gatsby-resp-image-wrapper {
+                                display: inline-block !important;
+                                width: 17%;
+                                margin: 0 0 20px 22px !important;
+
+                                img {
+                                    border: 1px solid #333333;
+                                    background-color: #282828;
+                                }
+                            }
+                        }
                     }
 
                     .screenshot {

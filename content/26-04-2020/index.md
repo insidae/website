@@ -129,4 +129,4 @@ Once finished, we have a nicely crisp and sharp recreation of the original desig
 
 This is now a vectorised version of the Vienna travel poster that can scale infinitely without losing definition. I'll revisit this in a future article and use the individual layers to create a sense of depth by utilising the parallax effect.
 
-A link to that article will be here once it's available.
+**Update:** You can now read the follow-up article <a href="/parallax-city">here.</a>
