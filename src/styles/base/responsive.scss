@@ -98,6 +98,16 @@
             .container {
                 padding: 0 15px;
 
+                .hero {
+                    .definition {
+                        width: 100%;
+                    }
+
+                    .digital-monster {
+                        display: none;
+                    }
+                }
+
                 .columns {
                     display: block;
 
