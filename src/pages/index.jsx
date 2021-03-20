@@ -35,7 +35,7 @@ class Index extends React.Component {
               </ol>
             </div>
             <div className="digital-monster">
-              <img className="placeholder" src="/images/digital-monster-placeholder.gif" alt="FEED ME!" />
+              <img className="placeholder" src="/images/digipet.gif" alt="FEED ME!" />
             </div>
           </div>
           <div className="columns two">
