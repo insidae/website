@@ -169,6 +169,12 @@
                                         width: 40%;
                                     }
                                 }
+
+                                &.layers {
+                                    .gatsby-resp-image-wrapper {
+                                        width: 33vw !important;
+                                    }
+                                }
                             }
 
                             .book-info {
@@ -270,6 +276,12 @@
                                         padding: 20px 0;
                                     }
                                 }
+
+                                &.layers {
+                                    .gatsby-resp-image-wrapper {
+                                        width: 14.8vw !important;
+                                    }
+                                }
                             }
 
                             .book-info {
@@ -331,6 +343,14 @@
                         h2 {
                             display: block;
                             margin: 0 0 30px;
+                        }
+                    }
+
+                    .post-content {
+                        .note {
+                            &.layers {
+                                max-width: unset !important;
+                            }
                         }
                     }
                 }
