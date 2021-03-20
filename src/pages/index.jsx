@@ -21,17 +21,22 @@ class Index extends React.Component {
           <Helmet title={config.siteTitle} />
           <SEO />
           <div className="hero">
-            <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
-            <h1 className="logotype">insidae</h1>
-            <p>
-              [in-<b>sid</b>-day]
-            </p>
-            <h3>adjective</h3>
-            <ol>
-              <li>skilful; ingenious</li>
-              <li>cleverly-wrought</li>
-              <li>buying a domain is much easier if you make up your own word</li>
-            </ol>
+            <div className="definition">
+              <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
+              <h1 className="logotype">insidae</h1>
+              <p>
+                [in-<b>sid</b>-day]
+              </p>
+              <h3>adjective</h3>
+              <ol>
+                <li>skilful; ingenious</li>
+                <li>cleverly-wrought</li>
+                <li>buying a domain is much easier if you make up your own word</li>
+              </ol>
+            </div>
+            <div className="digital-monster">
+              <img className="placeholder" src="/images/digital-monster-placeholder.gif" alt="FEED ME!" />
+            </div>
           </div>
           <div className="columns two">
             <div className="panel red">
