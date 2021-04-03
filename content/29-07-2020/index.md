@@ -13,7 +13,7 @@ tags:
 
 Does anyone ever spontaneously decide to write a novel? 
 
-I doubt anyone would suggest 'spontaneity' as a key factor in any task that usually requires several years to complete. But here we are. I spontaneously decided to start writing a novel last year.
+I imagine focus and determination are needed, maybe even stubbornness and ambition, but spontaneity? Anyway, here we are. I spontaneously decided to start writing a novel last year.
 
 Even acknowledging it here still seems ridiculous, but I was turning thirty and it got me thinking about what I'd achieved so far in life (in the way only a scary milestone can do).
 
@@ -31,6 +31,8 @@ I couldn't help but imagine what it would mean to take the saying literally. Wha
 
 "Does someone make sure they're in the right place at the right time?"
 
+"What happens if they're not?"
+
 From there it spiralled. Finding the answers to these questions became a fun game and, more often than not, I was surprised how easily the answers became apparent. Before I knew it, I'd been working on the idea for five months and, at this point, I had to admit I was enjoying every minute.
 
 
@@ -40,11 +42,11 @@ I got distracted from time to time, working on this website.
 
 ![April 4th, 2020](Tweet-02.jpg)
 
-Then things got truly ridiculous...
+<!-- Then things got truly ridiculous...
 
-![April 30th, 2020](Tweet-03.jpg)
+![April 30th, 2020](Tweet-03.jpg) -->
 
-But this lofty ambition just resulted in me taking the writing more seriously. I started to outline properly, and plan for subplots and character arcs ahead.
+But as the scope of this ambition grew, it just resulted in me taking the writing more seriously. I started to outline properly, and plan for subplots and character arcs ahead.
 
 Even if I did occasionally get ahead of myself...
 
@@ -62,20 +64,20 @@ Which leads us to this:
         <h3>The Repository, by M. J. Thomas</h3>
         <ul>
             <li>Word Count: Aiming for 90,000</li>
-            <li>Current Word Count: 36,000</li>
+            <li>Current Word Count: 45,000</li>
             <li>ISBN: Will need one of these</li>
             <li>Genre: YA Fantasy</li>
         </ul>
     </div>
     <img 
         class="cover" 
-        src="/Cover_Mockup_The_Repository.png" 
-        alt="First attempt at a placeholder cover design"
+        src="/Latest_Cover_Mockup_The_Repository.png" 
+        alt="Later iteration of placeholder cover design"
         style="box-shadow: none;" 
     />
 </div>
 
-Now, I'm a long long way off from being finished, let alone published (at the time of writing, I'm about a third of the way through my second draft), but it felt silly that there was no mention of this undertaking anywhere on my own website. So this is it. The first real mention of my writing.
+Now, I'm a long long way off from being finished, let alone published (at the time of writing, I'm about half way through my second draft), but it felt silly that there was no mention of this undertaking anywhere on my own website. So this is it. The first real mention of my writing.
 
 It's going to be a YA (Young Adult) Fantasy novel. I don't want to reveal too much of the actual plot just yet, but the story follows fourteen-year-old, Maddie Brooks, as she finds herself working at a library of 'fated items' called the Repository.
 

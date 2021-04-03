@@ -110,7 +110,7 @@ Once MacOS was installed, I encountered no further problems. It was simply a mat
 
 I'm running the server headless now (with no display attached) so I don't even need to leave my desk to check in on it. I just remote in to the server from whichever machine I'm currently sitting in front of and have full access.
 
-<img class="illustration" src="/Server-Screen.jpg" alt="Remote connection to the home server" />
+<img class="illustration" src="/Server-Screen.png" alt="Remote connection to the home server" />
 
 It's so convenient, being able to schedule backups and spin up anything from a Minecraft server to a Discord chat bot on the fly. Knowing it's all running on my own hardware gives me peace of mind. It also gives me an opportunity to learn more about network security (while everything is still quite low-stakes).
 

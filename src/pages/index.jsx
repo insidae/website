@@ -76,7 +76,7 @@ class Index extends React.Component {
                 Writing...
                 <span>04</span>
               </h2>
-              <img className="book-cover" src="/images/Cover_Mockup_The_Repository.png" alt="Book Cover" />
+              <img className="book-cover" src="/images/Monochrome-Cover-Refresh-03.png" alt="Book Cover" />
               <PostListing postEdges={writingPostEdges} />
               <Link className="more" to="/journal">See more...</Link>
             </div>
