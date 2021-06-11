@@ -11,9 +11,9 @@ tags:
 
 <!--- NOTE: I'm still fortunate enough to work remotely, but people are no longer being sensible re: Covid-19 --->
 
-Does anyone ever spontaneously decide to write a novel? 
+Have you ever spontaneously decided to write a novel?
 
-I imagine focus and determination are needed, maybe even stubbornness and ambition, but spontaneity? Anyway, here we are. I spontaneously decided to start writing a novel last year.
+I've been an avid reader all my life, but had never considered writing a book before. The only thing I've written since leaving school has been code and the odd bit of copy for a website. Anyway, here we are. I spontaneously decided to start writing a novel last year.
 
 Even acknowledging it here still seems ridiculous, but I was turning thirty and it got me thinking about what I'd achieved so far in life (in the way only a scary milestone can do).
 
@@ -21,7 +21,7 @@ When it first occurred to me to try writing a novel (in a kebab shop, at precise
 
 <blockquote class="short-quote">"There's a time and a place for everything."</blockquote>
 
-It's an old proverb, usually interpreted as meaning **"Different things are appropriate on different occasions"**. Variations of the saying have been attributed to Benjamin Franklin and can be found as far back as the Old Testament.
+It's an old proverb, usually interpreted as meaning **"Different things are appropriate on different occasions"**. Variations of the saying have been attributed to Benjamin Franklin and can be found as far back as the Old Testament (apparently).
 
 I couldn't help but imagine what it would mean to take the saying literally. What if there really **was** a time and a place for everything. What would that be like, and how would it work?
 
@@ -33,7 +33,7 @@ I couldn't help but imagine what it would mean to take the saying literally. Wha
 
 "What happens if they're not?"
 
-From there it spiralled. Finding the answers to these questions became a fun game and, more often than not, I was surprised how easily the answers became apparent. Before I knew it, I'd been working on the idea for five months and, at this point, I had to admit I was enjoying every minute.
+From there it spiralled. Finding the answers to these questions became a fun game and, more often than not, I was surprised how easily the answers became apparent. Before I knew it, I'd been working on the idea for five months and had to admit to myself that I was enjoying every minute.
 
 
 ![February 20th, 2020](Tweet-01.jpg)
@@ -77,7 +77,7 @@ Which leads us to this:
     />
 </div>
 
-Now, I'm a long long way off from being finished, let alone published (at the time of writing, I'm about half way through my second draft), but it felt silly that there was no mention of this undertaking anywhere on my own website. So this is it. The first real mention of my writing.
+Now, I'm a long long way off from my final word count, let alone published (at the time of writing, I'm about halfway through my second draft), but it felt silly that there was no mention of this undertaking anywhere on my own website. So this is it. The first real mention of my writing.
 
 It's going to be a YA (Young Adult) Fantasy novel. I don't want to reveal too much of the actual plot just yet, but the story follows fourteen-year-old, Maddie Brooks, as she finds herself working at a library of 'fated items' called the Repository.
 
