@@ -2,6 +2,7 @@
     height: 1272px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 30px;
 
     .frame {
       position: absolute;
@@ -73,12 +74,38 @@
   }
 }
 
+// MOBILE ONLY STYLES
+
+@media only screen and (max-width: $breakpoint-mobile) {
+  .parallax__wrapper {
+    height: 402px;
+    max-width: 265px;
+
+    .frame {
+      height: 402px;
+      max-width: 265px;
+    }
+
+    .parallax {
+      height: 402px;
+
+      .parallax__cover {
+        height: 402px;
+      }
+    }
+  }
+}
+
 // TABLET ONLY STYLES
 
 @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
-}
+  .parallax__wrapper {
+    height: 1000px;
+    max-width: 658px;
 
-// MOBILE AND TABLET STYLES
-
-@media (max-width: $breakpoint-desktop) {
+    .frame {
+      height: 1000px;
+      max-width: 658px;
+    }
+  }
 }
