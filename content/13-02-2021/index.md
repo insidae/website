@@ -64,47 +64,51 @@ So now we'll try and create a parallax effect by positioning these layers on top
 
 The topmost layer moves the fastest, but each subsequent layer moves a little slower. You can also use fainter colours to make layers appear further away.
 
-Work in progress below:
+Vertical scrolling version:
 
 <div class="parallax__wrapper">
     <div class="frame">
         <img src="/Vienna-Vector-11.png" alt="" />
     </div>
-    <div class="parallax">
-        <div class="parallax__layer parallax__layer__1">
+    <div class="parallax scene" id="scene" data-hover-only="true" data-relative-input="true" >
+        <div class="parallax__layer parallax__layer__1" data-depth="1.00">
             <img src="/Vienna-Vector-01.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__2">
+        <div class="parallax__layer parallax__layer__2" data-depth="0.90">
             <img src="/Vienna-Vector-02.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__3">
+        <div class="parallax__layer parallax__layer__3" data-depth="0.80">
             <img src="/Vienna-Vector-03.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__4">
+        <div class="parallax__layer parallax__layer__4" data-depth="0.70">
             <img src="/Vienna-Vector-04.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__5">
+        <div class="parallax__layer parallax__layer__5" data-depth="0.60">
             <img src="/Vienna-Vector-05.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__6">
+        <div class="parallax__layer parallax__layer__6" data-depth="0.50">
             <img src="/Vienna-Vector-06.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__7">
+        <div class="parallax__layer parallax__layer__7" data-depth="0.40">
             <img src="/Vienna-Vector-07.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__8">
+        <div class="parallax__layer parallax__layer__8" data-depth="0.30">
             <img src="/Vienna-Vector-08.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__9">
+        <div class="parallax__layer parallax__layer__9" data-depth="0.20">
             <img src="/Vienna-Vector-09.png" alt="" />
         </div>
-        <div class="parallax__layer parallax__layer__10">
+        <div class="parallax__layer parallax__layer__10" data-depth="0.10">
             <img src="/Vienna-Vector-10.png" alt="Scroll to see the effect" />
         </div>
         <div class="parallax__cover">
             <div class="cover-wrapper">
-                <p>Text goes here</p>
+                <p>&nbsp;</p>
             </div>
         </div>
     </div>
 </div>
+
+More complicated version:
+
+<iframe src='/parallax/examples/hoveronly.html' style="width: 100%; height: 1260px; border: none; overflow: hidden;"/>

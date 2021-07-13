@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Helmet from 'react-helmet';
 import Navigation from '../components/Navigation'
@@ -14,7 +15,9 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <link rel="shortcut icon" type="image/png" href={favicon} />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+          <script src="/parallax.js" />
           {/* 
           88                          88           88                          
           ""                          ""           88                          

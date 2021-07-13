@@ -1,7 +1,12 @@
 const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
+const express = require("express")
 const siteConfig = require("./data/SiteConfig");
+
+exports.onCreateDevServer=({app})=>{
+    app.use(express.static('public'))
+}
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;

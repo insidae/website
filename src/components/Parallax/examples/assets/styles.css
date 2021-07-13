@@ -1,120 +1,35 @@
-.parallax__wrapper {
-    height: 1272px;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 30px;
-
-    .frame {
-      position: absolute;
-      height: 1272px;
-      width: 100%;
-      max-width: 840px;
-      z-index: 10;
-      pointer-events: none;
-
-      span {
-        margin: 0 !important;
-      }
-    }
-
-  .parallax {
-    perspective: 100px;
-    height: 1272px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    top: 2300px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #F0EBDD;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-  }
-
-  .parallax::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-  }
-  
-  .parallax__layer{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-    img{
-      display: block;
-      position: absolute;
-      bottom: 0;
-    }
-  }
-  
-  .parallax__cover{
-    background: #363532;
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    height: 1272px;
-    z-index: 2;
-
-    .cover-wrapper {
-      padding: 20px 60px;
-    }
-  }
-  
-  $parallax__layers: 11;
-  
-  @for $i from 0 through $parallax__layers {
-    $x: ($parallax__layers - $i) / 2;
-    .parallax__layer__#{$i}{
-       transform: translateZ(-100 * $x#{px}) scale($x + 1);
-    }
-  }
-}
-
-// MOBILE ONLY STYLES
-
-@media only screen and (max-width: $breakpoint-mobile) {
-  .parallax__wrapper {
-    height: 402px;
-    max-width: 265px;
-
-    .frame {
-      height: 402px;
-      max-width: 265px;
-    }
-
-    .parallax {
-      height: 402px;
-
-      .parallax__cover {
-        height: 402px;
-      }
-    }
-  }
-}
-
-// TABLET ONLY STYLES
-
-@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
-  .parallax__wrapper {
-    height: 1000px;
-    max-width: 658px;
-
-    .frame {
-      height: 1000px;
-      max-width: 658px;
-    }
-  }
-}
-
-// NEW PARALLAX STYLES
+body {
+  background: #111;
+  color: #555;
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0; }
 
 img {
   display: block;
   width: 100%; }
+
+input[type=checkbox] {
+  display: none; }
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.4em 0; }
+
+input[type=checkbox] + label:before {
+  background: #555;
+  content: '';
+  display: inline-block;
+  height: 16px;
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+  width: 16px; }
+
+input[type=checkbox]:checked + label:before {
+  background: #333; }
 
 .container {
   margin: 0 auto;
@@ -122,11 +37,52 @@ img {
   padding: 10px;
   position: relative; }
 
+.container--offset {
+  margin-left: 0; }
+
+button {
+  background: #555;
+  border: 10px solid #333;
+  cursor: pointer;
+  display: block;
+  font-family: monospace;
+  font-size: 24px;
+  height: 80px;
+  line-height: 60px;
+  margin: 0;
+  outline: none;
+  padding: 0 1.2em;
+  text-align: right; }
+  button:hover {
+    background: #333; }
+  button#deleteme {
+    margin: 2rem; }
+
 .scene {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
+overflow: hidden; }
+  .scene button {
+    left: 10%;
+    top: 260px;
+    width: 80%;
+    position: absolute; }
+
+.fill {
+  bottom: 5%;
+  left: 5%;
+  position: absolute;
+  right: 5%;
+  top: 5%; }
+
+.expand-width {
+  width: 100%; }
+
+.border {
+  border: 2px dashed #333; }
+
+.aspect {
+  opacity: 0.2; }
 
 .scene > *:nth-child(1) {
   opacity: 1; }
@@ -204,4 +160,3 @@ img {
     -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
             transform: rotate(0deg); }
-
