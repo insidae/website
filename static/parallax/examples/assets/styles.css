@@ -1,6 +1,6 @@
 body {
-  background: #111;
-  color: #555;
+  background: #f0ebdd;
+  color: #333;
   font-family: monospace;
   font-size: 18px;
   margin: 0; }
@@ -33,7 +33,7 @@ input[type=checkbox]:checked + label:before {
 
 .container {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 840px;
   padding: 10px;
   position: relative; }
 
@@ -41,7 +41,7 @@ input[type=checkbox]:checked + label:before {
   margin-left: 0; }
 
 button {
-  background: #555;
+  background: #333;
   border: 10px solid #333;
   cursor: pointer;
   display: block;
@@ -59,9 +59,10 @@ button {
     margin: 2rem; }
 
 .scene {
+  background: #f0ebdd;
   margin: 0;
   padding: 0;
-overflow: hidden; }
+  overflow: hidden; }
   .scene button {
     left: 10%;
     top: 260px;
