@@ -989,22 +989,6 @@ var Parallax = function () {
       }
     }
   }, {
-    key: 'destroy',
-    value: function destroy() {
-      this.disable();
-
-      clearTimeout(this.calibrationTimer);
-      clearTimeout(this.detectionTimer);
-
-      this.element.removeAttribute('style');
-      for (var index = 0; index < this.layers.length; index++) {
-        this.layers[index].removeAttribute('style');
-      }
-
-      delete this.element;
-      delete this.layers;
-    }
-  }, {
     key: 'version',
     value: function version() {
       return '3.1.0';

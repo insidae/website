@@ -111,4 +111,4 @@ Vertical scrolling version:
 
 More complicated version:
 
-<iframe src="parallax/examples/hoveronly.html" style="width: 100%; height: 1260px; border: none; overflow: hidden;"/>
+<iframe src="/parallax/examples/hoveronly.html" style="width: 100%; height: 1270px; border: none; overflow: hidden;"/>

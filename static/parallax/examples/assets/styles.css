@@ -33,8 +33,6 @@ input[type=checkbox]:checked + label:before {
 
 .container {
   margin: 0 auto;
-  max-width: 840px;
-  padding: 10px;
   position: relative; }
 
 .container--offset {
@@ -161,3 +159,12 @@ button {
     -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
             transform: rotate(0deg); }
+
+.overlay img {
+  mix-blend-mode: hard-light;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
