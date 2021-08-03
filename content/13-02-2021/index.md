@@ -48,16 +48,16 @@ The grouping of elements mentioned above is very important but it's not an exact
 You can see what the assets used in this particular design look like here.
 
 <div class="note layers">
-    <img class="layer" src="/Vienna-Vector-01.png" alt="The dome is the furthest back" />
-    <img class="layer" src="/Vienna-Vector-02.png" alt="Followed by the interior courtyard" />
-    <img class="layer" src="/Vienna-Vector-03.png" alt="Then it's the spire and chimneys" />
-    <img class="layer" src="/Vienna-Vector-04.png" alt="Followed by the building's roof" />
-    <img class="layer" src="/Vienna-Vector-05.png" alt="Then the main building's arches" />
-    <img class="layer" src="/Vienna-Vector-06.png" alt="The tree is right in the middle" />
-    <img class="layer" src="/Vienna-Vector-07.png" alt="Then the first plinth and column" />
-    <img class="layer" src="/Vienna-Vector-08.png" alt="Followed by the first horse" />
-    <img class="layer" src="/Vienna-Vector-09.png" alt="Our horse and rider are near the front" />
-    <img class="layer" src="/Vienna-Vector-10.png" alt="With the text at the very front" />
+    <img class="layer" src="/Vienna-Vector-00.png" alt="The dome is the furthest back" />
+    <img class="layer" src="/Vienna-Vector-01.png" alt="Followed by the interior courtyard" />
+    <img class="layer" src="/Vienna-Vector-02.png" alt="Then it's the spire and chimneys" />
+    <img class="layer" src="/Vienna-Vector-03.png" alt="Followed by the building's roof" />
+    <img class="layer" src="/Vienna-Vector-04.png" alt="Then the main building's arches" />
+    <img class="layer" src="/Vienna-Vector-05.png" alt="The tree is right in the middle" />
+    <img class="layer" src="/Vienna-Vector-06.png" alt="Then the first plinth and column" />
+    <img class="layer" src="/Vienna-Vector-07.png" alt="Followed by the first horse" />
+    <img class="layer" src="/Vienna-Vector-08.png" alt="Our horse and rider are near the front" />
+    <img class="layer" src="/Vienna-Vector-09.png" alt="With the text at the very front" />
 </div>
 
 So now we'll try and create a parallax effect by positioning these layers on top of each other and subtly shifting their positions as we scroll. The key to making the effect look convincing is **scrolling the layers at different speeds.**
@@ -69,38 +69,38 @@ The topmost layer moves the fastest, but each subsequent layer moves a little sl
     <p class="touch">Let's take a look at an example. Drag the image up and down to see it in action.</p>
     <div class="parallax__wrapper">
         <div class="frame">
-            <img src="/Vienna-Vector-11.png" alt="" />
+            <img src="/Vienna-Vector-9.png" alt="" />
         </div>
         <div class="parallax scene" id="scene" data-hover-only="true" data-relative-input="true" >
             <div class="parallax__layer parallax__layer__1" data-depth="1.00">
-                <img src="/Vienna-Vector-01.png" alt="" />
+                <img src="/Vienna-Vector-00.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__2" data-depth="0.90">
-                <img src="/Vienna-Vector-02.png" alt="" />
+                <img src="/Vienna-Vector-01.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__3" data-depth="0.80">
-                <img src="/Vienna-Vector-03.png" alt="" />
+                <img src="/Vienna-Vector-02.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__4" data-depth="0.70">
-                <img src="/Vienna-Vector-04.png" alt="" />
+                <img src="/Vienna-Vector-03.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__5" data-depth="0.60">
-                <img src="/Vienna-Vector-05.png" alt="" />
+                <img src="/Vienna-Vector-04.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__6" data-depth="0.50">
-                <img src="/Vienna-Vector-06.png" alt="" />
+                <img src="/Vienna-Vector-05.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__7" data-depth="0.40">
-                <img src="/Vienna-Vector-07.png" alt="" />
+                <img src="/Vienna-Vector-06.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__8" data-depth="0.30">
-                <img src="/Vienna-Vector-08.png" alt="" />
+                <img src="/Vienna-Vector-07.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__9" data-depth="0.20">
-                <img src="/Vienna-Vector-09.png" alt="" />
+                <img src="/Vienna-Vector-08.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__10" data-depth="0.10">
-                <img src="/Vienna-Vector-10.png" alt="Scroll to see the effect" />
+                <img src="/Vienna-Vector-09.png" alt="Scroll to see the effect" />
             </div>
             <div class="parallax__cover">
                 <div class="cover-wrapper">
