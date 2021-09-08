@@ -1,3 +1,5 @@
+/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable import/no-named-as-default */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Helmet from 'react-helmet';

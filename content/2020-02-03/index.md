@@ -2,14 +2,13 @@
 title: "Jurassic Park"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Writing"
-date: "03/02/2020"
+date: 2020-02-03
 slug: "Jurassic Park"
 tags:
     - writing
     - thoughts
 ---
 
-<!--- NOTE: There's a small pile of books I 'could' have chosen, but this one felt like a good first choice --->
 
 Steven Spielberg's Jurassic Park is one of my all-time favourite films. I'm actually a fan of the sequels too (despite falling far short of the original) not to mention the endless park management games and arcade shooters. So it's embarrassing to admit, but I've never actually read the original novel by Michael Crichton.
 

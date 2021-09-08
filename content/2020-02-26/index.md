@@ -2,14 +2,13 @@
 title: "Shoe Dog"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Writing"
-date: "26/02/2020"
+date: 2020-02-26
 slug: "Shoe Dog"
 tags:
     - writing
     - thoughts
 ---
 
-<!--- NOTE: I initially picked this because it was on literally everyone's list. Glad I did. --->
 
 When I was initially planning this website, I looked at a lot of other sites for ideas and inspiration. Several of my favourites had a reading list or even the occasional book review, but one that stood out in particular was [GatesNotes](https://www.gatesnotes.com/), the personal but immaculately well-designed blog of Mr Bill Gates. 
 

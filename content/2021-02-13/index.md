@@ -2,14 +2,13 @@
 title: "Parallax City"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "13/02/2021"
+date: 2021-02-13
 slug: "Parallax City"
 tags:
     - design
     - development
 ---
 
-<!--- NOTE: It's a sunny Saturday morning and I realised I was looking forward to finishing up this two-part article --->
 
 It's about time we revisit our vectorised vintage travel poster. <a href="/vector-travel-poster">In the last article,</a> we discussed vector graphics and how they were well-suited for illustrations consisting of flat colours and simple shapes.
 
@@ -69,7 +68,7 @@ The topmost layer moves the fastest, but each subsequent layer moves a little sl
     <p class="touch">Let's take a look at an example. Drag the image up and down to see it in action.</p>
     <div class="parallax__wrapper">
         <div class="frame">
-            <img src="/Vienna-Vector-9.png" alt="" />
+            <img src="/Vienna-Vector-09.png" alt="" />
         </div>
         <div class="parallax scene" id="scene" data-hover-only="true" data-relative-input="true" >
             <div class="parallax__layer parallax__layer__1" data-depth="1.00">
@@ -97,10 +96,7 @@ The topmost layer moves the fastest, but each subsequent layer moves a little sl
                 <img src="/Vienna-Vector-07.png" alt="" />
             </div>
             <div class="parallax__layer parallax__layer__9" data-depth="0.20">
-                <img src="/Vienna-Vector-08.png" alt="" />
-            </div>
-            <div class="parallax__layer parallax__layer__10" data-depth="0.10">
-                <img src="/Vienna-Vector-09.png" alt="Scroll to see the effect" />
+                <img src="/Vienna-Vector-08.png" alt="Scroll to see the effect" />
             </div>
             <div class="parallax__cover">
                 <div class="cover-wrapper">

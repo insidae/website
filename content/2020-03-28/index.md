@@ -2,7 +2,7 @@
 title: "Home Server - Part One"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "28/03/2020"
+date: 2020-03-28
 slug: "Home Server - Part One"
 tags:
     - design
@@ -10,7 +10,6 @@ tags:
     - development
 ---
 
-<!--- NOTE: This journal entry is being written during quarantine for the COVID-19 pandemic --->
 
 ![Mac Pro 3,1 after being cleaned and upgraded](/Pro-03.jpg)
 

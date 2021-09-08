@@ -2,14 +2,13 @@
 title: "Vector Travel Poster"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "26/04/2020"
+date: 2020-04-26
 slug: "Vector Travel Poster"
 tags:
     - design
     - thoughts
 ---
 
-<!--- NOTE: Still in quarantine due to COVID-19. I've been wanting to write this post for years. --->
 
 There's a list of topics I wanted to cover in this journal and working with vector graphics is an interesting one. So today we'll take a look at what exactly vector graphics are and why they're such an important tool for web developers.
 

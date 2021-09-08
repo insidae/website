@@ -2,13 +2,12 @@
 title: "Bash Profile"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
 category: "Main"
-date: "21/01/2020"
+date: 2020-01-21
 slug: "Bash Profile"
 tags:
     - development
 ---
 
-<!--- NOTE: This is the first of a type of post I'd like to update over time --->
 
 Okay, currently my bash_profile is in **serious** need of a refresh. This thing 
 has been following me around for **years**, from job to job, laptop to laptop, and I'm not even 

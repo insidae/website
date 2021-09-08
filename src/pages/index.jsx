@@ -94,7 +94,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       limit: 3
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { category: { eq: "Main" } } }
     ) {
       edges {
@@ -109,14 +109,14 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "DD/MMMM/YYYY")
           }
         }
       }
     }
     writing: allMarkdownRemark(
       limit: 1
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { category: { eq: "Writing" } } }
     ) {
       edges {
@@ -131,7 +131,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "DD/MMMM/YYYY")
           }
         }
       }

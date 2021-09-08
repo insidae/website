@@ -2,14 +2,13 @@
 title: "Snow Crash"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Writing"
-date: "22/05/2020"
+date: 2020-05-22
 slug: "Snow Crash"
 tags:
     - writing
     - thoughts
 ---
 
-<!--- NOTE: Still in lockdown here in the UK. Anticipating a second wave of infections --->
 
 I often ask people for book recommendations. I end up reading all sorts of things I wouldn't have otherwise discovered, but every now and then several people mention the same title and I know it must be something special.
 

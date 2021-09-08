@@ -2,7 +2,7 @@
 title: "First Post"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "23/11/2019"
+date: 2019-11-23
 slug: "First Post"
 tags:
     - design
@@ -11,7 +11,6 @@ tags:
     - writing
 ---
 
-<!--- NOTE: I want this post to go live on my 30th birthday --->
 
 
 I've had many personal websites over the years, but none of them are still live. This time I aim to build one that will last. One that I'm sure will change and evolve in the years to come, but will essentially still be the same website.

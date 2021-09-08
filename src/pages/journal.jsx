@@ -18,8 +18,7 @@ class JournalPage extends Component {
           <Journal />
           <div className="panel tags red">
             <h2>Browse by Tag</h2>
-            {categories.map(category => {
-              return (
+            {categories.map(category => (
                 <Link
                   to={`/tags/${category.fieldValue.toLowerCase()}`}
                   className="tag-filter"
@@ -27,8 +26,7 @@ class JournalPage extends Component {
                 >
                   {`${category.fieldValue}`}
                 </Link>
-              )
-            })}
+              ))}
             <h2 className="tag-heading">
               <span>01</span>
             </h2>
@@ -53,7 +51,7 @@ export const pageQuery = graphql`
   query JournalQuery {
     allMarkdownRemark(
       limit: 20
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
@@ -67,7 +65,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "dddd DD MMMM YYYY")
           }
         }
       }

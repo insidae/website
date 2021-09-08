@@ -2,14 +2,13 @@
 title: "Cyberpunk 2077"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "06/01/2021"
+date: 2021-01-06
 slug: "Cyberpunk 2077"
 tags:
     - design
     - thoughts
 ---
 
-<!--- NOTE: I'm watching Trump supporters literally storm the Capitol building live on the news right now --->
 
 ![Cyberpunk logo](/cyberpunk-logo.png)
 

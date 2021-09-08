@@ -2,7 +2,7 @@
 title: "My Front-end Development Setup"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "02/02/2020"
+date: 2020-02-02
 slug: "My Front-end Development Setup"
 tags:
     - design
@@ -10,7 +10,6 @@ tags:
     - development
 ---
 
-<!--- NOTE: Today is 02/02/2020 - the first global palindrome day in 909 years --->
 
 ![My desk in February, 2019](/Desk-17-03-2020.jpg)
 

@@ -7,11 +7,11 @@ const config = {
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "My current personal website. Serves as a portfolio, journal, and introduction to who I am.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  // googleAnalyticsID: "", // GA tracking ID.
+  googleAnalyticsID: "", // GA tracking ID.
   disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Thoughts", // Default category for posts.
-  dateFromFormat: "DD/MM/YYYY", // Date format used in the frontmatter.
-  dateFormat: "MMMM Do, YYYY", // Date format for display.
+  dateFromFormat: "YYYY/MM/DD", // Date format used in the frontmatter.
+  dateFormat: "dddd, DD MMMM YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page. Set to zero to disable paging. See the "Pagination" section.
   userName: "Matt", // Username to display in the author segment.
   userEmail: "matt@insidae.com", // Email used for RSS feed's author segment
@@ -56,7 +56,7 @@ const config = {
       iconClassName: "fa fa-twitter"
     }
   ],
-  copyright: "Copyright © 2020. Matt Thomas", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2021. Matt Thomas", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };

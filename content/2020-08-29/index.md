@@ -2,7 +2,7 @@
 title: "Home Server - Part Two"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Main"
-date: "29/08/2020"
+date: 2020-08-29
 slug: "Home Server - Part Two"
 tags:
     - design
@@ -10,7 +10,6 @@ tags:
     - development
 ---
 
-<!--- NOTE: These journal entries are still being written during the COVID-19 pandemic --->
 
 Several months have passed since I last wrote about the home server. It's been running smoothly for a while now but that hasn't stopped me from tinkering.
 

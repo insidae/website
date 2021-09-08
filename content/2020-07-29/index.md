@@ -2,14 +2,13 @@
 title: "Writing a novel"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Writing"
-date: "29/07/2020"
+date: 2020-07-29
 slug: "Writing a novel"
 tags:
     - writing
     - thoughts
 ---
 
-<!--- NOTE: I'm still fortunate enough to work remotely, but people are no longer being sensible re: Covid-19 --->
 
 Have you ever spontaneously decided to write a novel?
 
@@ -42,9 +41,9 @@ I got distracted from time to time, working on this website.
 
 ![April 4th, 2020](Tweet-02.jpg)
 
-<!-- Then things got truly ridiculous...
+Then things got truly ridiculous...
 
-![April 30th, 2020](Tweet-03.jpg) -->
+![April 30th, 2020](Tweet-03.jpg)
 
 But as the scope of this ambition grew, it just resulted in me taking the writing more seriously. I started to outline properly, and plan for subplots and character arcs ahead.
 

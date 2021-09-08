@@ -2,14 +2,13 @@
 title: "Player of Games"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "Writing"
-date: "29/06/2020"
+date: 2020-06-29
 slug: "Player of Games"
 tags:
     - writing
     - thoughts
 ---
 
-<!--- NOTE: Now out of lockdown here in the UK. The Government have stopped reporting daily numbers. --->
 
 Okay, so the last science-fiction novel I reviewed here, [Snow Crash](/snow-crash), was written in 1992 and I was blown away by how relevant it still was today, in the year 2020. This one... well... this one was written before I was born.
 

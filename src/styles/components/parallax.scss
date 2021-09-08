@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .examples {
   .desktop {
     display: block;
@@ -87,14 +89,41 @@
       padding: 20px 60px;
     }
   }
-  
-  $parallax__layers: 11;
-  
-  @for $i from 0 through $parallax__layers {
-    $x: ($parallax__layers - $i) / 2;
-    .parallax__layer__#{$i}{
-       transform: translateZ(-100 * $x#{px}) scale($x + 1);
-    }
+
+  .parallax__layer__1 {
+    transform: translateZ(-500px) scale(6);
+  }
+
+  .parallax__layer__2 {
+    transform: translateZ(-450px) scale(5.5);
+  }
+
+  .parallax__layer__3 {
+    transform: translateZ(-400px) scale(5);
+  }
+
+  .parallax__layer__4 {
+    transform: translateZ(-350px) scale(4.5);
+  }
+
+  .parallax__layer__5 {
+    transform: translateZ(-300px) scale(4);
+  }
+
+  .parallax__layer__6 {
+    transform: translateZ(-250px) scale(3.5);
+  }
+
+  .parallax__layer__7 {
+    transform: translateZ(-200px) scale(3);
+  }
+
+  .parallax__layer__8 {
+    transform: translateZ(-150px) scale(2.5);
+  }
+
+  .parallax__layer__9 {
+    transform: translateZ(-100px) scale(2);
   }
 }
 
