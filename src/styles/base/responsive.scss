@@ -360,6 +360,21 @@
                         .note {
                             &.layers {
                                 max-width: unset !important;
+                                margin-top: 100px !important;
+
+                                &::before {
+                                    right: unset;
+                                    left: 50px;
+                                }
+                            }
+                        }
+
+                        .gatsby-highlight {
+                            margin: 100px -40px 40px;
+
+                            pre::before {
+                                right: unset;
+                                left: 50px;
                             }
                         }
                     }

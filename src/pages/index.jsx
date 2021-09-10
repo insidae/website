@@ -109,7 +109,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date(formatString: "DD/MMMM/YYYY")
+            date(formatString: "dddd DD MMMM YYYY")
           }
         }
       }
@@ -131,7 +131,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date(formatString: "DD/MMMM/YYYY")
+            date(formatString: "dddd DD MMMM YYYY")
           }
         }
       }

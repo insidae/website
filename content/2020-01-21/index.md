@@ -22,7 +22,7 @@ might even be a good idea to include screenshots of output.
 
 ### bash_profile as of 21/01/2020
 
-```php
+```bash
     # Open specified files in Sublime Text
     # "s ." will open the current directory in Sublime
 
