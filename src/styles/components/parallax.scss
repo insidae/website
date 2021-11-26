@@ -1,5 +1,15 @@
 @use "sass:math";
 
+body #main-content .container.post .panel .post-content .parallax__wrapper {
+  .gatsby-resp-image-wrapper {
+    width: 100%;
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+}
+
 .examples {
   .desktop {
     display: block;
