@@ -375,7 +375,7 @@ footer {
     padding: 60px 50px 50px;
 
     .definition {
-        width: 70%;
+        width: 51.3%;
         display: inline-block;
 
         .logo {
@@ -403,13 +403,16 @@ footer {
     }
 
     .digital-monster {
-        width: 25%;
+        width: 30.5%;
         display: inline-block;
-        opacity: 0.25;
+        opacity: 0.1;
         margin: 0 0 0 27px;
+        position: absolute;
+        top: 343px;
+        right: 28px;
     
         img.placeholder {
-            width: 149%;
+            width: 100%;
             float: right;
             cursor: pointer;
         }

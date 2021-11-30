@@ -34,6 +34,9 @@ class Index extends React.Component {
                 <li>buying a domain is much easier if you make up your own word</li>
               </ol>
             </div>
+            <div className="parallax-iframe" style={{ width: "27%", height: "334px" }}>
+                <iframe title="parallax" src="/parallax/examples/hoveronly.html" style={{ width: "100%", height: "100%", border: "none", overflow: "hidden" }} />
+            </div>
             <div className="digital-monster">
               <img className="placeholder" src="/images/digipet.gif" alt="FEED ME!" />
             </div>
