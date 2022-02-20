@@ -12,7 +12,7 @@ tags:
 
 ![Cyberpunk logo](/cyberpunk-logo.png)
 
-This is the first game review I've written for the site. It hadn't occurred to me to write reviews for anything other than the books I was reading, but I've always enjoyed gaming and Cyberpunk 2077 is definitely worth talking about.
+This is the first game review I've written for the site. It hadn't occurred to me to write reviews for anything other than the books I was reading, but I've always enjoyed gaming and *Cyberpunk 2077* is definitely worth talking about.
 
 <blockquote>"TLDR: This is a great work of art direction and design"</blockquote>
 
@@ -30,7 +30,7 @@ This is the first game review I've written for the site. It hadn't occurred to m
     <img class="cover" src="/cyberpunk-box-art.jpg" alt="Game Cover" />
 </div>
 
-Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.
+*Cyberpunk 2077* is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.
 
 You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.
 
@@ -38,9 +38,9 @@ Now, there's been a lot of controversy surrounding the game's troubled launch, b
 
 <img class="illustration" src="/cyberpunk-screenshot.jpg" alt="Rocky Ridge, outside of Night City" />
 
-I'm actually a big fan of the cyberpunk subgenre (the Deus Ex franchise is my jam) but hadn't heard of the original tabletop RPG, Cyberpunk 2020, before the release of 2077. I understand that a lot of the worldbuilding, everything from Rockerboys and Netrunners, to Trauma Team and Cyberpsychosis, is taken directly from the tabletop RPG.
+I'm actually a big fan of the cyberpunk subgenre (the Deus Ex franchise is my jam) but hadn't heard of the original tabletop RPG, *Cyberpunk 2020*, before the release of *2077*. I understand that a lot of the worldbuilding, everything from Rockerboys and Netrunners, to Trauma Team and Cyberpsychosis, is taken directly from the tabletop RPG.
 
-The visual design though, has been thoroughly modernised. There's a wonderful mashup of influences. The obvious inspiration is there without looking too hard: The rain-soaked, neon-lit districts straight out of Bladerunner, or the Late Modernist architecture so prevalent in films like The Matrix or Robocop [(see more examples)](https://99percentinvisible.org/article/architecture-evil-dystopian-megacorps-speculative-fiction/). But it's the more subtle influences I found myself drawn to.
+The visual design though, has been thoroughly modernised. There's a wonderful mashup of influences. The obvious inspiration is there without looking too hard: The rain-soaked, neon-lit districts straight out of *Bladerunner*, or the Late Modernist architecture so prevalent in films like *The Matrix* or *Robocop* [(see more examples)](https://99percentinvisible.org/article/architecture-evil-dystopian-megacorps-speculative-fiction/). But it's the more subtle influences I found myself drawn to.
 
 For example, driving around Night City is an assault on the senses, but everything dies down once you leave the city boundaries. The barren Rocky Ridge District can be a haunting place, especially on some of the back roads.
 
@@ -67,7 +67,7 @@ It's these less familiar kinds of influences that truly spoke to me and made me 
     <img class="layer" src="/almost-in-perk.png" alt="Is that a Nintendo Power Glove?!" />
 </div>
 
-Playing the game, and seeing all these references dotted throughout the story and systems, I can't help but feel that Cyberpunk 2077 is a love letter to some of my all-time favourite games, films, and series.
+Playing the game, and seeing all these references dotted throughout the story and systems, I can't help but feel that *Cyberpunk 2077* is a love letter to some of my all-time favourite games, films, and series.
 
 So if you were initially put-off by all the negative press surrounding the launch, or suspect this is just a shameless attempt at marketing anti-capitalism to the masses, just know that there is something genuine to be discovered here.
 

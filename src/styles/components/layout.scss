@@ -375,7 +375,7 @@ footer {
     padding: 60px 50px 50px;
 
     .definition {
-        width: 51.3%;
+        width: 40%;
         display: inline-block;
 
         .logo {
@@ -402,6 +402,11 @@ footer {
         }
     }
 
+    .window {
+        border: 1px solid #555555;
+        border-radius: 25px;
+    }
+
     .digital-monster {
         width: 30.5%;
         display: inline-block;
@@ -416,6 +421,10 @@ footer {
             float: right;
             cursor: pointer;
         }
+    }
+
+    .a-enter-vr {
+        display: none;
     }
 }
 

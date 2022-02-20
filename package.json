@@ -4,6 +4,7 @@
   "version": "2.20.11",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
+    "aframe": "^1.2.0",
     "express": "^4.17.1",
     "gatsby": "^3.8.1",
     "gatsby-plugin-catch-links": "^3.11.0",

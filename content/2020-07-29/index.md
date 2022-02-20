@@ -12,11 +12,11 @@ tags:
 
 Have you ever spontaneously decided to write a novel?
 
-I've been an avid reader all my life, but had never considered writing a book before. The only thing I've written since leaving school has been code and the odd bit of copy for a website. Anyway, here we are. I spontaneously decided to start writing a novel last year.
+I've been an avid reader all my life, but had never once considered writing a book before. The only thing I've written since leaving school has been code and the odd bit of copy for a website. But, here we are. I spontaneously decided to start writing a novel last year.
 
-Even acknowledging it here still seems ridiculous, but I was turning thirty and it got me thinking about what I'd achieved so far in life (in the way only a scary milestone can do).
+It still seems ridiculous to me, but I was turning thirty and it got me thinking about what I'd achieved so far in life (in the way only a scary milestone can do).
 
-When it first occurred to me to try writing a novel (in a kebab shop, at precisely 22:05 on the 2nd of October, 2019) I realised there were several ideas I'd been thinking about already. The catalyst was actually an old saying I must have heard repeated a million times;
+When it first occurred to me to try writing a novel *(in a kebab shop, at precisely 22:05 on the 2nd of October, 2019)* I realised there were several ideas I'd been thinking about already. The catalyst was actually an old saying I must have heard repeated a million times;
 
 <blockquote class="short-quote">"There's a time and a place for everything."</blockquote>
 
