@@ -17,9 +17,9 @@ export default class Footer extends Component {
               Back to top
             </a>
             <p>Email: &nbsp;&nbsp;matt@insidae.com</p>
-            <p>Minecraft Server: &nbsp;&nbsp;86.9.85.232:25565</p>
+            <p>Minecraft Server: &nbsp;&nbsp;Currently offline</p>
             <p>
-              Sea of Thieves: &nbsp;&nbsp;
+              Pirate Crew: &nbsp;&nbsp;
               <a className="footer-link" href="https://discord.gg/sufMQkUXsU">Join our Discord server</a>
             </p>
           </div>

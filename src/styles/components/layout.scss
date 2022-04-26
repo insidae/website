@@ -218,6 +218,68 @@ iframe {
                         }
                     }
 
+                    .table {
+                        max-width: 100%;
+                        padding: 40px;
+
+                        table {
+                            margin-top: 20px;
+                        }
+
+                        thead {
+                            tr {
+                                height: 50px;
+                                opacity: 0.5;
+
+                                th {
+                                    display: inline-table;
+                                    text-align: left;
+
+                                    &:first-of-type {
+                                        width: 20%;
+                                    }
+
+                                    &:nth-of-type(2) {
+                                        width: 60%;
+                                        margin-right: 5%;
+                                    }
+
+                                    &:nth-of-type(3) {
+                                        width: 15%;
+                                        text-align: right;
+                                    }
+                                }
+                            }
+                        }
+
+                        tbody {
+                            tr {
+                                display: flex;
+                                border-top: 1px solid #666;
+                                padding: 15px 0;
+
+                                td {
+                                    display: inline-table;
+                                    vertical-align: text-top;
+
+                                    &:first-of-type {
+                                        width: 20%;
+                                    }
+
+                                    &:nth-of-type(2) {
+                                        width: 60%;
+                                        margin-right: 5%;
+                                    }
+
+                                    &:nth-of-type(3) {
+                                        width: 15%;
+                                        text-align: right;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     .screenshot {
                         margin-left: -20px;
                         max-width: 660px;

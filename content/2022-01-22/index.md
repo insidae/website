@@ -1,9 +1,9 @@
 ---
-title: "My First PC Build"
+title: "A New PC Build"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
 category: "Main"
 date: 2022-01-22
-slug: "My First PC Build"
+slug: "A New PC Build"
 tags:
     - design
     - thoughts
@@ -11,25 +11,40 @@ tags:
 ---
 
 
-The first PC I ever built was completed in late 2012. I'd spent months planning and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembing it and booting up for the first time was terrfiying and incredible.
+The first PC I ever built was completed in late 2012. I'd spent months planning and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembing it and booting up for the first time was terrifying and incredible.
 
 ![Building my first PC](/2012-PC-Build.jpg)
 
-While I had planned for it to last me many years, I could never have guessed I'd still be using it as my main rig almost ten years later. It's followed me through some of the most important chapters of my life thus far, like when I moved to London in 2014 (and didn't even have a desk).
+While I had planned for it to last me many years, I could never have guessed I'd still be using it as my main rig almost ten years later. It's followed me through several big moments in my life, like when I moved to London in 2014 (and didn't even have a desk).
 
-![Moving to London](/2015-PC-Build.jpg)
+![I couldn't afford furniture](/2015-PC-Build.jpg)
+
+I even upgraded it over the years to try and prolong its lifespan as much as possible (admittedly, things got a little silly towards the end):
 
 ![We're givin' her all we've got, cap'n!](/2021-PC-Build.jpg)
 
+But we eventually reached the end of the road. The motherboard couldn't support better RAM (in speed or capacity). The socket wouldn't fit a better CPU. There weren't any M.2 slots for newer, faster, NVME drives. The latest version of Windows required TPM support. The list goes on.
 
-<div class="note">
-    <a href="https://uk.pcpartpicker.com/list/rsGVY9">PCPartPicker Part List</a>
+A completely new build couldn't be put off any longer.
+
+So where to begin?
+
+> "The budget."
+
+In an ironic twist, I'd started saving for a new PC build almost 3 years earlier (when I first noticed my system specs appearing in the 'Recommended' hardware column for new game releases). Fast-forward to mid 2021 and my system specs were now appearing in the 'Minimum' hardware required column.
+
+The good news was the savings had accumulated in that time.
+
+This effectively meant nothing was off-limits. I could build a PC without having to compromise on anything I wanted... so that's exactly what I ended up doing.
+
+<div class="note table">
+    <a href="https://uk.pcpartpicker.com/list/rsGVY9">Parts List</a>
     <table class="pcpp-part-list">
     <thead>
         <tr>
-        <th>Type</th>
-        <th>Item</th>
-        <th>Price</th>
+        <th>TYPE</th>
+        <th>ITEM</th>
+        <th>PRICE</th>
         </tr>
     </thead>
     <tbody>
@@ -41,10 +56,18 @@ While I had planned for it to last me many years, I could never have guessed I'd
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">CPU Cooler</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/GLjBD3/corsair-icue-h150i-elite-lcd-581-cfm-liquid-cpu-cooler-cw-9060062-ww">Corsair iCUE H150i ELITE LCD 58.1 CFM Liquid CPU Cooler</a></td>
+        <td class="pcpp-part-list-type">GPU</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/PFVG3C/nvidia-geforce-rtx-3090-24-gb-founders-edition-video-card-900-1g136-2510-000">NVIDIA GeForce RTX 3090 24 GB Founders Edition Video Card</a></td>
         <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/GLjBD3/corsair-icue-h150i-elite-lcd-581-cfm-liquid-cpu-cooler-cw-9060062-ww">£247.06 @ Amazon UK</a>
+            MSRP:
+            £1799.00
+        </td>
+        </tr>
+        <tr>
+        <td class="pcpp-part-list-type">RAM</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/CMrRsY/corsair-vengeance-32-gb-2-x-16-gb-ddr5-4800-cl40-memory-cmk32gx5m2a4800c40">Corsair Vengeance 32 GB (2 x 16 GB) DDR5-4800 CL40 Memory</a></td>
+        <td class="pcpp-part-list-price">
+            <a href="https://uk.pcpartpicker.com/product/CMrRsY/corsair-vengeance-32-gb-2-x-16-gb-ddr5-4800-cl40-memory-cmk32gx5m2a4800c40">£294.83 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
@@ -55,45 +78,31 @@ While I had planned for it to last me many years, I could never have guessed I'd
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Memory</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/CMrRsY/corsair-vengeance-32-gb-2-x-16-gb-ddr5-4800-cl40-memory-cmk32gx5m2a4800c40">Corsair Vengeance 32 GB (2 x 16 GB) DDR5-4800 CL40 Memory</a></td>
-        <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/CMrRsY/corsair-vengeance-32-gb-2-x-16-gb-ddr5-4800-cl40-memory-cmk32gx5m2a4800c40">£294.83 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Storage</td>
+        <td class="pcpp-part-list-type">Boot Drive</td>
         <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/6LGnTW/western-digital-black-sn850-2-tb-m2-2280-nvme-solid-state-drive-wds200t1x0e">Western Digital Black SN850 2 TB M.2-2280 NVME Solid State Drive</a></td>
         <td class="pcpp-part-list-price">
             <a href="https://uk.pcpartpicker.com/product/6LGnTW/western-digital-black-sn850-2-tb-m2-2280-nvme-solid-state-drive-wds200t1x0e">£238.95 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Storage</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">Seagate IronWolf Pro 14 TB 3.5" 7200RPM Internal Hard Drive</a></td>
+        <td class="pcpp-part-list-type">Extra Storage</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">Seagate IronWolf Pro 14 TB 3.5" 7200RPM Internal Hard Drive x3</a></td>
         <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">£359.66 @ Amazon UK</a>
+            <a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">£1078.98 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Storage</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">Seagate IronWolf Pro 14 TB 3.5" 7200RPM Internal Hard Drive</a></td>
+        <td class="pcpp-part-list-type">CPU Cooler</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/GLjBD3/corsair-icue-h150i-elite-lcd-581-cfm-liquid-cpu-cooler-cw-9060062-ww">Corsair iCUE H150i ELITE LCD 58.1 CFM Liquid CPU Cooler</a></td>
         <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">£359.66 @ Amazon UK</a>
+            <a href="https://uk.pcpartpicker.com/product/GLjBD3/corsair-icue-h150i-elite-lcd-581-cfm-liquid-cpu-cooler-cw-9060062-ww">£247.06 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Storage</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">Seagate IronWolf Pro 14 TB 3.5" 7200RPM Internal Hard Drive</a></td>
+        <td class="pcpp-part-list-type">PSU</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cJbwrH/corsair-1600w-80-titanium-certified-fully-modular-atx-power-supply-cp-9020087-na">Corsair AXi 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply</a></td>
         <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/t7BTwP/seagate-ironwolf-pro-14tb-35-7200rpm-internal-hard-drive-st14000ne0008">£359.66 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Video Card</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/PFVG3C/nvidia-geforce-rtx-3090-24-gb-founders-edition-video-card-900-1g136-2510-000">NVIDIA GeForce RTX 3090 24 GB Founders Edition Video Card</a></td>
-        <td class="pcpp-part-list-price">
-            £1799.00
+            <a href="https://uk.pcpartpicker.com/product/cJbwrH/corsair-1600w-80-titanium-certified-fully-modular-atx-power-supply-cp-9020087-na">£366.12 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
@@ -104,68 +113,39 @@ While I had planned for it to last me many years, I could never have guessed I'd
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Power Supply</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cJbwrH/corsair-1600w-80-titanium-certified-fully-modular-atx-power-supply-cp-9020087-na">Corsair AXi 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply</a></td>
+        <td class="pcpp-part-list-type">Case Fans</td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">Noctua F12 PWM chromax.black.swap 54.97 CFM 120 mm Fan x4</a></td>
         <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/cJbwrH/corsair-1600w-80-titanium-certified-fully-modular-atx-power-supply-cp-9020087-na">£366.12 @ Amazon UK</a>
+            <a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">£87.96 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Operating System</td>
+        <td class="pcpp-part-list-type"></td>
+        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/sWM323/noctua-nf-a14-pwm-chromaxblackswap-825-cfm-140mm-fan-nf-a14-pwm-chromaxblackswap">Noctua A14 PWM chromax.black.swap 82.52 CFM 140 mm Fan x2</a></td>
+        <td class="pcpp-part-list-price">
+            <a href="https://uk.pcpartpicker.com/product/sWM323/noctua-nf-a14-pwm-chromaxblackswap-825-cfm-140mm-fan-nf-a14-pwm-chromaxblackswap">£62.94 @ Scan UK</a>
+        </td>
+        </tr>
+        <tr>
+        <td class="pcpp-part-list-type">OS</td>
         <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-64-bit-fqc-10529">Microsoft Windows 11 Pro OEM 64-bit</a></td>
         <td class="pcpp-part-list-price">
             <a href="https://uk.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-64-bit-fqc-10529">£121.13 @ Amazon UK</a>
         </td>
         </tr>
         <tr>
-        <td class="pcpp-part-list-type">Case Fan</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">Noctua F12 PWM chromax.black.swap 54.97 CFM 120 mm Fan</a></td>
-        <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">£21.99 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Case Fan</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">Noctua F12 PWM chromax.black.swap 54.97 CFM 120 mm Fan</a></td>
-        <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">£21.99 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Case Fan</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">Noctua F12 PWM chromax.black.swap 54.97 CFM 120 mm Fan</a></td>
-        <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">£21.99 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Case Fan</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">Noctua F12 PWM chromax.black.swap 54.97 CFM 120 mm Fan</a></td>
-        <td class="pcpp-part-list-price">
-            <a href="https://uk.pcpartpicker.com/product/cFwqqs/noctua-nf-f12-pwm-chromaxblackswap-550-cfm-120mm-fan-nf-f12-pwm-chromaxblackswap">£21.99 @ Amazon UK</a>
-        </td>
-        </tr>
-        <tr>
-        <td class="pcpp-part-list-type">Case Fan</td>
-        <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/sWM323/noctua-nf-a14-pwm-chromaxblackswap-825-cfm-140mm-fan-nf-a14-pwm-chromaxblackswap">Noctua A14 PWM chromax.black.swap 82.52 CFM 140 mm Fan</a></td>
-        <td class="pcpp-part-list-price">
-        </td>
-        </tr>
-        <tr>
         <td></td>
-        <td class="pcpp-part-list-price-note">Prices include shipping, taxes, rebates, and discounts</td>
-        <td></td>
-        </tr>
-        <tr>
-        <td></td>
-        <td class="pcpp-part-list-total">Total</td>
-        <td class="pcpp-part-list-total-price">£5436.18</td>
-        </tr>
-        <tr>
-        <td></td>
-        <td class="pcpp-part-list-price-note">Generated by <a href="https://pcpartpicker.com">PCPartPicker</a> 2022-02-23 13:16 GMT+0000</td>
-        <td></td>
+        <td class="pcpp-part-list-type">Generated on <a href="https://uk.pcpartpicker.com/list/rsGVY9">PCPartPicker</a> 2022-02-23 13:16</td>
+        <td class="pcpp-part-list-total-price">TOTAL £5499.12</td>
         </tr>
     </tbody>
     </table>
 </div>
+
+![It took a while for all these components to arrive](/2022-PC-Build.jpg)
+
+We've definitely strayed from 'consumer' territory into 'prosumer' territory.
+
+EDIT: With the release of Intel's new i9 12900KS and Nvidia's RTX 3090ti, we're no longer the 'absolute best'. But we did enjoy over three months of owning the fastest-gaming-computer money could buy.
+
+![The finished build](/FOX.jpg)
