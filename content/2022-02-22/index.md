@@ -155,11 +155,11 @@ The last thing I want to mention sounds a bit silly.
 
 Personally, I need all the help I can get when it comes to staying focused. It's unfortunate but I **have** found a couple of quirky ways to trick myself into sitting down and getting some writing done.
 
-The age-old method of breaking down your target word count into smaller, more manageable, chunks is always a good idea.
+The age-old method of breaking down your target word count into smaller, more manageable, chunks is always a good place to start.
 
-For example, if your target word count is 90,000 words, breaking it down to 1,000 words per day makes writing much less intimidating. It also gives you a solid estimate for how long it'll take, in this instance - 90 days. Being able to see the finish line can be powerful motivation.
+For example, if your target word count is 90,000 words, breaking it down to 1,000 words per day makes writing much less intimidating. It also gives you a solid estimate for how long it'll take, in this instance - 90 days (if you stick with it). Being able to see the finish line is all the motivation some people need.
 
-1,000 words a day is a common goal for writers. My psychological trick is actually to aim for a lower word count, like **900 words a day** or even lower.
+1,000 words a day is a common goal for writers. My psychological trick is actually to cheekily aim for a lower word count, like **900 words a day** or even lower.
 
 Straight away, you're being **'kinder'** to yourself. You're also making it easier to succeed each day you sit down to write. With every successful day, you're building a new habit and making the next day easier.
 

@@ -11,7 +11,7 @@ tags:
 ---
 
 
-The first PC I ever built was completed in late 2012. I'd spent months planning and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembing it and booting up for the first time was terrifying and incredible.
+The first PC I ever built was completed in late 2012. I'd spent months, saving up, planning, and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembing it and booting up for the first time was terrifying and incredible (and I highly recommend it to anyone thinking of trying it).
 
 ![Building my first PC](/2012-PC-Build.jpg)
 
@@ -60,7 +60,7 @@ This effectively meant nothing was off-limits. I could build a PC without having
         <td class="pcpp-part-list-item"><a href="https://uk.pcpartpicker.com/product/PFVG3C/nvidia-geforce-rtx-3090-24-gb-founders-edition-video-card-900-1g136-2510-000">NVIDIA GeForce RTX 3090 24 GB Founders Edition Video Card</a></td>
         <td class="pcpp-part-list-price">
             MSRP:
-            £1799.00
+            £1399.00
         </td>
         </tr>
         <tr>
@@ -136,7 +136,7 @@ This effectively meant nothing was off-limits. I could build a PC without having
         <tr>
         <td></td>
         <td class="pcpp-part-list-type">Generated on <a href="https://uk.pcpartpicker.com/list/rsGVY9">PCPartPicker</a> 2022-02-23 13:16</td>
-        <td class="pcpp-part-list-total-price">TOTAL £5499.12</td>
+        <td class="pcpp-part-list-total-price">TOTAL £5099.12</td>
         </tr>
     </tbody>
     </table>
@@ -145,7 +145,5 @@ This effectively meant nothing was off-limits. I could build a PC without having
 ![It took a while for all these components to arrive](/2022-PC-Build.jpg)
 
 We've definitely strayed from 'consumer' territory into 'prosumer' territory.
-
-EDIT: With the release of Intel's new i9 12900KS and Nvidia's RTX 3090ti, we're no longer the 'absolute best'. But we did enjoy over three months of owning the fastest-gaming-computer money could buy.
 
 ![The finished build](/FOX.jpg)
