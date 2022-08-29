@@ -68,7 +68,7 @@ Chiastic structure, or *ring composition*, can also help when outlining. Overly 
 
 *Things are bad, but the protagonist makes another daring attempt to right the wrong. After succeeding against all odds, they are accepted by their peers and finally acknowledged.*
 
-Chiastic structure is arguably even **more** useful when used across a wider collection of stories (think of famous movie trilogies or a series of books with several installments). It's an excellent way of reminding users of plot points and themes that are central to your story.
+Chiastic structure is arguably even **more** useful when used across a wider collection of stories (think of famous movie trilogies or a series of books with several installments). It's an excellent way of reminding your audience of plot points and themes that are central to your story.
 
 Let's look at the *Harry Potter* series as an example:
 

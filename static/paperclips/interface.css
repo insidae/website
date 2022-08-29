@@ -12,6 +12,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
     
+#btnMakePaperclip {
+    background: unset;
+    background-color: #2e8b57;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    
+#btnMakePaperclip:hover {
+    background-color: #22623e;
+}
+    
+#btnMakePaperclip:active {
+    background-color: #5ad18e;
+    color: #ffffff;
+}
+    
 #btnMakeProbe {
     margin-bottom: 2px;
 }
@@ -226,7 +246,8 @@ h2 {
 
 #autoTourneyStatusDiv {
     float: left;
-    width: 30px;
+    width: 60px;
+    margin-top: 9px;
 }
 
 #tourneyButton {
@@ -236,7 +257,7 @@ h2 {
 
 #autoTourneyControl {
     float: left;
-    width: 147px;
+    width: 100px;
 }
 
 #victoryDiv {
@@ -318,13 +339,13 @@ canvas {
   float: left;
   width: 265px;
   margin-left: 10px;
-  margin-top: 54px;
+  margin-top: 60px;
 }
 #rightColumn {
   float: left;
   width: 320px;
   margin-left: 10px;
-  margin-top: 75px; 
+  margin-top: 81px; 
 }
 
 #trustDiv {
@@ -407,13 +428,17 @@ canvas {
 
 .engine {
     margin: 5;
-    border: 2px solid grey;
+    background-color: #282828;
+    border: 2px solid #282828;
+    border-radius: 10px;
     padding: 5; 
 }
 
 .engine2 {
     margin: 5;
-    border: 2px solid grey;
+    background-color: #282828;
+    border: 2px solid #282828;
+    border-radius: 10px;
     padding: 5; 
 }
 
@@ -423,9 +448,16 @@ canvas {
     padding: 5; 
 }
 
+.quantum {
+    display: block;
+    height: 7px;
+}
+
 .qEngine {
     margin-bottom: 10;
-    border: 2px solid grey;
+    background-color: #282828;
+    border: 2px solid #282828;
+    border-radius: 10px;
     padding: 5px;
     height: 86px;
 }
@@ -482,7 +514,7 @@ canvas {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .engineText7 {
@@ -493,6 +525,7 @@ canvas {
 }
 
 .engineText8 {
+    display: inline-block;
     margin-left: 0;
     margin-top: 3px;
     margin-bottom: 0;
@@ -508,7 +541,7 @@ canvas {
 .engineText10 {
     display: inline-block;
     line-height: 26px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 hr {
@@ -662,7 +695,7 @@ p.hypnoDrone {
 .projectButton {
     display: block;
     height: 70px;
-    width: 275px;
+    width: 265px;
     background: #c8c8c8;
     border: 1px solid rgba(0, 0, 0, 1);
     outline: none;
@@ -673,7 +706,7 @@ p.hypnoDrone {
 .projectButton:hover {
     display: block;
     height: 70px;
-    width: 275px;
+    width: 265px;
     background: #c8c8c8;
     border: 1px solid rgba(0, 0, 0, 0.25);
 }
@@ -681,7 +714,7 @@ p.hypnoDrone {
 .projectButton:active {
     display: block;
     height: 60px;
-    width: 275px;
+    width: 265px;
     background: #d1d1d1;
     border: 1px solid rgba(0, 0, 0, 1);
     
