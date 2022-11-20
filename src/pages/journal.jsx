@@ -17,7 +17,7 @@ class JournalPage extends Component {
           <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
           <div className="panel tags red">
-            <h2>Browse by Tag</h2>
+            <h2>Browse by tag</h2>
             {categories.map(category => (
                 <Link
                   to={`/tags/${category.fieldValue.toLowerCase()}`}

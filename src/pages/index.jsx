@@ -60,7 +60,7 @@ class Index extends React.Component {
               </h2>
               <p className="copy">
                 Employed full-time as a UI Designer / Front-end Developer. I'm also working on side projects 
-                (such as <a href="https://github.com/insidae/Status-Board" target="blank"><b>HomeScreen</b></a>
+                (such as <a href="https://daemonvr.com" target="blank"><b>dæmonVR</b></a>
                 ), rebuilding this website in Gatsby, and sitting down to write whenever I can.
               </p>
             </div>
