@@ -12,7 +12,7 @@ class About extends Component {
             About me
           </h1>
           <p>
-            My name’s Matt and I’m a web developer. I specialise in Front-End, 
+            My name&apos;s Matt and I&apos;m a web developer. I specialise in Front-End, 
             writing HTML, CSS, and Javascript, but my background is really in design 
             (especially UI/UX). I love clever puns, Gill Sans, and one day aspire 
             to have my own library... complete with sliding ladders.
@@ -30,8 +30,8 @@ class About extends Component {
               <li>Wireframing / Polished prototypes</li>
               <li>Asset creation (icons, illustrations, etc.)</li>
               <li>Branding identity, and marketing design</li>
-              <li>Proficiency with Adobe Creative Suite, Sketch</li>
-              <li>Testing (WCAG, responsiveness, cross-browser)</li>
+              <li>Proficiency with Adobe Creative Suite</li>
+              <li>Testing (WCAG, responsiveness, etc.)</li>
             </ul>
             <ul className="right-list">
               <li>HTML5 (Haml, Markdown)</li>
@@ -68,7 +68,7 @@ class About extends Component {
                 and eventually decided to enrol in a coding bootcamp.
               </p>
               <p>
-                The bootcamp was <a href="https://makers.tech/" target="_blank" rel="noopener noreferrer">Makers’ Academy</a>, so I 
+                The bootcamp was <a href="https://makers.tech/" target="_blank" rel="noopener noreferrer">Makers&apos; Academy</a>, so I 
                 moved to London in February of 2014 and 
                 started their full-time, three-month program. 
                 We covered seemingly everything from the 
@@ -94,14 +94,18 @@ class About extends Component {
               <span>03</span>
             </h2>
             <p className="copy">
-              Built with Gatsby, I started designing this version 
-              of my website in 2016. My very first website was a 
-              monument to my own stubbornness, cobbled together 
-              using only a text editor and a free FTP client 
-              (sometime in 2011). There have been long periods of 
-              time since then when I&apos;ve not had a personal 
-              website but the idea has always appealed to me. 
-              You can read more about this website build 
+              Built with <Link to="https://www.gatsbyjs.com/">Gatsby</Link>, I started designing <em>this</em> version 
+              of my website in 2016. The main goal was to build a site that
+              is easy to update and modify over the years, regardless of the tech-stack I&apos;m using.
+              <br/><br/>
+              My <em>very</em> first website (built sometime in 2011)
+              was a monument to my own stubbornness, cobbled together 
+              using only a text editor and a free FTP client. This one is designed to be far less of a headache.
+              <br/><br/>
+              There were long periods of 
+              time inbetween the two when I didn&apos;t have a personal 
+              website, but the idea has always appealed to me. 
+              You can read more about this <em>current</em> website build 
               <Link to="/first-post"> here.</Link>
             </p>
           </div>

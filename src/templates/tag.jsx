@@ -19,8 +19,11 @@ export default class TagTemplate extends React.Component {
               <h1>{`Tagged as ${tag}`}</h1>
             </div>
 
-            <div className="panel grey">
-              <h2 className="heading">Latest Articles</h2>
+            <div className={`panel grey ${tag}`}>
+              <h2 className="heading">
+                Latest Articles
+                <span>01</span>
+              </h2>
               <PostListing postEdges={postEdges} />
             </div>
           </div>

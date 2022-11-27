@@ -48,8 +48,8 @@ class Index extends React.Component {
                 <span>01</span>
               </h2>
               <p className="copy">
-                I'm a web-developer and am currently based in London, UK. Well-versed
-                in design and front-end web development, I built this website to keep
+                I'm a web developer and UI designer, based in London. Well-versed
+                in design and front-end development, I built this site to keep
                 track of my progress and showcase my interests.
               </p>
             </div>
@@ -61,7 +61,7 @@ class Index extends React.Component {
               <p className="copy">
                 Employed full-time as a UI Designer / Front-end Developer. I'm also working on side projects 
                 (such as <a href="https://daemonvr.com" target="blank"><b>dæmonVR</b></a>
-                ), rebuilding this website in Gatsby, and sitting down to write whenever I can.
+                ), and sitting down to write whenever I can.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ class Index extends React.Component {
               <PostListing postEdges={postEdges} />
               <Link className="more" to="/journal">See more...</Link>
             </div>
-            <div className="panel writing">
+            <div className="panel books">
               <h2 className="heading">
                 Writing...
                 <span>04</span>

@@ -70,7 +70,7 @@ Which leads us to this:
     </div>
     <img 
         class="cover" 
-        src="/Latest_Cover_Mockup_The_Repository.png" 
+        src="/Book-Cover-Refresh-05.png" 
         alt="Later iteration of placeholder cover design"
         style="box-shadow: none;" 
     />
