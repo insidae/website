@@ -107,14 +107,10 @@ module.exports = {
         {
           site {
             siteMetadata {
-              rssMetadata {
-                site_url
-                feed_url
-                title
-                description
-                image_url
-                copyright
-              }
+              title
+              description
+              siteUrl
+              site_url: siteUrl
             }
           }
         }
@@ -163,7 +159,8 @@ module.exports = {
               }
             }
           `,
-            output: config.siteRss
+            output: config.siteRss,
+            title: "insidae.com",
           }
         ]
       }
