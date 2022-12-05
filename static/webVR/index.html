@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>360&deg; Image Gallery</title>
-    <meta name="description" content="360&deg; Image Gallery - A-Frame">
+    <title>UI/UX Experiment</title>
+    <meta name="description" content="UI/UX Experiment">
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
@@ -28,16 +28,19 @@
         sound="on: click; src: #click-sound"></a-entity>
     </script>
   </head>
+
   <body>
     <a-scene>
       <a-assets>
-        <img id="grid" crossorigin="anonymous" src="/images/metaverse/grid-01.png">
-        <img id="grid-thumb" crossorigin="anonymous" src="/images/metaverse/grid-01-thumb.png">
+        <img id="groundTexture" src="/images/metaverse/floor-02.jpg">
         <img id="cube" crossorigin="anonymous" src="/images/metaverse/grid-03.png">
-        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/grid-03-thumb.png">
+        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/movement-thumb.png">
+        <img id="grid" crossorigin="anonymous" src="/images/metaverse/matrix.jpg">
+        <img id="grid-thumb" crossorigin="anonymous" src="/images/metaverse/welcome-thumb.png">
         <img id="rectangle" crossorigin="anonymous" src="/images/metaverse/grid-02.png">
-        <img id="rectangle-thumb" crossorigin="anonymous" src="/images/metaverse/grid-02-thumb.png">
+        <img id="rectangle-thumb" crossorigin="anonymous" src="/images/metaverse/camera-thumb.png">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+        <a-asset-item id="matrix" src="/images/metaverse/the_matrix_white_room/scene.gltf"></a-asset-item>
       </a-assets>
 
       <!-- 360-degree image. -->
@@ -46,15 +49,27 @@
              animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade">
       </a-sky>
 
+      <!-- Lighting. -->
+      <a-entity light="type: ambient; color: #FFFFFF; intensity: 2.0;"></a-entity>
+      <a-light type="directional" position="0 0 90" rotation="-55 0 0" target="#directionaltarget">
+        <a-entity id="directionaltarget" position="0 0 12"></a-entity>
+      </a-light>
+
+      <!-- Floor. -->
+      <a-plane src="#groundTexture" rotation="-90 0 0" width="5.5" height="50" position="0 0 22.5"></a-plane>
+
       <!-- Image links. -->
-      <a-entity id="links" layout="type: line; margin: 1.25" position="-1.25 1.5 -2">
-        <a-entity template="src: #link" data-src="#grid" data-thumb="#grid-thumb"></a-entity>
+      <a-entity id="links" layout="type: line; margin: 1.25" position="-1.25 1.6 -2">
         <a-entity template="src: #link" data-src="#cube" data-thumb="#cube-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#grid" data-thumb="#grid-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#rectangle" data-thumb="#rectangle-thumb"></a-entity>
       </a-entity>
 
+      <!-- Matrix Scene. -->
+      <a-entity gltf-model="#matrix" animation-mixer position="0 0 10"></a-entity>
+
       <!-- Camera + cursor. -->
-      <a-camera look-controls>
+      <a-camera look-controls wasd-controls="acceleration:40">
         <a-cursor
           id="cursor"
           animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
