@@ -48,7 +48,7 @@ class Index extends React.Component {
                 <span>01</span>
               </h2>
               <p className="copy">
-                I'm a web developer and UI designer, based in London. Well-versed
+                I'm a web developer / UI designer, based in London. Well-versed
                 in design and front-end development, I built this site to keep
                 track of my progress and showcase my interests.
               </p>
