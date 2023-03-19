@@ -10,9 +10,9 @@ tags:
 ---
 
 
-Scarlett Thomas is awesome, and not just because we share a surname. I've been aware of her writing since her 2001 novel, <em>Bright Young Things</em>, released while I was in High School. My friends were obsessed.
+Scarlett Thomas is awesome, and not just because we share a surname. I've been aware of her writing as far back as 2001, when her novel '<em>Bright Young Things</em>' released. I was in high school and my friends were obsessed.
 
-<em>The End of Mr. Y</em> came out in 2006 and caught me completely off-guard when I first read it. The novel begins in a reality that is all too recognisable as our own, and continues right up until it leaves our reality entirely. Unsatisfied with that, the book then questions the very nature of our reality in the first place.
+<em>The End of Mr. Y</em> came out in 2006 and caught me completely off-guard when I first read it. The novel begins in a reality that is all too recognisable as our own (mundane, stark, and drab), and continues right up until it leaves our reality entirely. Unsatisfied with that, the book then questions the very nature of our reality in the first place.
 
 My favourite idea in the book was that this other reality, the 'Troposhpere', could be used as an odd pseudo interface for messing with our own reality.
 
