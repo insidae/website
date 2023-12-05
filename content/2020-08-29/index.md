@@ -147,7 +147,7 @@ Would I recommend it?
 
 As ever... it depends. Not including the price of the GPU this project still cost over £1,000 (most of which was the large capacity hard drives). If you don't have a large media library though, the price is much closer to £300.
 
-I firmly believe these older Mac Pro towers are a bargain in 2020. The build quality is leagues ahead of machines on the market today, and you'd be hard pressed finding server-quality components at these prices in many other places. If you're willing to make small hardware upgrades or are happy finding workarounds for unsupported hardware, you'll be rewarded for your efforts.
+I firmly believe these older Mac Pro towers are a bargain in 2020. The build quality is leagues ahead of machines on the market today, and you'd be hard pressed finding server-quality components at these prices in many other places. If you're willing to make small hardware upgrades or are happy finding workarounds for unsupported software, you'll be rewarded for your efforts.
 
 <div class="note illustration">
     <h3>The Current Specs</h3>

@@ -26,7 +26,7 @@ a {
     &.more {
         display: block;
         opacity: 0.5;
-        padding: 30px 40px 40px;
+        padding: 30px 40px;
 
         &:hover {
             opacity: 1;
@@ -217,6 +217,28 @@ iframe {
                                 img {
                                     border: 1px solid #333333;
                                     background-color: #282828;
+                                }
+                            }
+                        }
+
+                        &.large {
+                            .left {
+                                width: 38%;
+                            }
+
+                            span.gatsby-resp-image-wrapper {
+                                width: 54%;
+
+                                a.gatsby-resp-image-link {
+                                    img.gatsby-resp-image-image {
+                                        -webkit-filter: grayscale(100%);
+                                        filter: grayscale(100%);
+
+                                        &:hover {
+                                            -webkit-filter: unset;
+                                            filter: unset;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -613,7 +635,48 @@ footer {
         width: 32%;
 
         &.large {
-            width: 66%
+            width: 66%;
+
+            .post-listing {
+                .posts {
+                    .post {
+                        padding: 30px 40px 0;
+
+                        &:first-of-type {
+                            .date {
+                                color: transparent;
+                                opacity: 1;
+
+                                &::before {
+                                    content: "Latest post";
+                                    color: $green;
+                                    font-weight: bold;
+                                }
+                            }
+
+                            &:hover {
+                                .date {
+                                    color: unset;
+                                    opacity: 0.5;
+                
+                                    &::before {
+                                        content: "";
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            background-color: $green;
+                            text-decoration: none;
+                        }
+
+                        p {
+                            margin: 0 0 30px;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -806,6 +869,10 @@ footer {
 
     &.books {
         background-color: $green;
+
+        .post-listing.posts.post {
+            padding-bottom: 20px;
+        }
     }
 }
 

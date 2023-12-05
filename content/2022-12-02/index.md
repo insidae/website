@@ -31,6 +31,8 @@ Time could be rewound, immense distances could be travelled in a moment, and peo
     <img class="cover" src="/Cover_The_End_of_Mr_Y.jpg" alt="Book Cover" />
 </div>
 
+**Wikipedia Says:**
+
 The End of Mr. Y is a novel by British author Scarlett Thomas. The book tells the story of Ariel Manto, a PhD student who has been researching the 19th century writer Thomas Lumas.
 
 She finds an extremely rare copy of Lumas' novel The End of Mr. Y in a second-hand bookshop. The book is rumoured to be cursed - everyone who has read it has died not long afterwards.

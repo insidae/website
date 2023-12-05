@@ -33,6 +33,8 @@ So it goes.
     <img class="cover" src="/Cover_Slaughterhouse_Five.jpg" alt="Gorgeous cover design of the edition I read" />
 </div>
 
+**Wikipedia Says:**
+
 The story is told in a non-linear order by an unreliable narrator (he begins the novel by telling the reader, "All this happened, more or less"). Events become clear(er) through flashbacks and descriptions of his time travel experiences.
 
 In the first chapter, the narrator describes his writing of the book, his experiences as a University of Chicago anthropology student and a Chicago City News Bureau correspondent, his research on the Children's Crusade and the history of Dresden, and his visit to Cold War-era Europe with his wartime friend Bernard V. O'Hare.

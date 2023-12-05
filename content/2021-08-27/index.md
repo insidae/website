@@ -31,6 +31,8 @@ As a result, the isolation and danger felt more oppressive, and the consequences
     <img class="cover" src="/Cover_Original_Early_Riser.jpg" alt="Book Cover" />
 </div>
 
+**Wikipedia Says:**
+
 The story takes place in an alternate version of the United Kingdom, where the Ice Age still continues and the human population mainly hibernates in winter. Returning early from hibernation may cause Dead in Sleep from neural collapse, but death during hibernation may also arise from a shortage of fats, low temperature, vermin predation, carbon dioxide build-up, calcitic migration and many other complications. Some people awake with only enough vestigial memory to walk and eat, and became known as "nightwalkers".
 
 As the novel opens, people’s survivability during hibernation has dramatically increased after the introduction of Morphenox, a drug produced by HiberTech, a large and powerful "vertically integrated" corporation. HiberTech also "takes care" of nightwalkers, "redeploying" those who are suitable for performing simple tasks and supervising "transplant potential" of others.

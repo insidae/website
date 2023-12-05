@@ -35,8 +35,14 @@ There's something really intriguing about the memoir of a hugely successful entr
     <img class="cover" src="/Cover_Original_Shoe_Dog.jpg" alt="Book Cover" />
 </div>
 
+**Wikipedia Says:**
+
 Shoe Dog is a memoir by Nike co-founder Phil Knight. The memoir chronicles the history of Nike from its early struggles to its evolution into one of the world’s most recognized and profitable companies.
 
 Bill Gates named Shoe Dog one of his five favorite books of 2016 and called it “an amazing tale, a refreshingly honest reminder of what the path to business success really looks like. It’s a messy, perilous, and chaotic journey, riddled with mistakes, endless struggles, and sacrifice. Phil Knight opens up in ways few CEOs are willing to do.”
 
 In July 2018, Netflix announced a biopic adaptation.
+
+Released on April 26, 2016, by Simon & Schuster, Shoe Dog reached fifth on The New York Times Best Seller List for business books in July 2018.
+
+Warren Buffett wrote that "The best book I read last year was Shoe Dog by Nike's Phil Knight... a very wise, intelligent and competitive fellow who is also a gifted storyteller."

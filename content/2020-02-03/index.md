@@ -31,6 +31,8 @@ All these years of guilt finally resulted in the purchase of a cheap paperback v
     <img class="cover" src="/Cover_Original_Jurassic_Park.jpg" alt="Book Cover" />
 </div>
 
+**Wikipedia Says:**
+
 Jurassic Park is a 1990 science fiction novel written by Michael Crichton. A cautionary tale about genetic engineering, it presents the collapse of an amusement park showcasing genetically recreated dinosaurs to illustrate the mathematical concept of chaos theory and its real world implications. A sequel titled The Lost World, also written by Crichton, was published in 1995. In 1997, both novels were re-published as a single book titled Michael Crichton's Jurassic World, unrelated to the film of the same name.
 
 In 1993, Steven Spielberg adapted the book into the blockbuster film Jurassic Park. The book's sequel, The Lost World, was also adapted by Spielberg into a film in 1997. A third film, directed by Joe Johnston and released in 2001, drew several elements, themes, and scenes from both books that were ultimately not utilized in either of the previous films, such as the aviary and boat scenes.

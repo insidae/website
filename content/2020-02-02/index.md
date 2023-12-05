@@ -14,17 +14,17 @@ tags:
 ![My desk in February, 2019](/Desk-17-03-2020.jpg)
 
 
-I'm a designer and self-taught web developer who has been working professionally in the field since June, 2014. I'm going to write about the programs, and tools I use on a daily basis with some brief descriptions and alternate options.
+I'm a designer and self-taught web developer, working professionally in the field since June, 2014. I'm going to write about the programs, and tools I use on a daily basis with some brief descriptions and alternate options.
 
 I'll try and update this post as my setup changes.
 
 <div class="note">
     <h3>Disclaimer</h3>
     <p>
-        It doesn't really matter what you use: Windows or Mac. Vim or Emacs. Tabs or spaces. Sass or LESS. If all the options didn't have merit, there wouldn't be an argument. This list is not meant to be an endorsement for or against anything, just one person's web development workflow.
+        It doesn't really matter what you use: Windows or Mac. Tabs or spaces. Sass or LESS. If all the options didn't have merit, there wouldn't be an argument. This list is not meant to be an endorsement for or against anything, just my personal web development setup.
     </p>
     <p>
-        Try new things. Be open minded. Research. Discover what works best for you. Also, this is not an extensive list; this is my list.
+        Try new things. Be open minded. Research. Discover what works best for you. This is far from an extensive list; just what I've found works for me.
     </p>
 </div>
 

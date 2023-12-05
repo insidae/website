@@ -31,6 +31,8 @@ Having finished re-reading the trilogy, I'm now looking forward to diving in to 
     <img class="cover" src="/Cover_Original_Ancillary_Justice.jpg" alt="Book Cover" />
 </div>
 
+**Wikipedia Says:**
+
 Ancillary Justice is a space opera set thousands of years in the future, where the principal power in human space is the expansionist Radch empire.
 
 The empire uses space ships controlled by AIs, who control human bodies ("ancillaries") to use as soldiers.

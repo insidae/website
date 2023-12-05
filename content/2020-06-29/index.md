@@ -33,6 +33,8 @@ I'm aware a lot of people prefer the previous novel, Consider Phlebas, and I par
     <img class="cover" src="/Cover_Original_Player_Of_Games.jpg" alt="The edition I picked up" />
 </div>
 
+**Wikipedia Says:**
+
 Jernau Morat Gurgeh, a famously skillful player of board games and other similar contests, lives on Chiark Orbital, and is bored with his successful life. The Culture's Special Circumstances inquires about his willingness to participate in a long journey, though won't explain further unless Gurgeh agrees to participate.
 
 While he is considering this offer, one of his drone friends, Mawhrin-Skel, which had been ejected from Special Circumstances due to its unstable personality, convinces him to cheat in one of his matches in an attempt to win in an unprecedented perfect fashion.

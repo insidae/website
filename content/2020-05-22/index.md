@@ -37,6 +37,8 @@ Snow Crash is a book that sparked my imagination.
     <img class="cover" src="/Cover_Original_Snow_Crash.jpg" alt="The edition I picked up" />
 </div>
 
+**Wikipedia Says:**
+
 Snow Crash is a science fiction novel by American writer Neal Stephenson, published in 1992. Like many of Stephenson's other novels, it covers history, linguistics, anthropology, archaeology, religion, computer science, politics, cryptography, memetics and philosophy.
 
 Stephenson explained the title of the novel in his 1999 essay "In the Beginning... Was the Command Line" as his term for a particular software failure mode on the early Apple Macintosh computer. Stephenson wrote about the Macintosh that "When the computer crashed and wrote gibberish into the bitmap, the result was something that looked vaguely like static on a broken television set—a 'snow crash' ". Stephenson has also mentioned that Julian Jaynes' book The Origin of Consciousness in the Breakdown of the Bicameral Mind was one of the main influences on Snow Crash.

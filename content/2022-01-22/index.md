@@ -11,7 +11,7 @@ tags:
 ---
 
 
-The first PC I ever built was completed in late 2012. I'd spent months, saving up, planning, and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembing it and booting up for the first time was terrifying and incredible (and I highly recommend it to anyone thinking of trying it).
+The first PC I ever built was completed in late 2012. I'd spent months, saving up, planning, and researching which parts to get before making my choices and waiting for them to be delivered. Successfully assembling it and booting up for the first time was terrifying and incredible (and I highly recommend it to anyone thinking of trying it).
 
 ![Building my first PC](/2012-PC-Build.jpg)
 
@@ -32,6 +32,8 @@ So where to begin?
 > "The budget."
 
 In an ironic twist, I'd started saving for a new PC build almost 3 years earlier (when I first noticed my system specs appearing in the 'Recommended' hardware column for new game releases). Fast-forward to mid 2021 and my system specs were now appearing in the 'Minimum' hardware required column.
+
+> "Oh dear."
 
 The good news was the savings had accumulated in that time.
 
@@ -146,4 +148,44 @@ This effectively meant nothing was off-limits. I could build a PC without having
 
 We've definitely strayed from 'consumer' territory into 'prosumer' territory.
 
-![The finished build](/FOX.jpg)
+(I also opted for two of the optional extras Lian Li sell for their Lancool II case. Namely the [front-panel USB-C port](https://lian-li.com/product/lancool-ii-4x/) and the [hot-swappable back plate](https://lian-li.com/product/lancool-ii-3x/) for the internal hard-drive cage.)
+
+These small quality-of-life improvements are much appreciated.
+
+![The 'not-quite' finished build](/FOX.jpg)
+
+But the build wasn't finished yet.
+
+After several weeks running the new PC and testing its limits, I opted to make a couple more upgrades. Firstly, although the 12th Gen Intel chips had received solid reviews across the board, some reviewers had noted the new format was resulting in uneven contact with CPU coolers and poor thermal transfer.
+
+To remedy this, I bought a [CPU contact frame](https://www.thermal-grizzly.com/en/products/523-cpu-contact-frame-for-12th-gen-intel-by-der8auer-en) from Thermal Grizzly that's designed to apply more even pressure to the CPU heatspreader.
+
+![More new components](/2023-PC-Upgrade-Contact-Frame.jpg)
+
+The contact frame replaces the stock ILM on the motherboard and looks pretty slick in matte black. Note the white markers around the screw holes.
+
+![The CPU contact frame](/2023-PC-Component-Contact-Frame.jpg)
+
+The white markers are to ensure you don't over tighten the screws when reassembling the motherboard. The guides and instructions all say it's a simple procedure but I'll be honest... I found the ordeal fairly stressful.
+
+This isn't something I've done before in previous builds. I had to disassemble a good chunk of the PC in order to remove the motherboard completely, then unscrew the original ILM before installing the new contact frame.
+
+Then, and I'm not exaggerating here, they specify to apply between 0.03 and 0.06 newton-meters of torque to each screw to avoid damaging any components. Luckily there were several video guides online.
+
+![Installing the contact frame](/2023-PC-Installed-Contact-Frame.jpg)
+
+Thankfully everything went smoothly and the PC was reassembled without issue. CPU temps had been generally fine beforehand (probably thanks to the massive 360mm radiator) but I was pleased to notice a slight drop in temperature regardless.
+
+This upgrade was primarily to help prolong the working life of the PC over the years but increased thermal overhead is always nice.
+
+While I was tinkering with the contact frame, I also took the opportunity to install another [M.2 NVME drive](https://www.amazon.co.uk/dp/B0B25M8FXX) (4TB) and upgrade the RAM. The original build was only utilising two of the four slots on the motherboard, providing 32GB of total system memory. Another identical kit doubled the RAM to 64GB, the most I've ever had in a personal rig.
+
+![More memory](/2023-PC-Upgrade-RAM.jpg)
+
+Installing new RAM has always been one of the simpler PC upgrades (especially compared to the contact frame). Just slot it into the motherboard and you're ready to go.
+
+![New memory installed](/2023-PC-Installed-RAM.jpg)
+
+So that's where the rig is as of today. Intel are still manufacturing new CPUs for the LGA1700 socket and I still have two unused M.2 slots on the motherboard so there's ample opportunity for further upgrades down the line.
+
+I'm perfectly happy with the performance for now but let's see how things go.

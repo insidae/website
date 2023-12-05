@@ -30,13 +30,19 @@ This is the first game review I've written for the site. It hadn't occurred to m
     <img class="cover" src="/cyberpunk-box-art.jpg" alt="Game Cover" />
 </div>
 
+**Overview**
+
 *Cyberpunk 2077* is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.
 
 You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.
 
+---
+
+**My Experience**
+
 Now, there's been a lot of controversy surrounding the game's troubled launch, but there are plenty of reviews already discussing that and I'd prefer to focus on something the game got right. Namely it's art direction.
 
-<img class="illustration" src="/cyberpunk-screenshot.jpg" alt="Rocky Ridge, outside of Night City" />
+<img class="illustration" src="/cyberpunk-screenshot.jpg" alt="The rain-soaked, neon-lit, streets of Night City" />
 
 I'm actually a big fan of the cyberpunk subgenre (the Deus Ex franchise is my jam) but hadn't heard of the original tabletop RPG, *Cyberpunk 2020*, before the release of *2077*. I understand that a lot of the worldbuilding, everything from Rockerboys and Netrunners, to Trauma Team and Cyberpsychosis, is taken directly from the tabletop RPG.
 
@@ -50,7 +56,7 @@ But I got the eerie feeling I'd been here before. Sure, it's a little 'Mad Max',
 
 <img class="illustration" src="/comparison-stalenhag.jpg" alt="Highway Patrol. Early 2016 artwork from the development of The Electric State." />
 
-The wonderfully eerie artwork of Simon Stålenhag has gripped my imagination for the last few years. So much so, that I picked up a signed copy of [The Electric State](http://www.simonstalenhag.se/es.html) when it launched a couple of years ago. Driving around, listening to Night City radio on the desolate roads, I realised why it felt so familiar.
+The wonderfully eerie artwork of [Simon Stålenhag](https://www.simonstalenhag.se/index.html) has gripped my imagination for the last few years. So much so, that I picked up a signed copy of [The Electric State](http://www.simonstalenhag.se/es.html) when it launched a couple of years ago. Driving around, listening to Night City radio on the desolate roads, I realised why it felt so familiar.
 
 It's these less familiar kinds of influences that truly spoke to me and made me feel this world was more than just the obvious tropes people associate with the genre. Of course, the game is self-aware of these tropes too. It's demonstrated in many fun instances but none more so than the design of certain 'perk' icons.
 

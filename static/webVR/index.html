@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>UI/UX Experiment</title>
     <meta name="description" content="UI/UX Experiment">
-    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-template-component@3.x.x/dist/aframe-template-component.min.js"></script>
     <script src="https://unpkg.com/aframe-layout-component@4.x.x/dist/aframe-layout-component.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
@@ -12,14 +13,15 @@
 
     <style>
       .a-enter-vr { bottom: unset; top: 60px; opacity: 0.4; width: unset; }
-      .a-enter-vr-button { background-color: transparent; opacity: 0.5; }
-      .a-enter-vr-button:hover { background-color: transparent; opacity: 1; }
+      .a-enter-ar { bottom: unset; top: 60px; opacity: 0.4; width: unset; }
+      .a-enter-vr-button, .a-enter-ar-button { background-color: transparent; opacity: 0.5; }
+      .a-enter-vr-button:hover, .a-enter-ar-button:hover { background-color: transparent; opacity: 1; }
     </style>
     
     <!-- Image link template to be reused. -->
     <script id="link" type="text/html">
       <a-entity class="link"
-        geometry="primitive: plane; height: 1; width: 1"
+        geometry="primitive: plane; height: 0.5; width: 0.5"
         material="shader: flat; src: ${thumb}"
         event-set__mouseenter="scale: 1.2 1.2 1"
         event-set__mouseleave="scale: 1 1 1"
@@ -30,45 +32,64 @@
   </head>
 
   <body>
-    <a-scene>
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #191919">
       <a-assets>
-        <img id="groundTexture" src="/images/metaverse/floor-02.jpg">
-        <img id="cube" crossorigin="anonymous" src="/images/metaverse/grid-03.png">
-        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/movement-thumb.png">
-        <img id="grid" crossorigin="anonymous" src="/images/metaverse/matrix.jpg">
-        <img id="grid-thumb" crossorigin="anonymous" src="/images/metaverse/welcome-thumb.png">
-        <img id="rectangle" crossorigin="anonymous" src="/images/metaverse/grid-02.png">
-        <img id="rectangle-thumb" crossorigin="anonymous" src="/images/metaverse/camera-thumb.png">
-        <img id="screen" crossorigin="anonymous" src="/images/metaverse/the-matrix-scene.gif">
+        <img id="groundTexture" src="/images/metaverse/floor-02.jpg" />
+        <img id="cube" crossorigin="anonymous" src="/images/metaverse/grid-03.png" />
+        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/movement-thumb.png" />
+        <img id="grid" crossorigin="anonymous" src="/images/metaverse/matrix.jpg" />
+        <img id="grid-thumb" crossorigin="anonymous" src="/images/metaverse/welcome-thumb.png" />
+        <img id="rectangle" crossorigin="anonymous" src="/images/metaverse/grid-02.png" />
+        <img id="skybox" crossorigin="anonymous" src="/images/metaverse/skybox.jpg" />
+        <img id="rectangle-thumb" crossorigin="anonymous" src="/images/metaverse/camera-thumb.png" />
+        <img id="screen" crossorigin="anonymous" src="/images/metaverse/the-matrix-scene.gif" />
+        <video id="video" crossorigin="anonymous" webkit-playsinline playsinline loop="true" src="/images/metaverse/Matrix-Construct.mp4"></video>
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
         <a-asset-item id="matrix" src="/images/metaverse/the_matrix_white_room/scene.gltf"></a-asset-item>
+        <a-asset-item id="payphone" src="/images/metaverse/payphone/korean_public_payphone_01_4k.gltf"></a-asset-item>
       </a-assets>
 
       <!-- 360-degree image. -->
-      <a-sky id="image-360" radius="360" src="#grid"
+      <a-sky hide-on-enter-ar id="image-360" radius="360" src="#grid"
              animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
              animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade">
       </a-sky>
 
       <!-- Lighting. -->
       <a-entity light="type: ambient; color: #FFFFFF; intensity: 2.0;"></a-entity>
-      <a-light type="directional" position="-100 100 0" target="#directionaltarget">
+      <a-light hide-on-enter-ar type="directional" position="-100 100 0" target="#directionaltarget">
         <a-entity id="directionaltarget" position="0 0 12"></a-entity>
       </a-light>
 
       <!-- Floor. -->
-      <a-plane src="#groundTexture" rotation="-90 0 0" width="5.5" height="50" position="0 0 22.5"></a-plane>
+      <a-plane hide-on-enter-ar src="#groundTexture" rotation="-90 0 0" width="5.5" height="50" position="0 0 22.5"></a-plane>
 
-      <!-- Image links. -->
-      <a-entity id="links" layout="type: line; margin: 1.25" position="-1.25 1.6 -2">
-        <a-entity template="src: #link" data-src="#cube" data-thumb="#cube-thumb"></a-entity>
+      <!-- Central links. -->
+      <a-entity id="links" layout="type: line; margin: 0.6" position="-0.6 1.6 -1">
+        <a-entity template="src: #link" data-src="#skybox" data-thumb="#cube-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#grid" data-thumb="#grid-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#rectangle" data-thumb="#rectangle-thumb"></a-entity>
       </a-entity>
 
+      <!-- Right. -->
+      <a-entity id="payphone" layout="type: line; margin: 0" position="1 1 0" rotation="0 -90 0">
+        <!-- <a-entity template="src: #link" data-src="#rectangle" data-thumb="#rectangle-thumb"></a-entity> -->
+        <a-entity gltf-model="#payphone"></a-entity>
+      </a-entity>
+
       <!-- Matrix Scene. -->
-      <a-image src="#screen" width="0.73" height="0.44" position="0 0.68 7.99"></a-image>
-      <a-entity gltf-model="#matrix" animation-mixer position="0 0 10"></a-entity>
+      <!-- <a-image hide-on-enter-ar src="#screen" width="0.73" height="0.44" position="0 0.68 7.99"></a-image> -->
+      <a-video hide-on-enter-ar webkit-playsinline playsinline loop="true" src="#video" width="0.73" height="0.44" position="0 0.68 7.99"></a-video>
+      <a-entity hide-on-enter-ar gltf-model="#matrix" animation-mixer position="0 0 10"></a-entity>
+
+      <!-- Hands. -->
+      <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ff3333"></a-entity>
+      <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ff3333"></a-entity>
+      
+      <a-entity id="leftHand" hand-tracking-controls="hand: left;"></a-entity>
+      <a-entity id="rightHand" hand-tracking-controls="hand: right;"></a-entity>
+
+      <a-entity tracked-controls="controller: 0; idPrefix: OpenVR"></a-entity>
 
       <!-- Camera + cursor. -->
       <a-camera look-controls wasd-controls="acceleration:40">
