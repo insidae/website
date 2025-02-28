@@ -17,11 +17,12 @@ export default class Footer extends Component {
               Back to top
             </a>
             <p>Email: &nbsp;&nbsp;matt@insidae.com</p>
-            <p>Minecraft Server: Currently offline</p>
-            <p>
+            <p>Minecraft Server: Currently Offline</p>
+{/*             <p>
               Pirate Crew: &nbsp;&nbsp;
               <a className="footer-link" href="https://discord.gg/sufMQkUXsU">Join our Discord server</a>
-            </p>
+            </p> */}
+            <small>© <script>document.write(new Date().getFullYear())</script> insidae.com. All Rights Reserved.</small>
           </div>
         </div>
       </footer>

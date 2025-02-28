@@ -119,7 +119,7 @@ So now we'll try and create a parallax effect by positioning these layers on top
         </div>
     </div>
     <div class="parallax-iframe">
-        <iframe src="/parallax/examples/hoveronly.html" style="width: 100%; height: 100%; border: none; overflow: hidden;"/>
+        <iframe src="/parallax/examples/Vienna.html" style="width: 100%; height: 100%; border: none; overflow: hidden;"/>
     </div>
 </div>
 

@@ -221,6 +221,37 @@ iframe {
                             }
                         }
 
+                        &.screens {
+                            padding: 45px 30px 15px 15px;
+                            max-width: 110%;
+                            margin: 0 -40px;
+
+                            &::before {
+                                content: "screenshots";
+                                display: block;
+                                background-color: #222222;
+                                color: #666;
+                                padding: 1.25em 2em 0.75em;
+                                font-weight: bold;
+                                position: absolute;
+                                margin: -100px 0 0;
+                                right: 65px;
+                                max-width: 164px;
+                                text-align: center;
+                            }
+
+                            .gatsby-resp-image-wrapper {
+                                width: 30% !important;
+                                display: inline-block !important;
+                                margin: 0 0 20px 22px !important;
+
+                                img {
+                                    border: 1px solid #333333;
+                                    background-color: #282828;
+                                }
+                            }
+                        }
+
                         &.large {
                             .left {
                                 width: 38%;
@@ -807,7 +838,7 @@ footer {
 
         h2 {
             display: inline;
-            margin-right: 60px;
+            margin-right: 50px;
         }
 
         .tag-filter {
@@ -862,7 +893,15 @@ footer {
             border-left: 10px solid $blue;
         }
 
+        &.review {
+            border-left: 10px solid $green;
+        }
+
         &.thoughts {
+            border-left: 10px solid $green;
+        }
+
+        &.writing {
             border-left: 10px solid $green;
         }
     }

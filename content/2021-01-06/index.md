@@ -38,7 +38,7 @@ You can customize your character’s cyberware, skillset and playstyle, and expl
 
 ---
 
-**My Experience**
+**My Thoughts**
 
 Now, there's been a lot of controversy surrounding the game's troubled launch, but there are plenty of reviews already discussing that and I'd prefer to focus on something the game got right. Namely it's art direction.
 

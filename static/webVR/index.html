@@ -5,7 +5,7 @@
     <title>UI/UX Experiment</title>
     <meta name="description" content="UI/UX Experiment">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-template-component@3.x.x/dist/aframe-template-component.min.js"></script>
     <script src="https://unpkg.com/aframe-layout-component@4.x.x/dist/aframe-layout-component.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
@@ -32,62 +32,77 @@
   </head>
 
   <body>
-    <a-scene loading-screen="dotsColor: white; backgroundColor: #191919">
+    <a-scene loading-screen="dotsColor: white; backgroundColor: #191919" obb-collider="showColliders: false">
       <a-assets>
-        <img id="groundTexture" src="/images/metaverse/floor-02.jpg" />
-        <img id="cube" crossorigin="anonymous" src="/images/metaverse/grid-03.png" />
-        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/movement-thumb.png" />
+        <img id="groundTexture" src="/images/metaverse/floor.jpg" />
         <img id="grid" crossorigin="anonymous" src="/images/metaverse/matrix.jpg" />
         <img id="grid-thumb" crossorigin="anonymous" src="/images/metaverse/welcome-thumb.png" />
         <img id="rectangle" crossorigin="anonymous" src="/images/metaverse/grid-02.png" />
-        <img id="skybox" crossorigin="anonymous" src="/images/metaverse/skybox.jpg" />
         <img id="rectangle-thumb" crossorigin="anonymous" src="/images/metaverse/camera-thumb.png" />
+        <img id="cube" crossorigin="anonymous" src="/images/metaverse/grid-03.png" />
+        <img id="cube-thumb" crossorigin="anonymous" src="/images/metaverse/movement-thumb.png" />
+        <img id="skybox" crossorigin="anonymous" src="/images/metaverse/skybox.jpg" />
         <img id="screen" crossorigin="anonymous" src="/images/metaverse/the-matrix-scene.gif" />
-        <video id="video" crossorigin="anonymous" webkit-playsinline playsinline loop="true" src="/images/metaverse/Matrix-Construct.mp4"></video>
+        <video id="matrix-video" autoplay loop="true" src="/images/metaverse/Matrix-Construct.mp4"></video>
+        <audio id="matrix-audio" autoplay="true" loop="true" src="/images/metaverse/Matrix-Construct.mp3"></audio>
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <a-asset-item id="matrix" src="/images/metaverse/the_matrix_white_room/scene.gltf"></a-asset-item>
-        <a-asset-item id="payphone" src="/images/metaverse/payphone/korean_public_payphone_01_4k.gltf"></a-asset-item>
+        <a-asset-item id="matrix" src="/images/metaverse/matrix/scene.gltf"></a-asset-item>
+        <a-asset-item id="payphone" src="/images/metaverse/payphone/scene.gltf"></a-asset-item>
+        <a-asset-item id="bookshelf" src="/images/metaverse/bookshelf/scene.gltf"></a-asset-item>
+        <a-asset-item id="book" src="/images/metaverse/book/scene.gltf"></a-asset-item>
       </a-assets>
 
-      <!-- 360-degree image. -->
+      <!-- 360-Degree Skybox -->
       <a-sky hide-on-enter-ar id="image-360" radius="360" src="#grid"
              animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
              animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade">
       </a-sky>
 
-      <!-- Lighting. -->
-      <a-entity light="type: ambient; color: #FFFFFF; intensity: 2.0;"></a-entity>
+      <!-- Lighting -->
+      <a-entity light="type: ambient; color: #FFFFFF; intensity: 1.0;"></a-entity>
       <a-light hide-on-enter-ar type="directional" position="-100 100 0" target="#directionaltarget">
-        <a-entity id="directionaltarget" position="0 0 12"></a-entity>
+        <a-entity id="directionaltarget" position="0 0 -12"></a-entity>
       </a-light>
 
-      <!-- Floor. -->
+      <!-- Floor -->
       <a-plane hide-on-enter-ar src="#groundTexture" rotation="-90 0 0" width="5.5" height="50" position="0 0 22.5"></a-plane>
 
-      <!-- Central links. -->
+      <!-- Forward Onboarding -->
       <a-entity id="links" layout="type: line; margin: 0.6" position="-0.6 1.6 -1">
-        <a-entity template="src: #link" data-src="#skybox" data-thumb="#cube-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#grid" data-thumb="#grid-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#rectangle" data-thumb="#rectangle-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#grid" data-thumb="#grid-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#skybox" data-thumb="#cube-thumb"></a-entity>
       </a-entity>
 
-      <!-- Right. -->
-      <a-entity id="payphone" layout="type: line; margin: 0" position="1 1 0" rotation="0 -90 0">
-        <!-- <a-entity template="src: #link" data-src="#rectangle" data-thumb="#rectangle-thumb"></a-entity> -->
-        <a-entity gltf-model="#payphone"></a-entity>
+      <!-- Left Bookshelves -->
+      <a-entity id="bookshelf" layout="type: line; margin: 0" position="-2.5 0 0" rotation="0 90 0">
+        <a-entity gltf-model="#bookshelf"></a-entity>
+      </a-entity>
+      <a-entity id="bookshelf" layout="type: line; margin: 0" position="-2.5 0 0.99" rotation="0 90 0">
+        <a-entity gltf-model="#bookshelf"></a-entity>
+      </a-entity>
+      <a-entity id="bookshelf" layout="type: line; margin: 0" position="-2.5 0 1.98" rotation="0 90 0">
+        <a-entity gltf-model="#bookshelf"></a-entity>
+      </a-entity>
+      
+      <a-entity id="book" layout="type: line; margin: 0" position="-2.5 1.45 1" rotation="90 180 0" scale="0.3 0.8 0.3">
+        <a-entity gltf-model="#book" grabbable></a-entity>
       </a-entity>
 
-      <!-- Matrix Scene. -->
+      <!-- Right Payphone -->
+      <a-entity id="payphone" layout="type: line; margin: 0" position="1 1.5 0" rotation="0 -90 0">
+        <a-entity gltf-model="#payphone" grabbable></a-entity>
+      </a-entity>
+
+      <!-- Back Matrix Scene. -->
       <!-- <a-image hide-on-enter-ar src="#screen" width="0.73" height="0.44" position="0 0.68 7.99"></a-image> -->
-      <a-video hide-on-enter-ar webkit-playsinline playsinline loop="true" src="#video" width="0.73" height="0.44" position="0 0.68 7.99"></a-video>
+      <a-video hide-on-enter-ar src="#matrix-video" width="0.73" height="0.44" position="0 0.68 7.99" autoplay loop="true" preload="auto"></a-video>
+      <a-entity sound="src: #matrix-audio" autoplay="true" loop="true" preload="auto" distanceModel="linear" maxDistance="50" volume="0.5"></a-entity>
       <a-entity hide-on-enter-ar gltf-model="#matrix" animation-mixer position="0 0 10"></a-entity>
 
       <!-- Hands. -->
-      <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #ff3333"></a-entity>
-      <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ff3333"></a-entity>
-      
-      <a-entity id="leftHand" hand-tracking-controls="hand: left;"></a-entity>
-      <a-entity id="rightHand" hand-tracking-controls="hand: right;"></a-entity>
+      <a-entity id="leftHand" hand-tracking-grab-controls="hand: left;"></a-entity>
+      <a-entity id="rightHand" hand-tracking-grab-controls="hand: right;"></a-entity>
 
       <a-entity tracked-controls="controller: 0; idPrefix: OpenVR"></a-entity>
 
