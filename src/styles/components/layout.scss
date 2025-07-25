@@ -9,8 +9,8 @@ body {
         linear-gradient(90deg, rgba(255,255,255,.025) 2px, transparent 2px),
         linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
-    background-size: 100px 100px, 100px 100px, 5px 5px, 5px 5px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-size: 100px 100px, 100px 100px, 4px 4px, 4px 4px;
+    //background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 a {
@@ -37,6 +37,11 @@ a {
 
 h2 {
     font-size: 1.2em;
+}
+
+b,
+strong {
+  font-weight: bold;
 }
 
 ul {
@@ -363,6 +368,7 @@ iframe {
                             }
                         }
 
+                        .cover,
                         span.gatsby-resp-image-wrapper {
                             width: 44%;
                             float: right;
@@ -621,12 +627,12 @@ footer {
     }
 
     .digital-monster {
-        width: 30.5%;
+        width: 38%;
         display: inline-block;
         opacity: 0.1;
         margin: 0 0 0 27px;
         position: absolute;
-        top: 413px;
+        top: 429px;
         right: 30px;
     
         img.placeholder {
