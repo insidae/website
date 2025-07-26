@@ -7,6 +7,7 @@ slug: "Cyberpunk 2077"
 tags:
     - design
     - thoughts
+    - review
 ---
 
 
