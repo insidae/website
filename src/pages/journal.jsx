@@ -51,7 +51,7 @@ export const pageQuery = graphql`
   query JournalQuery {
     allMarkdownRemark(
       limit: 20
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {
@@ -65,13 +65,13 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date(formatString: "dddd DD MMMM YYYY")
+            date
           }
         }
       }
     }
     categories: allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: { frontmatter: { tags: SELECT } }) {
         fieldValue
         totalCount
       }
