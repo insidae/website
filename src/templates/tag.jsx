@@ -1,7 +1,7 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
 
@@ -13,7 +13,6 @@ export default class TagTemplate extends React.Component {
       <Layout>
         <div className="container">
           <div id="main-content" className="tag-container">
-            <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
 
             <div className="hero">
               <h1>{`Tagged as ${tag}`}</h1>
@@ -61,3 +60,7 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export const Head = ({ pageContext }) => (
+  <SEO pageTitle={`Posts tagged as "${pageContext.tag}" | ${config.siteTitle}`} />
+);

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import Error from "../components/Error/Error";
 import config from "../../data/SiteConfig";
 
@@ -9,7 +9,6 @@ class ErrorPage extends Component {
     return (
       <Layout>
         <div className="container">
-          <Helmet title={`Error | ${config.siteTitle}`} />
           <Error />
         </div>
       </Layout>
@@ -18,3 +17,7 @@ class ErrorPage extends Component {
 }
 
 export default ErrorPage;
+
+export const Head = () => (
+  <SEO pageTitle={`Error | ${config.siteTitle}`} />
+);

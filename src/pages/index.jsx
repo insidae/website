@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Helmet from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
@@ -18,8 +17,6 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="container">
-          <Helmet title={config.siteTitle} />
-          <SEO />
           <div className="hero">
             <div className="definition">
               <img className="logo" src="/icons/logo.svg" alt="insidae.com logo" />
@@ -147,3 +144,7 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export const Head = () => (
+  <SEO pageTitle={config.siteTitle} />
+);

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import About from "../components/About/About";
 import config from "../../data/SiteConfig";
 
@@ -9,7 +9,6 @@ class AboutPage extends Component {
     return (
       <Layout>
         <div className="container">
-          <Helmet title={`About | ${config.siteTitle}`} />
           <About />
         </div>
       </Layout>
@@ -18,3 +17,7 @@ class AboutPage extends Component {
 }
 
 export default AboutPage;
+
+export const Head = () => (
+  <SEO pageTitle={`About | ${config.siteTitle}`} />
+);

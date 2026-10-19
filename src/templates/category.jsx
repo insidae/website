@@ -1,7 +1,7 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
 
@@ -12,9 +12,6 @@ export default class CategoryTemplate extends React.Component {
     return (
       <Layout>
         <div id="main-content" className="category-container">
-          <Helmet
-            title={`Posts in category "${category}" | ${config.siteTitle}`}
-          />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
@@ -50,3 +47,7 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export const Head = ({ pageContext }) => (
+  <SEO pageTitle={`Posts in category "${pageContext.category}" | ${config.siteTitle}`} />
+);

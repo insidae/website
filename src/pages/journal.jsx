@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import PostListing from "../components/PostListing/PostListing";
 import Journal from "../components/Journal/Journal";
 import config from "../../data/SiteConfig";
@@ -14,7 +14,6 @@ class JournalPage extends Component {
     return (
       <Layout>
         <div className="container">
-          <Helmet title={`Journal | ${config.siteTitle}`} />
           <Journal />
           <div className="panel tags red">
             <h2>Browse by tag</h2>
@@ -78,3 +77,7 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export const Head = () => (
+  <SEO pageTitle={`Journal | ${config.siteTitle}`} />
+);

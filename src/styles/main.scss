@@ -1,9 +1,9 @@
 
 // Reset
-@import 'base/reset';
-@import 'base/variables';
-@import 'base/responsive';
+@use 'base/reset';
+@use 'base/variables';
+@use 'base/responsive';
 
 //Components
-@import 'components/layout';
-@import 'components/parallax';
+@use 'components/layout';
+@use 'components/parallax';

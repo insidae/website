@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import Layout from "../layout";
+import SEO from "../components/SEO/SEO";
 import Work from "../components/Work/Work";
 import config from "../../data/SiteConfig";
 
@@ -9,7 +9,6 @@ class WorkPage extends Component {
     return (
       <Layout>
         <div className="container">
-          <Helmet title={`Work | ${config.siteTitle}`} />
           <Work />
         </div>
       </Layout>
@@ -18,3 +17,7 @@ class WorkPage extends Component {
 }
 
 export default WorkPage;
+
+export const Head = () => (
+  <SEO pageTitle={`Work | ${config.siteTitle}`} />
+);

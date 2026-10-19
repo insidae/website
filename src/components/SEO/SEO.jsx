@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
+import favicon from "../../images/favicon.png";
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
   render() {
-    const { postNode, postPath, postSEO } = this.props;
+    const { postNode, postPath, postSEO, pageTitle } = this.props;
     let title;
     let description;
     let image;
@@ -68,7 +68,11 @@ class SEO extends Component {
       );
     }
     return (
-      <Helmet>
+      <>
+        <title>{pageTitle || config.siteTitle}</title>
+        <link rel="shortcut icon" type="image/png" href={favicon} />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         {/* General tags */}
         <meta name="description" content={description} />
         <meta name="image" content={image} />
@@ -98,7 +102,7 @@ class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-      </Helmet>
+      </>
     );
   }
 }
