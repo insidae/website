@@ -381,6 +381,16 @@ iframe {
                             }
                         }
                     }
+
+                    img.full-width {
+                        width: calc(100% + 80px);
+                        margin-left: -40px;
+                        margin-right: -40px;
+                    }
+
+                    img.full-width-mobile {
+                        width: 60%;
+                    }
                 }
 
                 .social-links {
@@ -634,12 +644,57 @@ footer {
         position: absolute;
         top: 429px;
         right: 30px;
+
+        &.happy {
+            .digipet-01 { display: block; }
+            .digipet-02 { display: none; }
+            .digipet-03 { display: none; }
+            .digipet-04 { display: none; }
+            .digipet-05 { display: none; }
+
+        }
+
+        &.fine {
+            .digipet-01 { display: none; }
+            .digipet-02 { display: block; }
+            .digipet-03 { display: none; }
+            .digipet-04 { display: none; }
+            .digipet-05 { display: none; }
+
+        }
+
+        &.upset {
+            .digipet-01 { display: none; }
+            .digipet-02 { display: none; }
+            .digipet-03 { display: block; }
+            .digipet-04 { display: none; }
+            .digipet-05 { display: none; }
+
+        }
+
+        &.unwell {
+            .digipet-01 { display: none; }
+            .digipet-02 { display: none; }
+            .digipet-03 { display: none; }
+            .digipet-04 { display: block; }
+            .digipet-05 { display: none; }
+
+        }
+
+        &.dead {
+            .digipet-01 { display: none; }
+            .digipet-02 { display: none; }
+            .digipet-03 { display: none; }
+            .digipet-04 { display: none; }
+            .digipet-05 { display: block; }
+
+        }
     
-        img.placeholder {
+/*         img.placeholder {
             width: 100%;
             float: right;
             cursor: pointer;
-        }
+        } */
     }
 
     .a-enter-vr {

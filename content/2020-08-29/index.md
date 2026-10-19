@@ -32,9 +32,9 @@ This second part was supposed to focus on the software side of things, but the o
 
 Almost immediately after finishing that last article, I discovered that my first ever graphics card was compatible with the Mac Pro 3,1. It's an old [Nvidia GTX 670](https://www.amazon.co.uk/Palit-GeForce-Graphics-Architecture-Surround/dp/B00822ZZS0) which launched in May 2012, but it's also twice as powerful as the one that came with the server so it makes sense.
 
-Unfortunately you can't just plug a new graphics card in and expect it to work. A GPU usually requires more wattage than can be provided through a standard PCIE slot. This is normally solved by running an extra power cable from the power supply, but the power supply here is not a modular unit and doesn't have any spare cables.
+Unfortunately you can't just plug a new graphics card in and expect it to work. A dedicated GPU requires more wattage than can be provided through a standard PCIE slot. This is usually solved by running an extra power cable from the power supply, but the power supply here is not a modular unit and doesn't have any spare cables.
 
-> "Building a PC would have been much easier."
+> "Building a normal PC would have been much easier."
 
 So then, how are you able to install a graphics card inside a Mac Pro 3,1 in the first place? As it happens, Apple designed special mini 6-pin connectors on the motherboard that you can run power cables from. Neat.
 
@@ -46,13 +46,13 @@ I also said I was planning on upgrading the hard drives and migrating the media 
 
 ![One of the new 14TB Seagate IronWolf Pro drives](/HDD.jpg)
 
-Ask anyone about RAID arrays and they'll tell you no amount of redundancy is a proper substitute for off-site backups, but purchasing another couple of drives to create an array with more redundancy is a priority. Until then, a RAID 0 array gives us over 25TB of usable storage. Plenty for the time being.
+Ask anyone about RAID arrays and they'll tell you no amount of redundancy is a proper substitute for off-site backups. Still, purchasing another couple of drives to create an array with more redundancy is a priority. Until then, a RAID 0 array gives us over 25TB of usable storage. Plenty for the time being.
 
 The last hardware upgrade I wanted to make to the server was adding some modern I/O to make transferring files over USB much faster. Installing a [4-port USB 3.2 card](https://www.amazon.co.uk/gp/product/B00GRGCV2G/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) by Sonnet (about £62.00 online) provides much faster ports for use on the back of the server.
 
 ![The Sonnet Allegro PCI-e card](/USB.jpg)
 
-Installing the new components leaves us with an extremely capable home server. Even though the clock speeds aren't exactly high by today's standards, the eight Xeon cores and 32GB of fully-buffered ECC RAM mean it can still hold its own.
+Installing the new components leaves us with an extremely capable home server. I know the clock speeds aren't exactly high by today's standards, but the eight Xeon cores and 32GB of fully-buffered ECC RAM mean it can still hold its own.
 
 ![The new components installed inside the server](/PCIE.jpg)
 
@@ -70,7 +70,7 @@ Luckily, we have a handy utility closet that happens to have ventilation, wall s
 
 Hardware's important, but before you can get started sharing files, hosting backups, or streaming media, you have to decide on an operating system. In 2020 there are more options than ever before, including the familiar Windows and Mac environments. 
 
-> "Don't forget Linux."
+> "This is where Linux shines."
 
 But two of the more interesting and popular options are [Unraid](https://unraid.net/) and [FreeNAS](https://www.freenas.org/). They're both enterprise-class, software-defined, storage solutions. Unraid is a paid solution (but does have a 30 day free trial) whereas FreeNAS is free to use. Both are well-supported and have helpful online communities. Either would be a good fit for me but I opted to try FreeNAS out this time.
 
@@ -117,7 +117,7 @@ My primary goals for this machine were to serve media, transcode Plex streams, a
 
 ---
 
-### Conclusion
+### Results
 
 One of the benefits of running MacOS is the built-in backup utility, Time Machine. Knowing that our laptops are frequently being backed up to the home server is a great comfort. If anything were to happen to them now, we could literally restore all our files and software onto replacement hardware in no time.
 

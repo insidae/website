@@ -15,7 +15,7 @@ tags:
 
 This is the first game review I've written for the site. It hadn't occurred to me to write reviews for anything other than the books I was reading, but I've always enjoyed gaming and *Cyberpunk 2077* is definitely worth talking about.
 
-<blockquote>"TLDR: This is a great work of art direction and design"</blockquote>
+<blockquote>"TLDR: This is an impressive work of design and art direction."</blockquote>
 
 <div class="book-info">
     <div class="left">

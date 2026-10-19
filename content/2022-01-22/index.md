@@ -148,9 +148,9 @@ This effectively meant nothing was off-limits. I could build a PC without having
 
 We've definitely strayed from 'consumer' territory into 'prosumer' territory.
 
-(I also opted for two of the optional extras Lian Li sell for their Lancool II case. Namely the [front-panel USB-C port](https://lian-li.com/product/lancool-ii-4x/) and the [hot-swappable back plate](https://lian-li.com/product/lancool-ii-3x/) for the internal hard-drive cage.)
+(I also bought two of the optional extras Lian Li sell for their Lancool II case. Specifically the [front-panel USB-C port](https://lian-li.com/product/lancool-ii-4x/) and the [hot-swappable back plate](https://lian-li.com/product/lancool-ii-3x/) for the internal hard-drive cage.)
 
-These small quality-of-life improvements are much appreciated.
+These small quality-of-life improvements make a big difference.
 
 ![The 'not-quite' finished build](/FOX.jpg)
 

@@ -38,9 +38,12 @@ class Index extends React.Component {
                 <iframe title="parallax" src="/webVR/" style={{ width: "100%", height: "100%", border: "none" }} />
             </div>
             <Link className="" to="/digital-pet">
-              <div className="digital-monster">
-                {/* <img className="placeholder" src="/images/dead-digipet.gif" alt="FEED ME!" /> */}
-                <img className="placeholder" src="/images/updated-digipet-details.gif" alt="FEED ME!" />
+              <div className="digital-monster happy">
+                <img className="digipet-01" src="/images/digipet-01.gif" alt="FEED ME!" />
+                <img className="digipet-02" src="/images/digipet-02.gif" alt="FEED ME!" />
+                <img className="digipet-03" src="/images/digipet-03.gif" alt="FEED ME!" />
+                <img className="digipet-04" src="/images/digipet-04.gif" alt="FEED ME!" />
+                <img className="digipet-05" src="/images/digipet-05.gif" alt="FEED ME!" />
               </div>
             </Link>
           </div>

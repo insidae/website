@@ -34,7 +34,7 @@ The effect grew out of the multiplane camera technique used in traditional anima
 
 > "Only three of those original Disney multiplane cameras still exist."
 
-I was lucky enough to see one in person visiting Paris a few years back.
+I was lucky enough to see one in person, visiting Paris a few years back.
 
 Today the illusion is used everywhere from film and television, to video games and websites, and can achieve a wide variety of results depending on how it's implemented. It can be as complex, or as simple as you need it to be.
 
